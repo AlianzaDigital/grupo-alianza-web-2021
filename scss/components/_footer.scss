@@ -1,0 +1,221 @@
+/*FOOTER WEB*/
+footer{
+  background: $negro;
+  padding: 5.5rem 0rem 5.5rem 0rem;
+  @media screen and (max-width: 1920px) {
+    padding: 25rem 0rem 5.5rem 0rem;
+    background: url('../images/fondo-footer-grupo-alianza-gestion-de-talento-humano.webp');
+    background-repeat: no-repeat;
+    background-position: center top;
+    // background-size: 1920px auto;
+    background-size: 100.5% 100%;
+  }
+  // @media screen and (max-width: $window-size-01) {
+  //   padding: 20rem 0rem 5.5rem 0rem;
+  //   background-size: 1600px auto;
+  //   background-size: 100% 100%;
+  // }
+  @media screen and (max-width: $window-size-02) {
+    padding: 10rem 0rem 10rem 0rem;
+    background: $negro;
+  }
+}
+
+footer.footer-servicios-temporales{
+  position: relative;
+  bottom:0rem;
+  margin-top: -20rem;
+  @media screen and (max-width: $window-size-01) {
+    bottom:0rem;
+    margin-top: -18rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    bottom:0rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    position: static;
+  }
+}
+
+footer.footer-mensaje-enviado{
+  position: relative;
+  bottom:0rem;
+  margin-top: -18rem;
+  @media screen and (max-width: $window-size-01) {
+    bottom:0rem;
+    margin-top: -18rem;
+  }
+  @media screen and (max-width: 1300px) {
+    margin-top: -21rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin-top: 0rem;
+    position: static;
+  }
+}
+
+.margen-footer-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+  height: 100%;
+  // text-align: right;
+  @media screen and (max-width: 1920px) {
+    align-items: flex-end;
+  }
+  @media screen and (max-width: $window-size-02) {
+    align-items: center;
+  }
+}
+.logo-footer{
+  width: 245px;
+  @media screen and (max-width: $window-size-04) {
+    margin: 0rem 0rem 15rem 0rem;
+  }
+  @media screen and (max-width: $window-size-05) {
+    width: 100%;
+  }
+}
+.btn-icono-linked-in{
+  text-align: right;
+  margin: 1rem 0rem 0rem 0rem;
+  a{
+    color: $blanco;
+    font-size: $tx-size-04;
+    // margin-right: 4.7rem;
+    &:hover{
+      color: $color02;
+    }
+  }
+}
+
+.margen-footer{
+  margin: 0rem 1rem;
+  // height: 100%;
+}
+
+.title-footer{
+  font-family: $Century-Bold;
+  color:$blanco;
+  font-size: $tx-size-07;
+  border-bottom: 1px solid $blanco;
+  padding:0rem 0rem .8rem 0rem;
+}
+
+.tx-head-footer{
+  font-family: $Century-Bold;
+  color:$blanco;
+  font-size: $tx-size-08;
+  margin:0rem 0rem 1rem 0rem;
+}
+.tx-body-footer{
+  display: flex;
+  a{
+    display: flex;
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-09;
+    margin: 0rem 0rem 1.5rem 0rem;
+    span i{
+      color: $color02;
+      margin-right: 1.5rem;
+    }
+    &:hover{
+      color: $color02;
+    }
+  }
+  a:not([href]){
+    color:$blanco;
+    &:hover{
+      color: $blanco;
+      cursor: default;
+    }
+  }
+}
+.tx-body-footer-ultimo{
+  display: flex;
+  a{
+    display: flex;
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-09;
+    margin: 0rem 0rem 2rem 0rem;
+    span i{
+      color: $color02;
+      margin-right: 1.5rem;
+    }
+    &:hover{
+      color: $color02;
+    }
+  }
+}
+
+.tx-body-footer-02{
+  display: flex;
+  a{
+    display: flex;
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-09;
+    margin: 0rem 0rem 1.5rem 0rem;
+    span i{
+      margin-right: 1.5rem;
+    }
+    &:hover{
+      color: $color02;
+    }
+  }
+}
+.tx-body-footer-ultimo-02{
+  display: flex;
+  a{
+    display: flex;
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-09;
+    margin: 0rem 0rem 2rem 0rem;
+    span i{
+      margin-right: 1.5rem;
+    }
+    &:hover{
+      color: $color02;
+    }
+  }
+}
+
+.content-footer-01,
+.content-footer-02{
+  padding: 2.5rem 1.5rem;
+}
+
+.align-img{
+  text-align: center;
+}
+
+.borde-deco-img-web{
+  border-bottom: 0.1rem solid $color02;
+  margin: 1.5rem 0rem 0rem 0rem;
+}
+.content-footer-03{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 0rem 0rem 0rem;
+  p{
+    color: $blanco;
+      font-size: $tx-size-09;
+    a{
+      color: $blanco;
+      font-size: $tx-size-09;
+      &:hover{
+        color: $color02;
+      }
+    }
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 3.5rem 0rem 0rem 0rem;
+    justify-content: center;
+  }
+}

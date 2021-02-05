@@ -1,0 +1,168 @@
+/* ANIMATIONS - TRANSITIONS */
+@keyframes animacion-iconos{
+	0%{
+    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    transform: rotateZ(0deg) scale(1);
+  }
+  5%{
+    transform: rotateZ(0deg) scale(1.1);
+  }
+  10%{
+    transform: rotateZ(0deg) scale(1);
+  }
+  40%{
+    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    transform: rotateZ(0deg) scale(1);
+  }
+  45%{
+    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    transform: rotateZ(360deg) scale(0);
+  }
+  50%{
+    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    transform: rotateZ(0deg) scale(1);
+  }
+  55%{
+    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    transform: rotateZ(0deg) scale(1.1);
+  }
+  60%{
+    transform: rotateZ(0deg) scale(1);
+  }
+  90%{
+    background-image: url('../images/sprite_btn_contacto_web_02.webp');
+    transform: rotateZ(0deg) scale(1);
+  }
+  95%{
+    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    transform: rotateZ(360deg) scale(0);
+  }
+  100%{
+    background-image: url('../images/sprite_btn_contacto_web_01.webp');
+    transform: rotateZ(0deg) scale(1);
+  }
+}
+
+
+@keyframes transition-card-rys{
+  0%{
+    opacity: 1;
+    height: 230px;
+  }
+  100%{
+    opacity: 0;
+    height: 0px;
+  }
+}
+
+@keyframes transition-card-rys-back{
+  0%{
+    opacity: 0;
+    height: 0px;
+  }
+  100%{
+    opacity: 1;
+    height: 230px;
+  }
+}
+
+.transition-card-rys-hover-more{
+  animation-name: transition-card-rys;
+  animation-duration: .1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  opacity: 0;
+}
+.transition-card-rys-click-back{
+  animation-name: transition-card-rys-back;
+  animation-duration: .1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  opacity: 1;
+  height: 230px;
+}
+.lock-interactions{
+  pointer-events: none;
+}
+
+
+/* TRANSICION ENVIO DE DATOS */
+@keyframes transicion-envio{
+  0%{
+    transform: scale(initial);
+  }
+  20%{
+    transform: scale(.9);
+  }
+  35%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(0.25);
+    opacity:1;
+  }
+  90%{
+    transform: scale(0.25);
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.animacion-form{
+  animation-name: transicion-envio;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+@keyframes opacidad-contenido{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.suavizar-opacidad{
+  animation-name: opacidad-contenido;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.spinner-border.loader-form{
+  color: $color02;
+  width: 60px;
+  height: 60px;
+  margin-top: 130px;
+}
+@media screen and (max-width: 575px) {
+  .spinner-border.loader-form{
+    margin-top: 90px;
+  }
+}
+
+.tx-seccion-form-send {
+  color: $color02;
+  font-family: $Century-Regular;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0px 130px 0px;
+}
+@media screen and (max-width: 1650px) {
+  .tx-seccion-form-send {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .tx-seccion-form-send {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .tx-seccion-form-send {
+    margin: 30px 0px 30px 0px;
+  }
+}

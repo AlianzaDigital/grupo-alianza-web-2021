@@ -1,0 +1,18 @@
+Redirect https://grupo-alianza.com/ https://grupo-alianza.com/site/index.html
+
+ErrorDocument 404 https://grupo-alianza.com/site/error-404.html
+
+#Disables GZIP
+SetEnv no-gzip 1
+    
+#Turns off the expires headers for Apache
+<IfModule mod_expires.c>
+  ExpiresActive Off
+</IfModule>
+
+# Disable Caching
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>

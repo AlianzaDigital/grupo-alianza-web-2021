@@ -1,0 +1,243 @@
+/*MODALES WEB*/
+.modal{
+  z-index: 1700;
+}
+
+.terminos-reclutamiento {
+  .modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // overflow: auto;
+    height: 90vh;
+    margin:0 auto;
+    @media screen and (max-width: $window-size-04) {
+      max-width: 90%;
+      margin:2rem auto 2rem auto;
+    }
+    .modal-content{
+      border: none;
+      border-radius: 1.2rem;
+      background: $blanco;
+      padding: 2rem 2rem 6rem 5rem;
+      @media screen and (max-width: $window-size-04) {
+        padding: 2rem 2rem 5rem 2rem;
+      }
+      .close-modal{
+        margin:0rem 0rem 2.5rem 0rem;
+        text-align: right;
+        @media screen and (max-width: $window-size-04) {
+          margin:0rem 0rem 1.5rem 0rem;
+        }
+        a{
+          cursor: pointer;
+          color: $color01;
+          font-size: $tx-size-06;
+          i{
+            color: $color01;
+          }
+          &:hover{
+            i{
+              color: $color01;
+            }
+          }
+        }
+      }
+      h3:nth-of-type(1){
+        font-family: $Century-Bold;
+        color:$negro;
+        font-size: $tx-size-03;
+        margin: 0rem 0rem 3.5rem 0rem;
+        @media screen and (max-width: $window-size-04) {
+          font-size: $tx-size-04;
+          margin: 0rem 0rem 3rem 0rem;
+        }
+      }
+      p:nth-of-type(2){
+        font-family: $Century-Regular;
+        color:$negro;
+        font-size: $tx-size-07;
+      }
+    }
+  }
+}
+
+.modal-info-mobile {
+  .modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // overflow: auto;
+    height: 90vh;
+    margin:0 auto;
+    @media screen and (max-width: $window-size-04) {
+      max-width: 90%;
+      margin:2rem auto 2rem auto;
+    }
+    .modal-content{
+      border: none;
+      border-radius: 1.2rem;
+      position: relative;
+      background: $blanco;
+      padding: 0rem 0rem 0rem 0rem;
+      border-radius: .7rem .7rem 0rem 0rem;
+      .close-modal{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        a{
+          cursor: pointer;
+          color: $blanco;
+          font-size: $tx-size-07;
+          i{
+            color: $blanco;
+          }
+          &:hover{
+            i{
+              color: $blanco;
+            }
+          }
+        }
+      }
+      .content-modal-title{
+        p:nth-of-type(1){
+          padding: 1.5rem 3rem 1.5rem 1rem;
+          border-radius: .5rem .5rem 0rem 0rem;
+          position: static;
+          font-family: $Century-Bold;
+          font-size: $tx-size-07 + .2;
+          background: $gradient07;
+          color: $blanco;
+        }
+      }
+      .content-modal-description{
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        p:nth-of-type(1){
+          position: static;
+          color: $negro;
+          font-family: $Century-Regular;
+          font-size: $tx-size-08;
+        }
+        p:nth-of-type(2){
+          position: static;
+          color: $negro;
+          margin: 2rem 0rem 0rem 0rem;
+          font-size: $tx-size-08;
+          display: flex;
+          span i{
+            color: $color01;
+            margin-right: 1rem;
+          }
+        }
+        p:nth-of-type(3),
+        p:nth-of-type(4),
+        p:nth-of-type(5){
+          position: static;
+          color: $negro;
+          margin: 1rem 0rem 0rem 0rem;
+          font-size: $tx-size-08;
+          display: flex;
+          span i{
+            color: $color01;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-estudios-mobile {
+  .modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // overflow: auto;
+    // height: 90vh;
+    margin:0 auto;
+    @media screen and (max-width: $window-size-04) {
+      max-width: 90%;
+      margin:2rem auto 2rem auto;
+    }
+    .modal-content{
+      border: none;
+      border-radius: 1.2rem;
+      position: relative;
+      background: $blanco;
+      padding: 0rem 0rem 0rem 0rem;
+      // border-radius: .7rem .7rem 0rem 0rem;
+      .close-modal{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        a{
+          cursor: pointer;
+          color: $color01;
+          font-size: $tx-size-05;
+          i{
+            color: $color01;
+          }
+          &:hover{
+            i{
+              color: $color01;
+            }
+          }
+        }
+      }
+  
+    }
+  }
+}
+
+
+.iframe-modal-condiciones {
+  height: 520px;
+  // border-top: 1px solid #EAEAEA;
+  // border-left: 1px solid #EAEAEA;
+  // border-bottom: 1px solid #EAEAEA;
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  .iframe-modal-condiciones {
+    height: 65vh;
+  }
+}
+
+.politica-privacidad .modal-dialog{
+  max-width: 1080px;
+  @media screen and (max-width: $window-size-02) {
+    max-width: 800px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    max-width: 650px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    max-width: 90%;
+    margin:2rem auto 2rem auto;
+  }
+}
+
+.politica-privacidad {
+  .close-modal{
+    margin:0rem 0rem 7.5rem 0rem;
+    text-align: right;
+    @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 3.5rem 0rem;
+    }
+    a{
+      cursor: pointer;
+      color: $color01;
+      font-size: $tx-size-06;
+      i{
+        color: $color01;
+      }
+      &:hover{
+        i{
+          color: $color01;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/* SLIDERS */
+.vert .carousel-item-next:not(.carousel-item-left),
+.vert .active.carousel-item-right {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: .2rem;
+}
+
+.vert .carousel-item-prev:not(.carousel-item-right),
+.vert .active.carousel-item-left {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  transition: .2rem;
+}
+
+.custom.carousel-item {
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+#carouselEstudios01,
+#carouselEstudios02,
+#carouselEstudios03{
+  margin: 0rem 0rem 0rem 0rem;
+  .carousel-inner{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 1.5rem;
+  }
+}

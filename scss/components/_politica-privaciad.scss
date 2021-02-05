@@ -1,0 +1,42 @@
+/* POLÍTICA Y PRIVACIDAD */
+/* TERMINOS Y CONDICIONES */
+.seccion-terminos{
+  padding: 4rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 3rem 0rem 1.5rem 0rem;
+  }
+}
+.tx-section-terminos-01{
+  color:$color01;
+  font-family: $Century-Bold;
+  font-size: $tx-size-01;
+  margin:0rem 0rem 3rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-04;
+  }
+}
+
+.tx-section-terminos-02{
+  color:$color01;
+  font-family: $Century-Bold;
+  font-size: $tx-size-02;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05;
+  }
+}
+  
+.tx-section-terminos-03{
+	color:$negro;
+  font-family: $Century-Regular;
+  font-size: $tx-size-07;
+  text-align: justify;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-08 + .1;
+  }
+}
+
+.enlace-terminos{
+  color: blue;
+  font-family: $Century-Regular;
+  font-size: $tx-size-08 + .1;
+}

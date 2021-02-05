@@ -1,0 +1,13 @@
+# Regla General - Todos los buscadores
+User-agent: *
+Allow: /site/index.html
+Allow: /site/servicios-temporales.html
+Allow: /site/reclutamiento-seleccion-personal.html
+
+Disallow: /site/error-404.html
+Disallow: /site/formulario-accion.html
+Disallow: /site/gracias.html
+Disallow: /site/politica-privacidad.html
+
+# Ubicacion Sitemap
+Sitemap: https://www.grupo-alianza.com/sitemap.xml

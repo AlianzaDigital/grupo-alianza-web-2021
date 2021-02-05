@@ -1,0 +1,156 @@
+/* SECTION RECLUTAMIENTO SELECCION 10 */
+.section-reclutamiento-seleccion-web-10{
+  padding: 10rem 0rem 12rem 0rem;
+}
+.content-reclutamiento-seleccion-web-10-01{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-02;
+    margin:0rem 0rem 8rem 0rem;
+    text-align: center;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-05;
+      margin:0rem 0rem 6rem 0rem;
+    }
+  }
+}
+
+.card-content-reclutamiento{
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+.card-estudios-01 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../images/bg-card-ga-reclutamiento.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right bottom;
+  padding: 3rem 1.5rem;
+  min-height: 230px;
+  border-radius: .7rem;
+  @media screen and (max-width: $window-size-04) {
+    margin: 0rem 0rem 3rem 0rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 1.5rem;
+  }
+  p:nth-of-type(1){
+    position: absolute;
+    right: 1rem;
+    bottom: .2rem;
+    text-align: left;
+    @media screen and (max-width: $window-size-04) {
+      right: 2.5rem;
+      bottom: 3.2rem;
+      text-align: left;
+    }
+    a{
+      // padding: 1rem;
+      span i{
+        color: $color01;
+        // &:hover{
+        //   color: $color02;
+        // }
+      }
+    }
+  }
+  p:nth-of-type(2){
+    text-align: center;
+    margin:0rem 0rem 1rem 0rem;
+    span i{
+      color: $blanco;
+      font-size: 7rem;
+    }
+  }
+  h4:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-04;
+    text-align: center;
+  }
+}
+
+.card-estudios-02 {
+  background-color: $blanco;
+  cursor: pointer;
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 4rem 0rem 0rem 0rem; 
+  border-radius: .7rem;
+  p:nth-of-type(1),
+  p:nth-of-type(2),
+  p:nth-of-type(3){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 3.5rem 2rem 3.5rem;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+  .ultimo{
+    cursor: pointer;
+    position: relative;
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-05;
+    background: $gradient04;
+    padding: 1.5rem 5rem 1.5rem 3.5rem;
+    margin:0;
+    border-radius: 0rem 0rem .7rem .7rem;
+    span i{
+      position: absolute;
+      right: 2rem;
+      top:1.5rem;
+      color: $blanco;
+      font-size: 3.5rem;
+    }
+  }
+
+}
+
+.card-estudios-03 {
+  background-color: $blanco;
+  cursor: pointer;
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 4rem 0rem 0rem 0rem; 
+  border-radius: .7rem;
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 3.5rem 2rem 3.5rem;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+  .ultimo{
+    cursor: pointer;
+    position: relative;
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-05;
+    background: $gradient04;
+    padding: 1.5rem 5rem 1.5rem 3.5rem;
+    margin:0;
+    border-radius: 0rem 0rem .7rem .7rem;
+    span i{
+      position: absolute;
+      right: 2rem;
+      top:1.5rem;
+      color: $blanco;
+      font-size: 3.5rem;
+    }
+  }
+  
+}

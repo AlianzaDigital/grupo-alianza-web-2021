@@ -1,0 +1,58 @@
+/* SECTION SERVICIOS TEMPORALES WEB 04 */
+.section-servicios-temporales-web-04{
+  margin:0rem 0rem 9rem 0rem;
+}
+.content-servicios-temporales-web-04-01{
+  h3:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$negro;
+    font-size: $tx-size-03;
+    margin:0rem 0rem 2.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      margin:2.5rem 0rem 2.5rem 0rem;
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+  p:nth-of-type(2){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    display: flex;
+    span i{
+      margin-right: 1rem;
+      color: $color01;
+    }
+  }
+  p:nth-of-type(3){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    display: flex;
+    span i{
+      margin-right: 1rem;
+      color: $color01;
+    }
+  }
+  p:nth-of-type(4){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    display: flex;
+    span i{
+      margin-right: 1rem;
+      color: $color01;
+    }
+  }
+}

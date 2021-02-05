@@ -1,0 +1,152 @@
+/* MENU DESPLEGABLE */
+.btn_contacto{
+  position: fixed;
+  right: 0px;
+  bottom: 15%;
+  background: url('../images/btn_contacto_web.webp');
+  background-size: 99px 82px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 82px;
+  width: 99px;
+  z-index: 1000;
+  &__relative{
+    position: relative;
+    height: 99px;
+    width: 82px;
+  }
+  &__absolute{
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    width: 45px;
+    height: 45px;
+    background-size: 45px 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x, no-repeat;
+    animation-name: animacion-iconos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: steps(2); */
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    z-index: 101;
+  }
+  @media screen and (max-width: $window-size-01) {
+    bottom: 10%;
+  }
+}
+
+.contacto-agil-ga-fixed{
+  position: fixed;
+  right: 15px;
+  bottom: 15%;
+  width: 430px;
+  z-index: 1100;
+  @media screen and (max-width: $window-size-01) {
+    bottom: 10%;
+  }
+}
+
+.contacto-agil-ga-fixed .card{
+  position: relative;
+}
+.contacto-agil-ga-fixed .card.card-body{
+  padding: 3.5rem 0rem 1rem 0rem;
+  border-radius: .5rem;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,.4);
+  .close-collpase-contacto-agil-web{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    span{
+      .contacto-agil-web.icon-Cerrar::before{
+        // color: $color01;
+        color: $gris03;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  h3:nth-child(2){
+    color: $color01;
+    font-family: $Century-Bold;
+    font-size: $tx-size-03;
+    padding: 0rem 0rem 1rem 0rem;
+    border-bottom: 1px solid $gris03;
+    text-align: center;
+  }
+  a:nth-child(3){
+    color: $negro;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    padding: 2rem 1rem 2.5rem 1rem;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    border-bottom: 1px solid $color02;
+    display: flex;
+    line-height: 1;
+    &:focus{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Whatsapp::before{
+          color: $color01;
+        }
+      }
+    }
+    &:hover{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Whatsapp::before{
+          color: $color01;
+        }
+      }
+    }
+    span{
+      margin: 1rem 1rem 0rem 0rem;
+      .contacto-agil-web.icon-Whatsapp::before{
+        color: $negro;
+        font-size: 2rem;
+      }
+    }
+  }
+  a:nth-child(4){
+    color: $negro;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+    &:focus{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Personal-information::before{
+          color: $color01;
+        }
+      }
+    }
+    &:hover{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Personal-information::before{
+          color: $color01;
+        }
+      }
+    }
+    span{
+      margin: 0rem 1rem 0rem 0rem;
+      .contacto-agil-web.icon-Personal-information::before{
+        color: $negro;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+

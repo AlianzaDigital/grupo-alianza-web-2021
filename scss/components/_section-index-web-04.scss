@@ -1,0 +1,80 @@
+/* SECTION INDEX WEB 04 */
+.section-index-web-04{
+  background: none;
+  @media screen and (max-width: 1920px) {
+    background: url('../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin: 10rem 0rem 12rem 0rem;
+    height: 300px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    // background-size: 1600px auto;
+    height: 245px;
+  }
+  @media screen and (max-width: 1400px) {
+    // background-size: 1400px auto;
+    height: 215px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    // background-size: 1200px auto;
+    height: 185px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    // background-size: 100px auto;
+    height: 150px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    background: none;
+    height: auto;
+  }
+}
+
+.content-index-web-04-01{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-02;
+    margin:0rem 0rem 3rem 0rem;
+    text-align: center;
+    span{
+      display: inline-block;
+      border-bottom: 1px solid $color02;
+      width: 27.5%;
+      margin: 0rem 0rem 2.5rem 0rem;
+      @media screen and (max-width: $window-size-01) {
+        width: 20%;
+      }
+      @media screen and (max-width: $window-size-02) {
+        width: 15%;
+      }
+      @media screen and (max-width: $window-size-03) {
+        width: 7.5%;
+      }
+      @media screen and (max-width: $window-size-04) {
+        display: none;
+        margin: 0rem 0rem 0rem 0rem;
+      }
+    }
+    .tx{
+      display: inline-block;
+      width: auto;
+      border-bottom: none;
+    }
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-05;
+      margin:0rem 0rem 5rem 0rem;
+    }
+  }
+  h2:nth-of-type(2){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 5rem 0rem;
+    text-align: center;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0rem 0rem 8rem 0rem;
+  }
+}

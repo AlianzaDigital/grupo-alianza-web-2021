@@ -1,0 +1,119 @@
+/* SECTION INDEX WEB 01 */
+.section-index-web-01{
+  padding: 7rem 0rem 0rem 0rem
+}
+.content-index-web-01-01{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-02;
+    margin:0rem 0rem 3rem 0rem;
+    text-align: center;
+    span{
+      display: inline-block;
+      border-bottom: 1px solid $color02;
+      width: 27.5%;
+      margin: 0rem 0rem 2.5rem 0rem;
+      @media screen and (max-width: $window-size-01) {
+        width: 20%;
+      }
+      @media screen and (max-width: $window-size-02) {
+        width: 15%;
+      }
+      @media screen and (max-width: $window-size-03) {
+        width: 10%;
+      }
+      @media screen and (max-width: $window-size-04) {
+        display: none;
+        margin: 0rem 0rem 0rem 0rem;
+      }
+    }
+    .tx{
+      display: inline-block;
+      width: auto;
+      border-bottom: none;
+    }
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-05;
+      margin:0rem 0rem 10rem 0rem;
+    }
+  }
+  h2:nth-of-type(2){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 10rem 0rem;
+    text-align: center;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0rem 0rem 8rem 0rem;
+  }
+}
+.content-index-web-01-02{
+  img{
+    height: 31.5rem;
+    // width: auto;
+    @media screen and (max-width: $window-size-02) {
+      height: 25rem;
+    }
+    @media screen and (max-width: $window-size-03) {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .card-web{
+    position: relative;
+    padding: 2rem 1.5rem;
+    border-bottom: .7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 27rem;
+    margin:0rem 0rem 10rem 0rem;
+    h3:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$negro;
+      font-size: $tx-size-03;
+      margin: 0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-06;
+        margin: 0rem 0rem 2rem 0rem;
+      }
+    }
+    p:nth-of-type(1){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-07;
+      margin: 0rem 0rem 0rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+    p:nth-of-type(2){
+      position: absolute;
+      right: 1.5rem;
+      bottom: 2.5rem;
+      a{
+        font-family: $Century-Bold;
+        color:$color01;
+        font-size: $tx-size-07;
+      }
+    }
+    @media screen and (max-width: $window-size-01) {
+      height: 29rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      height: 40rem;
+    }
+    @media screen and (max-width: $window-size-04) {
+      padding: 2.5rem 1.5rem;
+    }
+    @media screen and (max-width: $window-size-05) {
+      height: 25rem;
+    }
+    @media screen and (max-width: $window-size-05-a) {
+      height: 30rem;
+    }
+    @media screen and (max-width: $window-size-05-b) {
+      height: 35rem;
+    }
+  }
+}

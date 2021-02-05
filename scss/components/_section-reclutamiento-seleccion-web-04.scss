@@ -1,0 +1,93 @@
+/* SECTION RECLUTAMIENTO SELECCION WEB 04 */
+.section-reclutamiento-seleccion-web-04{
+  padding: 0rem 0rem 12rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 7.5rem 0rem;
+  }
+}
+.content-reclutamiento-seleccion-xs-04-01{
+  margin:0rem 0rem 4rem 0rem;
+}
+.content-reclutamiento-seleccion-04-01{
+  .container-indicativo{
+    position: relative;
+    padding: .5rem;
+    border-radius: .7rem;
+    border-image-source: $gradient06; 
+    border-image-slice: 1;
+    border: 1px solid $color01;
+    height: 6rem;
+    width: 6rem;
+    transform: rotate(45deg);
+    margin:0rem 0rem 3rem 1.5rem;
+    .indicativo-01{
+      background: $gradient06;
+      border-radius: .7rem;
+      width: 4.8rem;
+      height: 4.8rem;
+      p{
+        position: absolute;
+        left:17px;
+        top:2px;
+        transform: rotate(-45deg);
+        font-family: $Century-Bold;
+        color:$blanco;
+        font-size: $tx-size-01;
+      }
+    } 
+  }
+  h3:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$negro;
+    font-size: $tx-size-03;
+    margin:0rem 0rem 2.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2rem 0rem;
+    }
+  }
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2rem 0rem;
+  }
+  p:nth-of-type(2){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+  }
+  p:nth-of-type(3){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+  }
+  p:nth-of-type(4){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 0rem 0rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+  }
+}
+.content-reclutamiento-seleccion-04-02{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

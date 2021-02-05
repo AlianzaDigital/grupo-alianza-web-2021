@@ -1,0 +1,175 @@
+/* EROR 404 */
+.section-error-404{
+  background: $gradient03;
+  padding: 6rem 0rem 0rem 0rem;
+  height: 100vh;
+}
+
+.tx-section-error-404-xs-01{
+  color: $blanco;
+  font-family: $Century-Bold;
+  font-size: $tx-size-01;
+  margin:0rem 0rem 2rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+    margin:0rem 0rem 2rem 0rem;
+  }
+}
+.tx-section-error-404-xs-02{
+  color: $blanco;
+  font-family: $Century-Regular;
+  font-size: $tx-size-06;
+  margin:0rem 0rem 4rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-08 + .1;
+    margin:0rem 0rem 4rem 0rem;
+  }
+}
+
+span .global-404.icon-Error::before{
+  color: $blanco;
+  font-size: 100px;
+}
+
+.content-section-error-404-01{
+  h1:nth-of-type(1){
+    color: $blanco;
+    font-family: $Century-Bold;
+    font-size: $tx-size-01;
+    margin:0rem 0rem 2.5rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-05 + .2;
+      margin:0rem 0rem 2rem 0rem;
+    }
+  }
+  h4:nth-of-type(1){
+    color: $blanco;
+    font-size: $tx-size-04;
+    margin:0rem 0rem 6rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem 4.5rem 0rem;
+    }
+  }
+  p:nth-of-type(1){
+    color: $blanco;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    margin:0rem 0rem 2rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem 3rem 0rem;
+    }
+  }
+  p:nth-of-type(2){
+    color: $blanco;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    margin:0rem 0rem 1rem 3.5rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem .5rem 1.5rem;
+    }
+  }
+  p:nth-of-type(3){
+    color: $blanco;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    margin:0rem 0rem 1rem 3.5rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem .5rem 1.5rem;
+    }
+  }
+  p:nth-of-type(4){
+    color: $blanco;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    margin:0rem 0rem 3.5rem 3.5rem;
+    display: flex;
+    span i{
+      color: $color01;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem 4rem 1.5rem;
+    }
+  }
+  p:nth-of-type(5){
+    color: $blanco;
+    font-family: $Century-Regular;
+    font-size: $tx-size-07;
+    margin:0rem 0rem 2.5rem 0rem;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-08 + .1;
+      margin:0rem 0rem 5.5rem 0rem;
+    }
+  }
+  p:nth-of-type(6){
+    display: flex;
+    justify-content: flex-end;
+    a{
+      color: $blanco;
+      font-family: $Century-Bold;
+      font-size: $tx-size-06;
+      text-align: right;
+      &:focus{
+        // color: $blanco;
+        color: $color02;
+      }
+      &:hover{
+        // color: $blanco;
+        color: $color02;
+      }
+      span{
+        margin:0rem 1rem 0rem 0rem;
+        .icon-Flecha-izquierda::before{
+          // font-size: 1.4rem;
+          font-weight: bold;
+          @media screen and (max-width: $window-size-02) {
+            // font-size: 1.1rem;
+          }
+        }
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-07;
+      }
+    }
+    @media screen and (max-width: $window-size-02) {
+      justify-content: center;
+    }
+  }
+}
+
+.content-section-error-404-02{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin:2rem 0rem 0rem 0rem;
+  span .global-404.icon-Error::before{
+    color: $blanco;
+    font-size: 410px;
+    @media screen and (max-width: $window-size-02) {
+      font-size: 360px;
+    }
+    @media screen and (max-width: $window-size-03) {
+      font-size: 310px;
+    }
+  }
+}

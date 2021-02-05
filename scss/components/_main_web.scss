@@ -1,0 +1,383 @@
+/* MAIN WEB */
+.main-index{
+  padding: 7rem 0rem 30rem 0rem;
+  background: url('../images/personas-entrevista-home-grupo-alianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 930px;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px auto;
+    background-position: center bottom;
+  }
+  .content-main{
+    p:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+    }
+    h1:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-01;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-02;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-04;
+      }
+    }
+    p:nth-of-type(2){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 1.5rem 0rem;
+      }
+    }
+    p:nth-of-type(3){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 2.5rem 0rem;
+      }
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    padding: 7rem 0rem 25rem 0rem;
+    background-size: 1600px auto;
+    height: 780px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 7rem 0rem 18rem 0rem;
+    background-size: 1200px auto;
+    height: 590px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 7rem 0rem 17rem 0rem;
+    background-size: 1000px auto;
+    height: 490px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background: url('../images/personas-entrevista-xs-home-grupo-alianza.webp');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 21rem 0rem 20rem 0rem;
+    background-size: 768px auto;
+    height:1200px;
+    justify-content: flex-end;
+  }
+  @media screen and (max-width: $window-size-05) {
+    padding: 7rem 0rem 15rem 0rem;
+    background-size: 575px auto;
+    height: 945px;
+  }
+  @media screen and (max-width: $window-size-05-a) {
+    padding: 7rem 0rem 13rem 0rem;
+    background-size: 480px auto;
+    height: 790px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    padding: 7rem 0rem 11rem 0rem;
+    background-size: 380px auto;
+    height: 620px;
+  }
+}
+
+.main-servicios-temporales{
+  padding: 7rem 0rem 30rem 0rem;
+  background: url('../images/personas-servicios-especializados-administracion-de-servicios-de-temporal-grupo-alianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 930px;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px auto;
+    background-position: center bottom;
+  }
+  .content-main{
+    p:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+    }
+    h1:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-01;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-02;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-04;
+      }
+    }
+    p:nth-of-type(2){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 1.5rem 0rem;
+      }
+    }
+    p:nth-of-type(3){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 1.5rem 0rem;
+      }
+    }
+    p:nth-of-type(4){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 2.5rem 0rem;
+      }
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    padding: 7rem 0rem 25rem 0rem;
+    background-size: 1600px auto;
+    height: 780px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 7rem 0rem 18rem 0rem;
+    background-size: 1200px auto;
+    height: 590px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 7rem 0rem 17rem 0rem;
+    background-size: 1150px auto;
+    height: 550px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background: url('../images/personas-servicios-especializados-xs-administracion-de-servicios-de-temporal-grupo-alianza.webp');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 21rem 0rem 20rem 0rem;
+    background-size: 768px auto;
+    height:1250px;
+    justify-content: flex-end;
+  }
+  @media screen and (max-width: $window-size-05) {
+    padding: 7rem 0rem 15rem 0rem;
+    background-size: 575px auto;
+    height: 995px;
+  }
+  @media screen and (max-width: $window-size-05-a) {
+    padding: 7rem 0rem 13rem 0rem;
+    background-size: 480px auto;
+    height: 830px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    padding: 7rem 0rem 11rem 0rem;
+    background-size: 380px auto;
+    height: 670px;
+  }
+}
+
+.main-reclutamiento-seleccion{
+  padding: 7rem 0rem 30rem 0rem;
+  background: url('../images/personas-entrevista-reclutamiento-y-seleccion-de-personal-grupo-alianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 930px;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px auto;
+    background-position: center bottom;
+  }
+  .content-main{
+    margin:0rem 6rem 0rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      margin:0rem 0rem 0rem 0rem;
+    }
+    p:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+    }
+    h1:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-01;
+      margin:0rem 0rem 3rem 0rem;
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-02;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-04;
+      }
+    }
+    p:nth-of-type(2){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 1.5rem 0rem;
+      }
+    }
+    p:nth-of-type(3){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 1.5rem 0rem;
+      }
+    }
+    p:nth-of-type(4){
+      font-family: $Century-Regular;
+      color:$blanco;
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1.1rem;
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08 + .1;
+        margin:0rem 0rem 2.5rem 0rem;
+      }
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    padding: 7rem 0rem 25rem 0rem;
+    background-size: 1750px auto;
+    height: 850px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 7rem 0rem 18rem 0rem;
+    background-size: 1550px auto;
+    height: 750px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 7rem 0rem 17rem 0rem;
+    background-size: 1750px auto;
+    height: 850px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background: url('../images/personas-entrevista-xs-reclutamiento-y-seleccion-de-personal-grupo-alianza.webp');
+    background-repeat: no-repeat;
+    padding: 21rem 0rem 20rem 0rem;
+    background-size: 768px auto;
+    height:1250px;
+    justify-content: flex-end;
+    background-position: center top;
+  }
+  @media screen and (max-width: $window-size-05) {
+    padding: 7rem 0rem 25rem 0rem;
+    background-position: center bottom;
+    background-size: 575px auto;
+    height: 1100px;
+  }
+  @media screen and (max-width: $window-size-05-a) {
+    padding: 7rem 0rem 20rem 0rem;
+    background-size: 480px auto;
+    height: 950px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    padding: 7rem 0rem 13rem 0rem;
+    background-size: 380px auto;
+    height: 800px;
+  }
+}

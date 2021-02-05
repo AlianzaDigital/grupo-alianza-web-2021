@@ -1,0 +1,184 @@
+/* BOTONES */
+.contact-btn-footer-xs{
+  // text-align: center;
+  position: relative;
+  display:block;
+  color:$blanco;
+  background: $gradient04;
+  font-size: $tx-size-07;
+  font-family: $Century-Bold;
+  // width: 100%;
+  max-width: 245px;
+  // padding: 10px 10px 10px 25px;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  border-radius: .5rem;
+  margin: 0 auto;
+  &:focus{
+    text-decoration: none;
+    color:$blanco;
+    background: $gradient04;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$blanco;
+    background: $gradient04;
+  }
+  span{
+    // margin-right: 2rem;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    .contacto-agil.icon-Personal-information::before{
+      color: $blanco;
+      font-size: $tx-size-04;
+    }
+    .contacto-agil.icon-Whatsapp::before{
+      color: $blanco;
+      font-size: $tx-size-04;
+    }
+    @media screen and (max-width: $window-size-05-b) {
+      left: 1rem;
+    }
+  }
+}
+
+.btn-cta-main{
+  position: relative;
+  display:inline-block;
+  color:$blanco;
+  background: $gradient04;
+  font-size: $tx-size-07;
+  font-family: $Century-Bold;
+  padding: 1.5rem 6rem;
+  border-radius: .5rem;
+  text-align: center;
+  &:focus{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+  span{
+    // margin-right: 2rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.6rem;
+    i{
+      color: $blanco;
+    }
+    @media screen and (max-width: $window-size-02) {
+      top: 1.1rem;
+    }
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 1rem 4rem;
+    font-size: $tx-size-08;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 1rem 4rem;
+    font-size: $tx-size-07;
+  }
+  @media screen and (max-width: $window-size-05) {
+    width: 100%;
+  }
+}
+
+.btn-servicios-temporales-collapse{
+  position: relative;
+  color:$negro;
+  font-size: $tx-size-07;
+  font-family: $Century-Bold;
+  border: none;
+  background-color: $blanco;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  border-radius: .5rem;
+  text-align: left;
+  margin:0rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    padding: 1.5rem 1rem 1.5rem 3rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 1.5rem 4rem 1.5rem 1rem;
+  }
+  span i{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    @media screen and (max-width: $window-size-02) {
+      right: 1.5rem;
+    }
+  }
+  span .icon-Flecha-abajo::before{
+    font-size: $tx-size-08;
+  }
+}
+
+.btn-volver-web{
+  margin:3rem 0rem 0rem 0rem;
+  a{
+    color:$color02;
+    font-size:$tx-size-06;
+    font-family:$Century-Bold;
+    span i{
+      color: $color02;
+      margin-right: 3rem;
+    }
+    &:hover{
+      color:$color02;
+      span i{
+        color: $color02;
+      }
+    }
+  }
+}
+
+.btn-volver-web-02{
+  margin:0rem 2.5rem 1rem 0rem;
+  a{
+    color:$blanco;
+    font-size:$tx-size-07;
+    font-family:$Century-Bold;
+    span i{
+      color: $blanco;
+      margin-right: 3rem;
+    }
+    &:hover{
+      color:$blanco;
+      span i{
+        color: $blanco;
+      }
+    }
+  }
+}
+
+.btn-enviar-form-ga{
+  position: relative;
+  display:inline-block;
+  color:$blanco;
+  background: $gradient04;
+  border: none;
+  outline: none;
+  font-size: $tx-size-06;
+  font-family: $Century-Bold;
+  padding: 1.5rem 6rem;
+  border-radius: .5rem;
+  text-align: center;
+  width: 100%;
+  margin: 6rem 0rem 0rem 0rem;
+  &:focus{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+}

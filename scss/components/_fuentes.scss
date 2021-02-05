@@ -1,0 +1,119 @@
+/*FUENTES*/
+@font-face{
+	font-family: 'Century-Gothic-Bold';
+	src: url("../fonts/Century-Gothic-Bold.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Century-Gothic-Bold-Italic';
+	src: url("../fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Century-Gothic-Italic';
+	src: url("../fonts/Century-Gothic-Italic.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Century-Gothic-Regular';
+	src: url("../fonts/Century-Gothic-Regular.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'ga-icon-font';
+  src:  url('../fonts/icomoon.eot?1pea9m');
+  src:  url('../fonts/icomoon.eot?1pea9m#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1pea9m') format('truetype'),
+    url('../fonts/icomoon.woff?1pea9m') format('woff'),
+    url('../fonts/icomoon.svg?1pea9m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ga-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Antecedentes:before {
+  content: "\e900";
+}
+.icon-Cerrar:before {
+  content: "\e901";
+}
+.icon-Check:before {
+  content: "\e902";
+}
+.icon-Correo:before {
+  content: "\e903";
+}
+.icon-Dinero:before {
+  content: "\e904";
+}
+.icon-Empresas:before {
+  content: "\e905";
+}
+.icon-Enlace:before {
+  content: "\e906";
+}
+.icon-Error:before {
+  content: "\e907";
+}
+.icon-Flecha-abajo:before {
+  content: "\e908";
+}
+.icon-Flecha-arriba:before {
+  content: "\e909";
+}
+.icon-Flecha-derecha:before {
+  content: "\e90a";
+}
+.icon-Flecha-izquierda:before {
+  content: "\e90b";
+}
+.icon-Hamburgesa:before {
+  content: "\e90c";
+}
+.icon-Linkedin:before {
+  content: "\e90d";
+}
+.icon-More:before {
+  content: "\e90e";
+}
+.icon-Personal-information:before {
+  content: "\e90f";
+}
+.icon-Poligrafo:before {
+  content: "\e910";
+}
+.icon-Telefono:before {
+  content: "\e911";
+}
+.icon-Trabajadores:before {
+  content: "\e912";
+}
+.icon-Visita:before {
+  content: "\e913";
+}
+.icon-Whatsapp:before {
+  content: "\e914";
+}
+.icon-Mas-informacion:before {
+  content: "\e915";
+}
