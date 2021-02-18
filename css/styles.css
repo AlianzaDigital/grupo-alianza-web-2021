@@ -755,7 +755,7 @@ a:hover {
 
 .main-nav-xs.navbar-nav {
   margin: 0;
-  height: calc(100vh - 81px);
+  height: 100vh;
 }
 @media screen and (max-width: 991px) {
   .main-nav-xs.navbar-nav {

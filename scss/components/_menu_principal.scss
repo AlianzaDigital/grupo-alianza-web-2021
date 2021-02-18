@@ -21,7 +21,8 @@
 .main-nav-xs.navbar-nav{
   // position: relative;
   margin: 0;
-  height: calc(100vh - 81px);
+  // height: calc(100vh - 81px);
+  height: 100vh;
   // z-index: 1400;
   @media screen and (max-width: $window-size-03) {
     overflow-y: scroll;
