@@ -76,11 +76,11 @@
     }
     .modal-content{
       border: none;
-      border-radius: 1.2rem;
       position: relative;
       background: $blanco;
       padding: 0rem 0rem 0rem 0rem;
-      border-radius: .7rem .7rem 0rem 0rem;
+      // border-radius: .7rem .7rem 0rem 0rem;
+      border-radius: .6rem .6rem .5rem .5rem;
       .close-modal{
         position: absolute;
         right: 1rem;
@@ -108,6 +108,7 @@
           font-size: $tx-size-07 + .2;
           background: $gradient07;
           color: $blanco;
+          text-align: center;
         }
       }
       .content-modal-description{
@@ -191,7 +192,7 @@
 
 
 .iframe-modal-condiciones {
-  height: 520px;
+  height: 450px;
   // border-top: 1px solid #EAEAEA;
   // border-left: 1px solid #EAEAEA;
   // border-bottom: 1px solid #EAEAEA;
@@ -199,14 +200,14 @@
   margin: 0px 0px 10px 0px;
   overflow-x: hidden;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: $window-size-05) {
   .iframe-modal-condiciones {
     height: 65vh;
   }
 }
 
 .politica-privacidad .modal-dialog{
-  max-width: 1080px;
+  max-width: 1180px;
   @media screen and (max-width: $window-size-02) {
     max-width: 800px;
   }
@@ -220,8 +221,19 @@
 }
 
 .politica-privacidad {
+  .margenes-modal-terminos{
+    padding: 0rem 7rem 8rem 7rem;
+    @media screen and (max-width: $window-size-04) {
+      padding: 0rem 0rem .5rem 0rem;
+    }
+  }
+  .modal-body{
+    @media screen and (max-width: $window-size-04) {
+      padding: .5rem;
+    }
+  }
   .close-modal{
-    margin:0rem 0rem 7.5rem 0rem;
+    margin:0rem 0rem 7rem 0rem;
     text-align: right;
     @media screen and (max-width: $window-size-04) {
       margin:0rem 0rem 3.5rem 0rem;

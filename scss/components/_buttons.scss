@@ -115,7 +115,11 @@
     }
   }
   span .icon-Flecha-abajo::before{
+    color: $color01;
     font-size: $tx-size-08;
+  }
+  span .icon-Flecha-arriba::before{
+    color: $color01;
   }
 }
 

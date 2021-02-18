@@ -5,9 +5,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-start;
   height: 580px;
   @media screen and (max-width: 1920px) {
     background-size: 1920px auto;
@@ -20,13 +20,13 @@
   }
   @media screen and (max-width: $window-size-02) {
     padding: 5rem 0rem 5rem 0rem;
-    background-size: 1200px auto;
-    height: 360px;
+    background-size: 1650px auto;
+    height: 550px;
   }
   @media screen and (max-width: $window-size-03) {
-    padding: 3rem 0rem 3rem 0rem;
-    background-size: 1000px auto;
-    height: 300px;
+    padding: 5rem 0rem 3rem 0rem;
+    background-size: 1350px auto;
+    height: 400px;
   }
   @media screen and (max-width: $window-size-04) {
     background: $gradient01;

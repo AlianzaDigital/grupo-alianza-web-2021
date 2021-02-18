@@ -30,6 +30,7 @@ footer.footer-servicios-temporales{
     margin-top: -18rem;
   }
   @media screen and (max-width: $window-size-02) {
+    margin-top: 0rem;
     bottom:0rem;
   }
   @media screen and (max-width: $window-size-03) {
@@ -41,6 +42,7 @@ footer.footer-mensaje-enviado{
   position: relative;
   bottom:0rem;
   margin-top: -18rem;
+  z-index: 1;
   @media screen and (max-width: $window-size-01) {
     bottom:0rem;
     margin-top: -18rem;
@@ -187,7 +189,7 @@ footer.footer-mensaje-enviado{
 
 .content-footer-01,
 .content-footer-02{
-  padding: 2.5rem 1.5rem;
+  padding: 2.5rem 0rem 2.5rem 1.5rem;
 }
 
 .align-img{
@@ -202,7 +204,8 @@ footer.footer-mensaje-enviado{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2.5rem 0rem 0rem 0rem;
+  // padding: 2.5rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   p{
     color: $blanco;
       font-size: $tx-size-09;

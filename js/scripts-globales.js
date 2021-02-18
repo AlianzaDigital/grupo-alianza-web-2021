@@ -155,17 +155,63 @@ $('#offset-portal-trabajadores').mouseleave(function(){
 })
 
 // COLLAPSE NUESTRAS SOLUCIONES WEB
+$('#btn-nuestras-soluciones').click(function(){
+
+  if ($("#collapse-nuestras-soluciones").hasClass("show")){
+    $('#btn-nuestras-soluciones').removeClass('active')
+
+    $('#icon-desplegable-arrow').removeClass('icon-Flecha-arriba')
+    $('#icon-desplegable-arrow').addClass('icon-Flecha-abajo')
+  
+    $('#collapse-portal-empresas').collapse('hide')
+    $('#collapse-portal-trabajadores').collapse('hide')
+  
+    $('#collapse-nuestras-soluciones').removeClass('active')
+    $('#collapse-nuestras-soluciones').collapse('hide')
+  } else{
+    $('#btn-nuestras-soluciones').addClass('active')
+
+    $('#icon-desplegable-arrow').removeClass('icon-Flecha-abajo')
+    $('#icon-desplegable-arrow').addClass('icon-Flecha-arriba')
+  
+    $('#collapse-portal-empresas').collapse('hide')
+    $('#collapse-portal-trabajadores').collapse('hide')
+  
+    $('#collapse-nuestras-soluciones').addClass('active')
+    $('#collapse-nuestras-soluciones').collapse('show')
+  }
+})
+
 $('#btn-nuestras-soluciones').mouseover(function(){
   $('#btn-nuestras-soluciones').addClass('active')
+
+  $('#icon-desplegable-arrow').removeClass('icon-Flecha-abajo')
+  $('#icon-desplegable-arrow').addClass('icon-Flecha-arriba')
 
   $('#collapse-portal-empresas').collapse('hide')
   $('#collapse-portal-trabajadores').collapse('hide')
 
   $('#collapse-nuestras-soluciones').addClass('active')
   $('#collapse-nuestras-soluciones').collapse('show')
+
+  // $('#btn-nuestras-soluciones').click(function(){
+  //   $('#btn-nuestras-soluciones').removeClass('active')
+
+  //   $('#icon-desplegable-arrow').removeClass('icon-Flecha-arriba')
+  //   $('#icon-desplegable-arrow').addClass('icon-Flecha-abajo')
+  
+  //   $('#collapse-portal-empresas').collapse('hide')
+  //   $('#collapse-portal-trabajadores').collapse('hide')
+  
+  //   $('#collapse-nuestras-soluciones').removeClass('active')
+  //   $('#collapse-nuestras-soluciones').collapse('hide')
+  // })
 })
 $('#offset-nuestras-soluciones').mouseleave(function(){
   $('#btn-nuestras-soluciones').removeClass('active')
+
+  $('#icon-desplegable-arrow').removeClass('icon-Flecha-arriba')
+  $('#icon-desplegable-arrow').addClass('icon-Flecha-abajo')
 
   $('#collapse-portal-empresas').collapse('hide')
   $('#collapse-portal-trabajadores').collapse('hide')
@@ -288,12 +334,12 @@ $( '.click-info-xs-04' ).click(function() {
 })
 
 $( '.click-info-xs-05' ).click(function() {
-  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de Prueba Psicométrica TenDisc©</p></div>' );
+  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de Prueba Prueba Psicotécnica Online TenDisc©</p></div>' );
   $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Evaluamos la personalidad, competencias y riesgos laborales de las personas que vinculará a su organización.</p></div>' );
 })
 
 $( '.click-info-xs-06' ).click(function() {
-  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de batería de pruebas psicométricas</p></div>' );
+  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de batería de pruebas psicotécnicas online</p></div>' );
   $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Con nuestra plataforma de evaluación de talento humano obtendremos resultados precisos en: </p><p><span><i class="icon-Flecha-derecha"></i></span>Valores e Integridad.</p><p><span><i class="icon-Flecha-derecha"></i></span>Inteligencia.</p><p><span><i class="icon-Flecha-derecha"></i></span>Potencial Comercial.</p><p><span><i class="icon-Flecha-derecha"></i></span>Velocidad y Precisión al Digitar.</p></div>' );
 })
 
@@ -326,18 +372,19 @@ $( '.click-info-xs-11' ).click(function() {
 
 // TRANSITION CARDS RYS END PAGE
 // CAROUSEL 01
-$( '#click-slider-01-01' ).mouseover(function() {
+// $( '#click-slider-01-01' ).mouseover(function() {
+$( '#click-slider-01-01' ).click(function() {
   // if (($(window).width() > 768)){
     $( '#carouselEstudios01' ).carousel(1)
     $( '#carouselEstudios02' ).carousel(0)
     $( '#carouselEstudios03' ).carousel(0)
   // }
 })
-$( '#carouselEstudios01' ).mouseleave(function() {
+// $( '#carouselEstudios01' ).mouseleave(function() {
   // if (($(window).width() > 768)){
-    $( '#carouselEstudios01' ).carousel(0)
+    // $( '#carouselEstudios01' ).carousel(0)
   // }
-})
+// })
   
 // $( '#click-slider-01-01' ).click(function() {
 //   if (($(window).width() < 768)){
@@ -366,18 +413,19 @@ $( '#carouselEstudios01' ).mouseleave(function() {
 
 
 // CAROUSEL 02
-$( '#click-slider-02-01' ).mouseover(function() {
+// $( '#click-slider-02-01' ).mouseover(function() {
+$( '#click-slider-02-01' ).click(function() {
   // if (($(window).width() > 768)){
     $( '#carouselEstudios02' ).carousel(1)
     $( '#carouselEstudios01' ).carousel(0)
     $( '#carouselEstudios03' ).carousel(0)
   // }
 })
-$( '#carouselEstudios02' ).mouseleave(function() {
+// $( '#carouselEstudios02' ).mouseleave(function() {
   // if (($(window).width() > 768)){
-    $( '#carouselEstudios02' ).carousel(0)
+    // $( '#carouselEstudios02' ).carousel(0)
   // }
-})
+// })
   
 // $( '#click-slider-02-01' ).click(function() {
 //   if (($(window).width() < 768)){
@@ -406,18 +454,19 @@ $( '#carouselEstudios02' ).mouseleave(function() {
 
 
 // CAROUSEL 03
-$( '#click-slider-03-01' ).mouseover(function() {
+// $( '#click-slider-03-01' ).mouseover(function() {
+$( '#click-slider-03-01' ).click(function() {
   // if (($(window).width() > 768)){
     $( '#carouselEstudios03' ).carousel(1)
     $( '#carouselEstudios01' ).carousel(0)
     $( '#carouselEstudios02' ).carousel(0)
   // }
 })
-$( '#carouselEstudios03' ).mouseleave(function() {
+// $( '#carouselEstudios03' ).mouseleave(function() {
   // if (($(window).width() > 768)){
-    $( '#carouselEstudios03' ).carousel(0)
+    // $( '#carouselEstudios03' ).carousel(0)
   // }
-})
+// })
   
 // $( '#click-slider-03-01' ).click(function() {
 //   if (($(window).width() < 768)){

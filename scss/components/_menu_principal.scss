@@ -176,6 +176,12 @@
     a{
       display: inline-block;
       color:$blanco;
+      span .icon-Flecha-abajo::before{
+        font-size: $tx-size-09;
+      }
+      span .icon-Flecha-arriba::before{
+        font-size: $tx-size-08;
+      }
     }
   } 
   li:nth-of-type(1){

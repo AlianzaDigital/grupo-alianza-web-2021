@@ -1,14 +1,14 @@
 /* SECTION INDEX WEB 05 */
 .section-servicios-temporales-web-05{
   padding: 7rem 0rem 15rem 0rem;
-  background: url('../images/fondo-call-to-action-grupo-alianza-gestion-de-talento-humano-servicios-temporales.webp');
+  background: url('../images/fondo-call-to-action-servicios-temporales-grupo-alianza.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 580px;
+  height: 700px;
   @media screen and (max-width: 1920px) {
     background-size: 1920px auto;
     background-position: center top;
@@ -16,17 +16,17 @@
   @media screen and (max-width: $window-size-01) {
     padding: 7rem 0rem 15rem 0rem;
     background-size: 1600px auto;
-    height: 480px;
+    height: 615px;
   }
   @media screen and (max-width: $window-size-02) {
     padding: 5rem 0rem 5rem 0rem;
     background-size: 1200px auto;
-    height: 360px;
+    height: 410px;
   }
   @media screen and (max-width: $window-size-03) {
     padding: 3rem 0rem 3rem 0rem;
     background-size: 1000px auto;
-    height: 300px;
+    height: 350px;
   }
   @media screen and (max-width: $window-size-04) {
     background: $gradient01;

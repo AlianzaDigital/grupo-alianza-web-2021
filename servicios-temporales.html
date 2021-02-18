@@ -114,8 +114,8 @@
                         <div class="nav-xs collapse" id="collapse-portal-trabajadores-xs">
                           <div class="nav-xs card card-body">
                             <ul>
-                              <li><a>Solicite certificaciones y<br>desprendibles de nómina</a></li>
-                              <li><a target="_blank" href="http://empleados.grupo-alianza.com:85/">Ingresar a Sucursal virtual</a></li>
+                              <li><a target="_blank" href="http://empleados.grupo-alianza.com:85/">Solicite certificaciones y<br>desprendibles de nómina</a></li>
+                              <!-- <li><a target="_blank" href="http://empleados.grupo-alianza.com:85/">Ingresar a Sucursal virtual</a></li> -->
                             </ul>
                           </div>
                         </div>
@@ -126,8 +126,8 @@
                         <div class="nav-xs collapse" id="collapse-portal-empresas-xs">
                           <div class="nav-xs card card-body">
                             <ul>
-                              <li><a>Validar certificaciones</a></li>
-                              <li><a target="_blank" href="http://validar.grupo-alianza.com:86/">Ingresar a Sucursal virtual</a></li>
+                              <li><a target="_blank" href="http://validar.grupo-alianza.com:86/">Validar certificaciones</a></li>
+                              <!-- <li><a target="_blank" href="http://validar.grupo-alianza.com:86/">Ingresar a Sucursal virtual</a></li> -->
                             </ul>
                           </div>
                         </div>
@@ -160,7 +160,7 @@
                     <ul class="main-nav-web navbar-nav">
   
                       <li id="offset-nuestras-soluciones" class="nav-item active">
-                        <a id="btn-nuestras-soluciones" class="nav-link" data-toggle="collapse" href="#collapse-nuestras-soluciones" role="button" aria-expanded="false" aria-controls="collapse-nuestras-soluciones">Nuestras soluciones<span><i class="icon-Flecha-abajo"></i></span></a>
+                        <a id="btn-nuestras-soluciones" class="nav-link" data-toggle="collapse" href="#collapse-nuestras-soluciones" role="button" aria-expanded="false" aria-controls="collapse-nuestras-soluciones">Nuestras soluciones<span><i id="icon-desplegable-arrow" class="icon-Flecha-abajo"></i></span></a>
     
                         <div class="nav-web collapse" id="collapse-nuestras-soluciones">
                           <div class="card card-body">
@@ -253,7 +253,7 @@
             </span>
           </a>
   
-          <h3>Contrata nuestros servicios</h3>
+          <h3>Contrate nuestros servicios</h3>
           <a target="_blank" href="https://api.whatsapp.com/send?phone=573157582405&text=¡Hola!%20Quiero%20recibir%20asesoría%20sobre%20los%20servicios%20que%20ofrece Grupo%20Alianza.%20Vi%20el%20número%20en%20la%20página%20web">
             <span>
               <!-- <img src="images/icon-whatsapp-collapse-contacto-agil-web.webp" alt="icon-whatsapp-collapse-contacto-agil-web"> -->
@@ -554,7 +554,7 @@
   
                   <div class="content-footer-02">
                     <div class="row">
-                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                      <div class="col-sm-12 col-md-6 col-lg-7 col-xl-7 sin-padding-right-responsive-web">
                         <p class="tx-head-footer">Nuestros servicios</p>
                         <p class="tx-body-footer">
                           <a href="reclutamiento-seleccion-personal.html">
@@ -580,7 +580,7 @@
                         </p>
                       </div>
   
-                      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                      <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5 sin-padding-right-responsive-web">
                         <p class="tx-head-footer">Portal empresas</p>
                         <!-- <p class="tx-body-footer">
                           <a target="_blank" href="http://validar.grupo-alianza.com:86/">
@@ -611,7 +611,7 @@
                 <div class="borde-deco-img-web"></div>
               </div>
               <div class="col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
-                <img src="images/vigilado-min-trabajo.webp" alt="vigilado-min-trabajo" class="d-block img-fluid mx-auto">
+                <img src="images/vigilado-min-trabajo.webp" alt="vigilado-ministerio-trabajo-psicoalianza" class="d-block img-fluid mx-auto">
               </div>
               <div class="col-3 col-sm-4 col-md-5 col-lg-5 col-xl-5 sin-padding-responsive">
                 <div class="borde-deco-img-web"></div>
@@ -621,7 +621,10 @@
                 <div class="content-footer-03">
                   <p class="d-none d-sm-none d-md-block">Todos los derechos reservados © Grupo Alianza</p>
                   <p>
-                    <a href="politica-privacidad.html">
+                    <a class="d-block d-sm-block d-md-none" href="#" data-toggle="modal" data-target="#modalPoliticaPrivacidad">
+                      Política de uso de datos y privacidad
+                    </a>
+                    <a class="d-none d-sm-none d-md-block" href="politica-privacidad.html">
                       Política de uso de datos y privacidad
                     </a>
                   </p>
@@ -636,11 +639,64 @@
 
 
 
+    <!-- MODAL TERMINOS Y CONDICIONES -->
+    <div class="politica-privacidad modal fade" id="modalPoliticaPrivacidad" tabindex="-1" aria-labelledby="modalPoliticaPrivacidad" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <p class="close-modal">
+              <a data-dismiss="modal" aria-label="Close">
+                <span><i class="icon-Cerrar"></i></span>
+              </a>
+            </p>
+
+            <div class="margenes-modal-terminos">
+              <div id="iframeTerminos" class="iframe-modal-condiciones"></div>
+            </div>
+  
+            <!-- <a type="button" id="aceptar_terminos_popUp" class="btn-modal-terminos">Continuar</a> -->
+            <!-- <a id="aceptar_terminos_popUp_web" href="#" class="btn-modal-terminos mx-auto">Continuar</a> -->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- Bootstrap JS -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js" ></script>
+
+    <script>
+      function loadXMLDoc() {
+
+        let importIframe =  document.getElementById("iframeTerminos");
+
+        let request = new XMLHttpRequest();
+        request.open("GET", "politica-privacidad.html", true);
+        request.responseType = "document";
+        request.send(null);
+        request.onreadystatechange = function() {
+          if (request.readyState == 4) {
+            let doc = request.response;
+            let elem = doc.getElementById("importHTML").innerHTML;
+            // alert(elem.innerHTML);
+
+            let importHTML = elem
+
+            importIframe.innerHTML = importHTML
+
+          }
+        }
+      }
+
+      loadXMLDoc()
+      
+    </script>
 
     <!-- Scripts -->
     <script src="js/scripts-globales.js" ></script>

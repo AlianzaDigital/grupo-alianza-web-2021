@@ -32,6 +32,7 @@
   text-align: justify;
   @media screen and (max-width: $window-size-03) {
     font-size: $tx-size-08 + .1;
+    // line-height: 1.25;
   }
 }
 

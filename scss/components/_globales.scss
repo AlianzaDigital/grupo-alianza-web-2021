@@ -103,6 +103,14 @@ a:hover{
     padding-right: 0px;
   }
 }
+.sin-padding-responsive-web{
+  padding-left: 0px;
+    padding-right: 0px;
+  @media screen and (max-width: $window-size-03) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .sin-padding-left{
   padding-left: 0px;
@@ -113,6 +121,12 @@ a:hover{
     padding-left: 0px;
   }
 }
+.sin-padding-left-responsive-web{
+  padding-left: 0px;
+  @media screen and (max-width: $window-size-03) {
+    padding-left: 15px;
+  }
+}
 
 .sin-padding-right{
   padding-right: 0px;
@@ -120,6 +134,12 @@ a:hover{
 .sin-padding-right-responsive{
   @media screen and (max-width: $window-size-03) {
     padding-right: 0px;
+  }
+}
+.sin-padding-right-responsive-web{
+  padding-right: 0px;
+  @media screen and (max-width: $window-size-03) {
+    padding-right: 15px;
   }
 }
 
