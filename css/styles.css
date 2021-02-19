@@ -2425,21 +2425,10 @@ span .contacto-agil.icon-Cerrar::before {
   color: #000;
   font-size: 2rem;
   text-align: left;
-  margin: 0rem 0rem 1.7rem 0rem;
+  margin: 0rem 0rem 5.5rem 0rem;
   line-height: 1.25;
 }
 .content-index-xs-05-01 p:nth-of-type(1) span {
-  font-family: "Century-Gothic-Bold";
-}
-.content-index-xs-05-01 p:nth-of-type(2) {
-  font-family: "Century-Gothic-Regular";
-  color: #000;
-  font-size: 2rem;
-  text-align: left;
-  margin: 0rem 0rem 6rem 0rem;
-  line-height: 1.25;
-}
-.content-index-xs-05-01 p:nth-of-type(2) span {
   font-family: "Century-Gothic-Bold";
 }
 .content-index-xs-05-01 img:nth-of-type(1) {
