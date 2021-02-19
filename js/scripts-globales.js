@@ -339,13 +339,13 @@ $( '.click-info-xs-05' ).click(function() {
 })
 
 $( '.click-info-xs-06' ).click(function() {
-  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de batería de pruebas psicotécnicas online</p></div>' );
+  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Aplicación de Batería de Pruebas Psicotécnicas Online</p></div>' );
   $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Con nuestra plataforma de evaluación de talento humano obtendremos resultados precisos en: </p><p><span><i class="icon-Flecha-derecha"></i></span>Valores e Integridad.</p><p><span><i class="icon-Flecha-derecha"></i></span>Inteligencia.</p><p><span><i class="icon-Flecha-derecha"></i></span>Potencial Comercial.</p><p><span><i class="icon-Flecha-derecha"></i></span>Velocidad y Precisión al Digitar.</p></div>' );
 })
 
 $( '.click-info-xs-07' ).click(function() {
   $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Entrevista Semiestructurada</p></div>' );
-  $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Entrevistamos a sus candidatos con preguntas resultado de las pruebas psicométricas y el análisis de nuestros profesionales experimentados.</p></div>' );
+  $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Entrevistamos a sus candidatos con preguntas resultado de las pruebas psicotécnicas y el análisis de nuestros profesionales experimentados.</p></div>' );
 })
 
 $( '.click-info-xs-08' ).click(function() {
