@@ -96,23 +96,24 @@
     background-position: center bottom;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height:1200px;
+    height:1170px;
     justify-content: flex-end;
+    margin:8.4rem 0rem 0rem 0rem;
   }
   @media screen and (max-width: $window-size-05) {
     padding: 7rem 0rem 15rem 0rem;
     background-size: 575px auto;
-    height: 945px;
+    height: 920px;
   }
   @media screen and (max-width: $window-size-05-a) {
     padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 790px;
+    height: 770px;
   }
   @media screen and (max-width: $window-size-05-b) {
     padding: 7rem 0rem 11rem 0rem;
     background-size: 380px auto;
-    height: 620px;
+    height: 590px;
   }
 }
 
@@ -235,23 +236,24 @@
     background-position: center bottom;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height:1250px;
+    height:1220px;
     justify-content: flex-end;
+    margin:8.4rem 0rem 0rem 0rem;
   }
   @media screen and (max-width: $window-size-05) {
     padding: 7rem 0rem 15rem 0rem;
     background-size: 575px auto;
-    height: 995px;
+    height: 965px;
   }
   @media screen and (max-width: $window-size-05-a) {
     padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 830px;
+    height: 800px;
   }
   @media screen and (max-width: $window-size-05-b) {
     padding: 7rem 0rem 11rem 0rem;
     background-size: 380px auto;
-    height: 670px;
+    height: 640px;
   }
 }
 
@@ -376,24 +378,25 @@
     background-repeat: no-repeat;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height:1250px;
+    height:1220px;
     justify-content: flex-end;
     background-position: center top;
+    margin:8.4rem 0rem 0rem 0rem;
   }
   @media screen and (max-width: $window-size-05) {
-    padding: 7rem 0rem 25rem 0rem;
+    padding: 7rem 0rem 15rem 0rem;
     background-position: center bottom;
     background-size: 575px auto;
-    height: 1100px;
+    height: 1070px;
   }
   @media screen and (max-width: $window-size-05-a) {
-    padding: 7rem 0rem 20rem 0rem;
+    padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 950px;
+    height: 920px;
   }
   @media screen and (max-width: $window-size-05-b) {
-    padding: 7rem 0rem 13rem 0rem;
+    padding: 7rem 0rem 11rem 0rem;
     background-size: 380px auto;
-    height: 800px;
+    height: 770px;
   }
 }

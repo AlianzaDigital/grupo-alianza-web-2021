@@ -16,7 +16,7 @@ footer{
   //   background-size: 100% 100%;
   // }
   @media screen and (max-width: $window-size-02) {
-    padding: 10rem 0rem 10rem 0rem;
+    padding: 9.5rem 0rem 10rem 0rem;
     background: $negro;
   }
 }
@@ -59,36 +59,50 @@ footer.footer-mensaje-enviado{
 .margen-footer-img{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 0rem 1rem;
+  margin: 6rem 1rem 0rem 1rem;
   height: 100%;
   // text-align: right;
   @media screen and (max-width: 1920px) {
     align-items: flex-end;
   }
   @media screen and (max-width: $window-size-02) {
+    margin: 0rem 1rem 0rem 1rem;
+    justify-content: center;
     align-items: center;
+  }
+  @media screen and (max-width: $window-size-04) {
+    justify-content: flex-start;
+    height: auto;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin: 0rem 1rem 8rem 1rem;
   }
 }
 .logo-footer{
   width: 245px;
-  @media screen and (max-width: $window-size-04) {
-    margin: 0rem 0rem 15rem 0rem;
-  }
+  // @media screen and (max-width: $window-size-04) {
+  //   margin: 0rem 0rem 15rem 0rem;
+  // }
   @media screen and (max-width: $window-size-05) {
     width: 100%;
   }
 }
 .btn-icono-linked-in{
   text-align: right;
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 4rem 0rem 0rem 0rem;
   a{
     color: $blanco;
-    font-size: $tx-size-04;
+    font-size: $tx-size-04 + .1;
     // margin-right: 4.7rem;
     &:hover{
       color: $color02;
+    }
+    @media screen and (max-width: $window-size-04) {
+      margin: 4rem 0rem 0rem 0rem;
+      font-size: $tx-size-03 + .2;
     }
   }
 }
