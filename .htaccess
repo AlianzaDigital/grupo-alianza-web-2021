@@ -1,4 +1,4 @@
-Redirect https://grupo-alianza.com/ https://grupo-alianza.com/site/index.html
+# Redirect https://grupo-alianza.com/ https://grupo-alianza.com/site/index.html
 
 ErrorDocument 404 https://grupo-alianza.com/site/error-404.html
 
