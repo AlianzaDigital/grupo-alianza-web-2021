@@ -1642,6 +1642,7 @@ span .contacto-agil.icon-Cerrar::before {
     padding: 7rem 0rem 17rem 0rem;
     background-size: 1000px auto;
     height: 490px;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1653,7 +1654,7 @@ span .contacto-agil.icon-Cerrar::before {
     background-size: 768px auto;
     height: 1170px;
     justify-content: flex-end;
-    margin: 8.4rem 0rem 0rem 0rem;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1816,6 +1817,7 @@ span .contacto-agil.icon-Cerrar::before {
     padding: 7rem 0rem 17rem 0rem;
     background-size: 1330px auto;
     height: 650px;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1827,7 +1829,7 @@ span .contacto-agil.icon-Cerrar::before {
     background-size: 768px auto;
     height: 1220px;
     justify-content: flex-end;
-    margin: 8.4rem 0rem 0rem 0rem;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1995,6 +1997,7 @@ span .contacto-agil.icon-Cerrar::before {
     padding: 7rem 0rem 17rem 0rem;
     background-size: 1750px auto;
     height: 850px;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -2006,7 +2009,7 @@ span .contacto-agil.icon-Cerrar::before {
     height: 1220px;
     justify-content: flex-end;
     background-position: center top;
-    margin: 8.4rem 0rem 0rem 0rem;
+    margin: 8.3rem 0rem 0rem 0rem;
   }
 }
 @media screen and (max-width: 575px) {
