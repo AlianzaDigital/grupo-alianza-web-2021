@@ -1,7 +1,7 @@
 /* MENU PRINCIPAL */
 .head-nav-web{
   background: $gradient01;
-  padding: 1.3rem 0rem;
+  padding: 1.5rem 0rem;
   border-bottom: .2rem solid transparent;
   border-image-source: $gradient02; 
   border-image-slice: 1;
@@ -28,7 +28,7 @@
     overflow-y: scroll;
   }
   li{
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid $gris01;
     a{
       position: relative;
@@ -36,7 +36,7 @@
       color:$blanco;
       width: 100%;
       // border-top: 1px solid $gris01;
-      padding: 2.4rem 1.5rem 2.4rem 1.5rem;
+      padding: 2.4rem 1.5rem 2.4rem 4.5rem;
       font-size: $tx-size-07 + .2;
       span i{
         margin-left: 1.4rem;
@@ -56,8 +56,17 @@
     a.ultimo{
       font-family: $Century-Bold;
     }
-    a.active{
+    .portal-empresas-xs.active{
+      font-family: $Century-Bold;
       background: $gradient04;
+    }
+    .soluciones-empresariales-xs.active{
+      font-family: $Century-Bold;
+      background: $gradient04;
+    }
+    .portal-trabajadores-xs.active{
+      font-family: $Century-Bold;
+      background: $color04;
     }
   }
   li:nth-of-type(1){
@@ -84,6 +93,7 @@
       border: none;
       a{
         font-size: $tx-size-07;
+        padding-left: 7rem;
       }
     }
     li:nth-of-type(2){
@@ -94,10 +104,117 @@
 
 .btn-menu-ga.navbar-toggler{
   padding: .5rem .3rem;
-  margin: .6rem 4rem .6rem 0rem;
+  margin: 1rem 4rem 1rem 0rem;
 }
 
+.btn-ofertas-laborales-xs{
+  display: block;
+  background: $color04;
+  color:$blanco;
+  text-align: center;
+  padding: .35rem 1rem .35rem 1rem;
+  font-family: $Century-Bold;
+  font-size: $tx-size-07;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  span i{
+    margin-right: 1.5rem;
+    font-size: $tx-size-06;
+  }
+  &:focus{
+    text-decoration: none;
+    color: $blanco;
+  }
+  &:hover{
+    text-decoration: none;
+    color: $blanco;
+  }
+}
+
+
 /* WEB */
+.content-desplegables-menu-web{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.logo-ga{
+  width: 240px;
+  @media screen and (max-width: $window-size-03) {
+    width: 135px;
+    margin: 0rem 0rem 0rem 4rem;
+  }
+}
+#navbarNavCollapseMain{
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+  @media screen and (max-width: $window-size-03) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main-nav-web.navbar-expand-lg{
+  padding: 0;
+}
+.main-nav-web.navbar-nav{
+  list-style: none;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: flex-end;
+  margin: 0;
+  li{
+    a{
+      display: inline-block;
+      color:$blanco;
+      span .icon-Flecha-abajo::before{
+        font-size: $tx-size-09;
+      }
+      span .icon-Flecha-arriba::before{
+        font-size: $tx-size-08;
+      }
+    }
+  } 
+  .portal-empresas.active{
+    color: $color02;
+    border: .05rem solid $color02;
+  }
+  .portal-empresas{
+    display: inline-block;
+    border: .05rem solid $color02;
+    border-radius: .5rem;
+    color: $blanco;
+    padding: .5rem 2rem;
+    margin-right: 2rem;
+    &:hover{
+      color: $color02;
+      border: .05rem solid $color02;
+    } 
+  }
+  .soluciones{
+    // margin-right:5rem;
+    span i{
+      margin-left: 1.4rem;
+      font-size: $tx-size-08;
+    }
+    .nav-link{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: .55rem 2rem;
+      &:hover{
+        color: $color02;
+      } 
+    }
+    a.active{
+      color: $color02;
+    }
+  } 
+
+}
+
 .buttons-head-nav-web{
   list-style: none;
   display: flex;
@@ -106,35 +223,43 @@
   margin: 0;
 }
 .buttons-head-nav-web li:nth-of-type(1){
-  margin-right: 6rem;
+  margin-right: 4rem;
 }
 
-// .buttons-head-nav-web > li a{
 .buttons-head-nav-web > li:nth-of-type(1) a{
   display: inline-block;
-  border: .05rem solid $blanco;
+  border: .05rem solid $color04;
   border-radius: .5rem;
   color: $blanco;
   padding: .5rem 2.5rem;
   &:hover{
-    color: $color01;
-    border: .05rem solid $color01;
+    color: $color05;
+    border: .05rem solid $color05;
   } 
 }
-.buttons-head-nav-web > li:nth-of-type(2) a{
-  display: inline-block;
-  border: .05rem solid $blanco;
-  border-radius: .5rem;
-  color: $blanco;
-  padding: .5rem .7rem;
-  &:hover{
-    color: $color01;
-    border: .05rem solid $color01;
-  } 
-}
+.buttons-head-nav-web > .ofertas-laborales{
+  span i{
+    margin-left: 1rem;
+    font-size: $tx-size-06;
+  }
+  a{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: $blanco;
+    background: $color04;
+    border-radius: .5rem;
+    padding: .55rem 1.9rem;
+    &:hover{
+      background: $color05;
+      color: $blanco;
+    } 
+  }
+} 
+
 .buttons-head-nav-web > li a.active{
-  color: $color01;
-  border: .05rem solid $color01;
+  color: $color05;
+  border: .05rem solid $color05;
 }
 
 .bg-main-nav{
@@ -158,7 +283,7 @@
   @media screen and (max-width: $window-size-03) {
     background: $gradient03;
     // padding: 2.4rem 0rem 0rem 0rem ;
-    padding: 1.2rem 0rem 0rem 0rem ;
+    padding: .6rem 0rem .6rem 0rem ;
     border: none;
   }
 }
@@ -167,95 +292,6 @@
   width: 100%;
   z-index: 1400;
 }
-.btn-ofertas-laborales-xs{
-  display: block;
-  background: $gris11;
-  color:$blanco;
-  text-align: center;
-  padding: .35rem 1rem .35rem 1rem;
-  font-family: $Century-Bold;
-  font-size: $tx-size-07;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  span i{
-    margin-right: 1.5rem;
-    font-size: $tx-size-06;
-  }
-  &:focus{
-    text-decoration: none;
-    color: $blanco;
-  }
-  &:hover{
-    text-decoration: none;
-    color: $blanco;
-  }
-}
-
-.logo-ga{
-  width: 213px;
-  @media screen and (max-width: $window-size-03) {
-    width: 135px;
-    margin: 0rem 0rem .7rem 2.5rem;
-  }
-}
-#navbarNavCollapseMain{
-  padding: 0;
-  justify-content: flex-end;
-  align-items: center;
-  @media screen and (max-width: $window-size-03) {
-    justify-content: center;
-    align-items: center;
-  }
-}
-.main-nav-web.navbar-expand-lg{
-  padding: 0;
-}
-.main-nav-web.navbar-nav{
-  margin: 0;
-  li{
-    a{
-      display: inline-block;
-      color:$blanco;
-      span .icon-Flecha-abajo::before{
-        font-size: $tx-size-09;
-      }
-      span .icon-Flecha-arriba::before{
-        font-size: $tx-size-08;
-      }
-    }
-  } 
-  .soluciones{
-    margin-right:5rem;
-    span i{
-      margin-left: 1.4rem;
-      font-size: $tx-size-08;
-    }
-    .nav-link{
-      padding: .55rem 0rem;
-      &:hover{
-        color: $color01;
-      } 
-    }
-    a.active{
-      color: $color01;
-    }
-  } 
-  .ofertas-laborales{
-    span i{
-      margin-left: 1rem;
-      font-size: $tx-size-06;
-    }
-    a{
-      background: $gradient04;
-      border-radius: .5rem;
-      padding: .55rem 1.9rem;
-      &:hover{
-        background: $color01;
-        color: $blanco;
-      } 
-    }
-  } 
-}
-
 .nav-web.collapse.active{
   z-index: 1000;
 }
@@ -273,20 +309,22 @@
 }
 .nav-web .card{
   border: none;
-  border-radius: 0rem;
+  border-radius: 0rem 0rem 2rem 2rem;
 }
 
-.head.nav-web.collapse.variation-position{
-  position: absolute;
-  right: 1.5rem;
-}
-.head.nav-web.collapsing.variation-position{
-  position: absolute;
-  right: 1.5rem;
-}
+// .head.nav-web.collapse.variation-position{
+  // position: absolute;
+  // right: 1.5rem;
+// }
+// .head.nav-web.collapsing.variation-position{
+  // position: absolute;
+  // right: 1.5rem;
+// }
 .head.nav-web .card-body{
+  display: block;
   background: $negro;
-  padding: 2.2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  // border-radius: 0rem 0rem 2rem 2rem;
   ul{
     margin:0;
     padding:0;
@@ -296,26 +334,28 @@
       color: $blanco;
       font-family: $Century-Regular;
       font-size: $tx-size-07;
-      border-bottom: 0.1rem solid $color02;
-      padding: 0 0 1.5rem 0;
     }
     li a{
       display: block;
       border: none;
-      border-radius: none;
+      border-radius: 0px;
+      border-bottom: 0.1rem solid $color05;
       // border-bottom: 0.1rem solid $color02;
-      padding: 2rem 0 0rem 0 !important;
+      padding: 0 0 1rem 0;
       &:hover{
+        border-bottom: 0.1rem solid $color04;
         font-family: $Century-Bold;
-        color: $color01;
+        color: $color05;
       }
     }
   }
 }
 
-.nav-web .card-body{
+.nav-web.empresa .card-body{
+  display: block;
   background: $negro;
-  padding: 2.2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  // border-radius: 0rem 0rem 0rem 0rem;
   ul{
     margin:0;
     padding:0;
@@ -327,15 +367,28 @@
       // font-size: $tx-size-07;
       // border-bottom: 0.1rem solid $color02;
     }
-    li a{
+    li:nth-of-type(1) a{
       display: block;
       border: none;
-      border-radius: none;
+      border-radius: 0px;
       border-bottom: 0.1rem solid $color02;
-      padding: 0 0 1.5rem 0;
+      padding: 0 0 1rem 0;
       &:hover{
+        border-bottom: 0.1rem solid $color02;
         font-family: $Century-Bold;
-        color: $color01;
+        color: $color02;
+      }
+    }
+    li:nth-of-type(2) a{
+      display: block;
+      border: none;
+      border-radius: 0px;
+      // border-bottom: 0.1rem solid $color02;
+      padding: 1rem 0 0rem 0;
+      &:hover{
+        // border-bottom: 0.1rem solid $color02;
+        font-family: $Century-Bold;
+        color: $color02;
       }
     }
     // li a.active{

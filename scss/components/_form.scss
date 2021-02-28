@@ -205,9 +205,9 @@ label{
 .checkbox{
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-start;
   #checkbox-web{
-    margin: .5rem 0rem 0rem 0rem;
+    margin: .25rem 0rem 0rem 0rem;
   }
   p:nth-of-type(1){
     color: $negro;

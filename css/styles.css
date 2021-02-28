@@ -687,7 +687,7 @@ a:hover {
 }
 
 .btn-volver-web-02 {
-  margin: 0rem 2.5rem 1rem 0rem;
+  margin: 1rem 2.5rem 1rem 0rem;
 }
 .btn-volver-web-02 a {
   color: #FFF;
@@ -734,7 +734,7 @@ a:hover {
 /* MENU PRINCIPAL */
 .head-nav-web {
   background: linear-gradient(270deg, #0F0F0F 0%, #171717 49.48%, #000000 100%);
-  padding: 1.3rem 0rem;
+  padding: 1.5rem 0rem;
   border-bottom: 0.2rem solid transparent;
   border-image-source: linear-gradient(-270deg, rgba(108, 211, 60, 0) 0%, rgba(108, 211, 60, 0) 30%, #6cd33c 100%);
   border-image-slice: 1;
@@ -763,7 +763,7 @@ a:hover {
   }
 }
 .main-nav-xs.navbar-nav li {
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid rgba(189, 189, 189, 0.1);
 }
 .main-nav-xs.navbar-nav li a {
@@ -771,7 +771,7 @@ a:hover {
   display: inline-block;
   color: #FFF;
   width: 100%;
-  padding: 2.4rem 1.5rem 2.4rem 1.5rem;
+  padding: 2.4rem 1.5rem 2.4rem 4.5rem;
   font-size: 1.8rem;
 }
 .main-nav-xs.navbar-nav li a span i {
@@ -791,8 +791,17 @@ a:hover {
 .main-nav-xs.navbar-nav li a.ultimo {
   font-family: "Century-Gothic-Bold";
 }
-.main-nav-xs.navbar-nav li a.active {
+.main-nav-xs.navbar-nav li .portal-empresas-xs.active {
+  font-family: "Century-Gothic-Bold";
   background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+}
+.main-nav-xs.navbar-nav li .soluciones-empresariales-xs.active {
+  font-family: "Century-Gothic-Bold";
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+}
+.main-nav-xs.navbar-nav li .portal-trabajadores-xs.active {
+  font-family: "Century-Gothic-Bold";
+  background: #FFB731;
 }
 .main-nav-xs.navbar-nav li:nth-of-type(1) {
   border-top: 1px solid rgba(245, 245, 245, 0.2);
@@ -822,6 +831,7 @@ a:hover {
 }
 .nav-xs.card-body ul li a {
   font-size: 1.6rem;
+  padding-left: 7rem;
 }
 .nav-xs.card-body ul li:nth-of-type(2) {
   border-top: 1px solid rgba(189, 189, 189, 0.1);
@@ -829,10 +839,114 @@ a:hover {
 
 .btn-menu-ga.navbar-toggler {
   padding: 0.5rem 0.3rem;
-  margin: 0.6rem 4rem 0.6rem 0rem;
+  margin: 1rem 4rem 1rem 0rem;
+}
+
+.btn-ofertas-laborales-xs {
+  display: block;
+  background: #FFB731;
+  color: #FFF;
+  text-align: center;
+  padding: 0.35rem 1rem 0.35rem 1rem;
+  font-family: "Century-Gothic-Bold";
+  font-size: 1.6rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-ofertas-laborales-xs span i {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+}
+.btn-ofertas-laborales-xs:focus {
+  text-decoration: none;
+  color: #FFF;
+}
+.btn-ofertas-laborales-xs:hover {
+  text-decoration: none;
+  color: #FFF;
 }
 
 /* WEB */
+.content-desplegables-menu-web {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.logo-ga {
+  width: 240px;
+}
+@media screen and (max-width: 991px) {
+  .logo-ga {
+    width: 135px;
+    margin: 0rem 0rem 0rem 4rem;
+  }
+}
+
+#navbarNavCollapseMain {
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  #navbarNavCollapseMain {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main-nav-web.navbar-expand-lg {
+  padding: 0;
+}
+
+.main-nav-web.navbar-nav {
+  list-style: none;
+  margin: 0;
+}
+.main-nav-web.navbar-nav li a {
+  display: inline-block;
+  color: #FFF;
+}
+.main-nav-web.navbar-nav li a span .icon-Flecha-abajo::before {
+  font-size: 1.1rem;
+}
+.main-nav-web.navbar-nav li a span .icon-Flecha-arriba::before {
+  font-size: 1.3rem;
+}
+.main-nav-web.navbar-nav .portal-empresas.active {
+  color: #6CD33C;
+  border: 0.05rem solid #6CD33C;
+}
+.main-nav-web.navbar-nav .portal-empresas {
+  display: inline-block;
+  border: 0.05rem solid #6CD33C;
+  border-radius: 0.5rem;
+  color: #FFF;
+  padding: 0.5rem 2rem;
+  margin-right: 2rem;
+}
+.main-nav-web.navbar-nav .portal-empresas:hover {
+  color: #6CD33C;
+  border: 0.05rem solid #6CD33C;
+}
+.main-nav-web.navbar-nav .soluciones span i {
+  margin-left: 1.4rem;
+  font-size: 1.3rem;
+}
+.main-nav-web.navbar-nav .soluciones .nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.55rem 2rem;
+}
+.main-nav-web.navbar-nav .soluciones .nav-link:hover {
+  color: #6CD33C;
+}
+.main-nav-web.navbar-nav .soluciones a.active {
+  color: #6CD33C;
+}
+
 .buttons-head-nav-web {
   list-style: none;
   display: flex;
@@ -842,36 +956,42 @@ a:hover {
 }
 
 .buttons-head-nav-web li:nth-of-type(1) {
-  margin-right: 6rem;
+  margin-right: 4rem;
 }
 
 .buttons-head-nav-web > li:nth-of-type(1) a {
   display: inline-block;
-  border: 0.05rem solid #FFF;
+  border: 0.05rem solid #FFB731;
   border-radius: 0.5rem;
   color: #FFF;
   padding: 0.5rem 2.5rem;
 }
 .buttons-head-nav-web > li:nth-of-type(1) a:hover {
-  color: #2F974E;
-  border: 0.05rem solid #2F974E;
+  color: #FF9B29;
+  border: 0.05rem solid #FF9B29;
 }
 
-.buttons-head-nav-web > li:nth-of-type(2) a {
-  display: inline-block;
-  border: 0.05rem solid #FFF;
-  border-radius: 0.5rem;
-  color: #FFF;
-  padding: 0.5rem 0.7rem;
+.buttons-head-nav-web > .ofertas-laborales span i {
+  margin-left: 1rem;
+  font-size: 2rem;
 }
-.buttons-head-nav-web > li:nth-of-type(2) a:hover {
-  color: #2F974E;
-  border: 0.05rem solid #2F974E;
+.buttons-head-nav-web > .ofertas-laborales a {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  color: #FFF;
+  background: #FFB731;
+  border-radius: 0.5rem;
+  padding: 0.55rem 1.9rem;
+}
+.buttons-head-nav-web > .ofertas-laborales a:hover {
+  background: #FF9B29;
+  color: #FFF;
 }
 
 .buttons-head-nav-web > li a.active {
-  color: #2F974E;
-  border: 0.05rem solid #2F974E;
+  color: #FF9B29;
+  border: 0.05rem solid #FF9B29;
 }
 
 .bg-main-nav {
@@ -898,7 +1018,7 @@ a:hover {
 @media screen and (max-width: 991px) {
   .bg-main-nav.variation {
     background: linear-gradient(97.48deg, #000000 0.21%, #414141 114.41%);
-    padding: 1.2rem 0rem 0rem 0rem;
+    padding: 0.6rem 0rem 0.6rem 0rem;
     border: none;
   }
 }
@@ -907,98 +1027,6 @@ a:hover {
   position: fixed;
   width: 100%;
   z-index: 1400;
-}
-
-.btn-ofertas-laborales-xs {
-  display: block;
-  background: #666666;
-  color: #FFF;
-  text-align: center;
-  padding: 0.35rem 1rem 0.35rem 1rem;
-  font-family: "Century-Gothic-Bold";
-  font-size: 1.6rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.btn-ofertas-laborales-xs span i {
-  margin-right: 1.5rem;
-  font-size: 2rem;
-}
-.btn-ofertas-laborales-xs:focus {
-  text-decoration: none;
-  color: #FFF;
-}
-.btn-ofertas-laborales-xs:hover {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.logo-ga {
-  width: 213px;
-}
-@media screen and (max-width: 991px) {
-  .logo-ga {
-    width: 135px;
-    margin: 0rem 0rem 0.7rem 2.5rem;
-  }
-}
-
-#navbarNavCollapseMain {
-  padding: 0;
-  justify-content: flex-end;
-  align-items: center;
-}
-@media screen and (max-width: 991px) {
-  #navbarNavCollapseMain {
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-.main-nav-web.navbar-expand-lg {
-  padding: 0;
-}
-
-.main-nav-web.navbar-nav {
-  margin: 0;
-}
-.main-nav-web.navbar-nav li a {
-  display: inline-block;
-  color: #FFF;
-}
-.main-nav-web.navbar-nav li a span .icon-Flecha-abajo::before {
-  font-size: 1.1rem;
-}
-.main-nav-web.navbar-nav li a span .icon-Flecha-arriba::before {
-  font-size: 1.3rem;
-}
-.main-nav-web.navbar-nav .soluciones {
-  margin-right: 5rem;
-}
-.main-nav-web.navbar-nav .soluciones span i {
-  margin-left: 1.4rem;
-  font-size: 1.3rem;
-}
-.main-nav-web.navbar-nav .soluciones .nav-link {
-  padding: 0.55rem 0rem;
-}
-.main-nav-web.navbar-nav .soluciones .nav-link:hover {
-  color: #2F974E;
-}
-.main-nav-web.navbar-nav .soluciones a.active {
-  color: #2F974E;
-}
-.main-nav-web.navbar-nav .ofertas-laborales span i {
-  margin-left: 1rem;
-  font-size: 2rem;
-}
-.main-nav-web.navbar-nav .ofertas-laborales a {
-  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
-  border-radius: 0.5rem;
-  padding: 0.55rem 1.9rem;
-}
-.main-nav-web.navbar-nav .ofertas-laborales a:hover {
-  background: #2F974E;
-  color: #FFF;
 }
 
 .nav-web.collapse.active {
@@ -1022,22 +1050,13 @@ a:hover {
 
 .nav-web .card {
   border: none;
-  border-radius: 0rem;
-}
-
-.head.nav-web.collapse.variation-position {
-  position: absolute;
-  right: 1.5rem;
-}
-
-.head.nav-web.collapsing.variation-position {
-  position: absolute;
-  right: 1.5rem;
+  border-radius: 0rem 0rem 2rem 2rem;
 }
 
 .head.nav-web .card-body {
+  display: block;
   background: #000;
-  padding: 2.2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 .head.nav-web .card-body ul {
   margin: 0;
@@ -1049,44 +1068,56 @@ a:hover {
   color: #FFF;
   font-family: "Century-Gothic-Regular";
   font-size: 1.6rem;
-  border-bottom: 0.1rem solid #6CD33C;
-  padding: 0 0 1.5rem 0;
 }
 .head.nav-web .card-body ul li a {
   display: block;
   border: none;
-  border-radius: none;
-  padding: 2rem 0 0rem 0 !important;
+  border-radius: 0px;
+  border-bottom: 0.1rem solid #FF9B29;
+  padding: 0 0 1rem 0;
 }
 .head.nav-web .card-body ul li a:hover {
+  border-bottom: 0.1rem solid #FFB731;
   font-family: "Century-Gothic-Bold";
-  color: #2F974E;
+  color: #FF9B29;
 }
 
-.nav-web .card-body {
+.nav-web.empresa .card-body {
+  display: block;
   background: #000;
-  padding: 2.2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
-.nav-web .card-body ul {
+.nav-web.empresa .card-body ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.nav-web .card-body ul li {
+.nav-web.empresa .card-body ul li {
   width: 100%;
 }
-.nav-web .card-body ul li a {
+.nav-web.empresa .card-body ul li:nth-of-type(1) a {
   display: block;
   border: none;
-  border-radius: none;
+  border-radius: 0px;
   border-bottom: 0.1rem solid #6CD33C;
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 1rem 0;
 }
-.nav-web .card-body ul li a:hover {
+.nav-web.empresa .card-body ul li:nth-of-type(1) a:hover {
+  border-bottom: 0.1rem solid #6CD33C;
   font-family: "Century-Gothic-Bold";
-  color: #2F974E;
+  color: #6CD33C;
 }
-.nav-web .card-body ul :nth-of-type(2) a {
+.nav-web.empresa .card-body ul li:nth-of-type(2) a {
+  display: block;
+  border: none;
+  border-radius: 0px;
+  padding: 1rem 0 0rem 0;
+}
+.nav-web.empresa .card-body ul li:nth-of-type(2) a:hover {
+  font-family: "Century-Gothic-Bold";
+  color: #6CD33C;
+}
+.nav-web.empresa .card-body ul :nth-of-type(2) a {
   padding: 2rem 0 1.5rem 0;
 }
 
@@ -1421,7 +1452,7 @@ a:hover {
 .navbar-toggler.menu_xs {
   position: relative;
   display: block;
-  padding: 1.8rem 1.5rem;
+  padding: 1.05rem 1rem;
   width: 100%;
   border: none;
   border-radius: 0px;
@@ -5331,10 +5362,10 @@ label span {
 .checkbox {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .checkbox #checkbox-web {
-  margin: 0.5rem 0rem 0rem 0rem;
+  margin: 0.25rem 0rem 0rem 0rem;
 }
 .checkbox p:nth-of-type(1) {
   color: #000;
