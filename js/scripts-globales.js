@@ -344,7 +344,7 @@ $( '.click-info-xs-06' ).click(function() {
 })
 
 $( '.click-info-xs-07' ).click(function() {
-  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Entrevista Semiestructurada</p></div>' );
+  $( "#tx-modal-title" ).replaceWith( '<div id="tx-modal-title"><p>Entrevista por Competencias</p></div>' );
   $( "#tx-modal-description" ).replaceWith( '<div id="tx-modal-description"><p>Entrevistamos a sus candidatos con preguntas resultado de las pruebas psicotécnicas y el análisis de nuestros profesionales experimentados.</p></div>' );
 })
 
