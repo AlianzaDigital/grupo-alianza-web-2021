@@ -58,6 +58,12 @@ $(document).ready(function(){
     else if (previousURL.includes('pauta-google-display')) {
       $('#getPreviousURL').attr('value','pauta-google-display')
     }
+    else if (previousURL.includes('google-my-business')) {
+      $('#getPreviousURL').attr('value','google-my-business')
+    }
+    else if (previousURL.includes('mailing')) {
+      $('#getPreviousURL').attr('value','mailing')
+    }
     else{
       $('#getPreviousURL').attr('value','seo-sitio-web')
     }
