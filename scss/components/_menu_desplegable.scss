@@ -81,43 +81,9 @@
     color: $negro;
     font-family: $Century-Regular;
     font-size: $tx-size-06;
-    padding: 2rem 1rem 2.5rem 1rem;
-    margin: 0rem 2.5rem 0rem 2.5rem;
-    border-bottom: 1px solid $color02;
-    display: flex;
-    line-height: 1;
-    &:focus{
-      text-decoration: none;
-      color: $color01;
-      span{
-        .contacto-agil-web.icon-Whatsapp::before{
-          color: $color01;
-        }
-      }
-    }
-    &:hover{
-      text-decoration: none;
-      color: $color01;
-      span{
-        .contacto-agil-web.icon-Whatsapp::before{
-          color: $color01;
-        }
-      }
-    }
-    span{
-      margin: 1rem 1rem 0rem 0rem;
-      .contacto-agil-web.icon-Whatsapp::before{
-        color: $negro;
-        font-size: 2rem;
-      }
-    }
-  }
-  a:nth-child(4){
-    color: $negro;
-    font-family: $Century-Regular;
-    font-size: $tx-size-06;
     padding: 2rem 1rem 2rem 1rem;
     margin: 0rem 2.5rem 0rem 2.5rem;
+    border-bottom: 1px solid $color02;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -143,6 +109,40 @@
     span{
       margin: 0rem 1rem 0rem 0rem;
       .contacto-agil-web.icon-Personal-information::before{
+        color: $negro;
+        font-size: 2rem;
+      }
+    }
+  }
+  a:nth-child(4){
+    color: $negro;
+    font-family: $Century-Regular;
+    font-size: $tx-size-06;
+    padding: 2rem 1rem 2.5rem 1rem;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    display: flex;
+    line-height: 1;
+    &:focus{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Whatsapp::before{
+          color: $color01;
+        }
+      }
+    }
+    &:hover{
+      text-decoration: none;
+      color: $color01;
+      span{
+        .contacto-agil-web.icon-Whatsapp::before{
+          color: $color01;
+        }
+      }
+    }
+    span{
+      margin: 1rem 1rem 0rem 0rem;
+      .contacto-agil-web.icon-Whatsapp::before{
         color: $negro;
         font-size: 2rem;
       }

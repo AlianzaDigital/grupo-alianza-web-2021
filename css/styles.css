@@ -1372,30 +1372,32 @@ a:hover {
   color: #000;
   font-family: "Century-Gothic-Regular";
   font-size: 2rem;
-  padding: 2rem 1rem 2.5rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   margin: 0rem 2.5rem 0rem 2.5rem;
   border-bottom: 1px solid #6CD33C;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   line-height: 1;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(3):focus {
   text-decoration: none;
   color: #2F974E;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(3):focus span .contacto-agil-web.icon-Whatsapp::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(3):focus span .contacto-agil-web.icon-Personal-information::before {
   color: #2F974E;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(3):hover {
   text-decoration: none;
   color: #2F974E;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(3):hover span .contacto-agil-web.icon-Whatsapp::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(3):hover span .contacto-agil-web.icon-Personal-information::before {
   color: #2F974E;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(3) span {
-  margin: 1rem 1rem 0rem 0rem;
+  margin: 0rem 1rem 0rem 0rem;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(3) span .contacto-agil-web.icon-Whatsapp::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(3) span .contacto-agil-web.icon-Personal-information::before {
   color: #000;
   font-size: 2rem;
 }
@@ -1403,31 +1405,29 @@ a:hover {
   color: #000;
   font-family: "Century-Gothic-Regular";
   font-size: 2rem;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 2.5rem 1rem;
   margin: 0rem 2.5rem 0rem 2.5rem;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   line-height: 1;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(4):focus {
   text-decoration: none;
   color: #2F974E;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(4):focus span .contacto-agil-web.icon-Personal-information::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(4):focus span .contacto-agil-web.icon-Whatsapp::before {
   color: #2F974E;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(4):hover {
   text-decoration: none;
   color: #2F974E;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(4):hover span .contacto-agil-web.icon-Personal-information::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(4):hover span .contacto-agil-web.icon-Whatsapp::before {
   color: #2F974E;
 }
 .contacto-agil-ga-fixed .card.card-body a:nth-child(4) span {
-  margin: 0rem 1rem 0rem 0rem;
+  margin: 1rem 1rem 0rem 0rem;
 }
-.contacto-agil-ga-fixed .card.card-body a:nth-child(4) span .contacto-agil-web.icon-Personal-information::before {
+.contacto-agil-ga-fixed .card.card-body a:nth-child(4) span .contacto-agil-web.icon-Whatsapp::before {
   color: #000;
   font-size: 2rem;
 }
