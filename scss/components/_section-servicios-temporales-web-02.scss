@@ -1,6 +1,9 @@
 /* SECTION SERVICIOS TEMPORALES WEB 02 */
 .section-servicios-temporales-web-02{
-  margin:0rem 0rem 9rem 0rem;
+  margin:7rem 0rem 9rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    margin:7rem 0rem 9rem 0rem;
+  }
 }
 .content-servicios-temporales-web-02-01{
   h3:nth-of-type(1){

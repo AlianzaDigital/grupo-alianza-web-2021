@@ -1,52 +1,24 @@
 /* SECTION SERVICIOS TEMPORALES WEB 01 */
 .section-servicios-temporales-web-01{
   padding: 7rem 0rem 0rem 0rem;
-  background: none;
-  @media screen and (max-width: 1920px) {
-    background: url('../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
-  }
-  @media screen and (max-width: $window-size-04) {
-    background: none;
-  }
+  // background: none;
+  // @media screen and (max-width: 1920px) {
+  //   background: url('../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp');
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: 100% auto;
+  // }
+  // @media screen and (max-width: $window-size-04) {
+  //   background: none;
+  // }
 }
 .content-servicios-temporales-web-01-01{
   h2:nth-of-type(1){
     font-family: $Century-Bold;
     color:$color01;
-    font-size: $tx-size-02;
-    margin:0rem 0rem 3rem 0rem;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 2.5rem 0rem;
     text-align: center;
-    span{
-      display: inline-block;
-      border-bottom: 1px solid $color02;
-      width: 22.5%;
-      margin: 0rem 0rem 2.5rem 0rem;
-      @media screen and (max-width: $window-size-01) {
-        width: 15%;
-      }
-      @media screen and (max-width: $window-size-02) {
-        width: 7.5%;
-      }
-      @media screen and (max-width: $window-size-03) {
-        width: 0%;
-      }
-      @media screen and (max-width: $window-size-04) {
-        display: none;
-        margin: 0rem 0rem 0rem 0rem;
-      }
-    }
-    .tx{
-      display: inline-block;
-      width: auto;
-      border-bottom: none;
-    }
-    @media screen and (max-width: $window-size-04) {
-      font-size: $tx-size-05;
-      margin:0rem 0rem 10rem 0rem;
-    }
   }
   p:nth-of-type(1){
     font-family: $Century-Regular;
@@ -68,14 +40,7 @@
       font-family: $Century-Bold;
     }
   }
-  h2:nth-of-type(2){
-    font-family: $Century-Bold;
-    color:$color01;
-    font-size: $tx-size-05;
-    margin:0rem 0rem 2.5rem 0rem;
-    text-align: center;
-  }
   @media screen and (max-width: $window-size-04) {
-    margin:0rem 0rem 8rem 0rem;
+    margin:0rem 0rem 0rem 0rem;
   }
 }

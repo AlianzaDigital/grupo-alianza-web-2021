@@ -30,6 +30,10 @@ a, p, h1, h2, h3, h4, h5, h6 {
   font-size: 1.6rem;
 }
 
+p {
+  line-height: 1.3;
+}
+
 a:focus {
   text-decoration: none;
 }
@@ -114,6 +118,52 @@ a:hover {
 
 .modal-backdrop {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.align-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.componente-flexbox-tx-borde {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .componente-flexbox-tx-borde {
+    margin: 0rem 0rem 10rem 0rem;
+  }
+}
+.componente-flexbox-tx-borde h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.2rem;
+  margin: 0rem 0rem 0rem 0rem;
+  text-align: center;
+  flex: 1 45%;
+}
+@media screen and (max-width: 767px) {
+  .componente-flexbox-tx-borde h2:nth-of-type(1) {
+    font-size: 2.2rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.componente-flexbox-tx-borde .borde-ga {
+  width: 100%;
+  height: 1px;
+  background: #6CD33C;
+  flex: 1;
+}
+
+.vertical-align-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
 }
 
 /*FUENTES*/
@@ -531,6 +581,237 @@ a:hover {
   color: #2F974E;
 }
 
+/* MODAL POLITICA CALIDAD*/
+.politica-calidad .modal-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  height: 90vh;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .politica-calidad .modal-dialog {
+    max-width: 90%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+.politica-calidad .modal-dialog .modal-content {
+  border: none;
+  border-radius: 1.2rem;
+  background: #FFF;
+  padding: 2.5rem 1.5rem 6rem 4rem;
+}
+@media screen and (max-width: 767px) {
+  .politica-calidad .modal-dialog .modal-content {
+    padding: 1.5rem 1rem 4.5rem 2rem;
+    border-radius: 0rem;
+  }
+}
+.politica-calidad .modal-dialog .modal-content .close-modal {
+  margin: 0rem 0rem 4rem 0rem;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .politica-calidad .modal-dialog .modal-content .close-modal {
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.politica-calidad .modal-dialog .modal-content .close-modal a {
+  cursor: pointer;
+  color: #2F974E;
+  font-size: 2.2rem;
+}
+.politica-calidad .modal-dialog .modal-content .close-modal a i {
+  color: #2F974E;
+}
+.politica-calidad .modal-dialog .modal-content .close-modal a:hover i {
+  color: #2F974E;
+}
+.politica-calidad .modal-dialog .modal-body {
+  padding: 0;
+}
+
+.politica-calidad .modal-dialog {
+  max-width: 650px;
+}
+@media screen and (max-width: 1199px) {
+  .politica-calidad .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .politica-calidad .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .politica-calidad .modal-dialog {
+    max-width: 90%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+
+.body-politica-calidad {
+  height: 450px;
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 575px) {
+  .body-politica-calidad {
+    height: 65vh;
+  }
+}
+.content-modal-politica-calidad {
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+.content-modal-politica-calidad h3:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.6rem;
+  margin: 0rem 2.5rem 6rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-modal-politica-calidad h3:nth-of-type(1) {
+    font-size: 2.4rem;
+    margin: 0rem 1rem 3rem 0rem;
+  }
+}
+.content-modal-politica-calidad p:nth-of-type(1) {
+  margin: 0rem 2.5rem 0rem 0rem;
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 1.6rem;
+}
+.content-modal-politica-calidad p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 767px) {
+  .content-modal-politica-calidad p:nth-of-type(1) {
+    font-size: 1.3rem;
+    margin: 0rem 1rem 0rem 0rem;
+  }
+}
+
+/* MODAL PQRS*/
+.modal-pqrs .modal-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .modal-pqrs .modal-dialog {
+    max-width: 90%;
+  }
+}
+.modal-pqrs .modal-dialog .modal-content {
+  border: none;
+  border-radius: 1.2rem;
+  background: #FFF;
+  padding: 2.5rem 1.5rem 6rem 6rem;
+}
+@media screen and (max-width: 767px) {
+  .modal-pqrs .modal-dialog .modal-content {
+    padding: 1.5rem 2rem 2rem 2rem;
+    border-radius: 0rem;
+  }
+}
+.modal-pqrs .modal-dialog .modal-content .close-modal {
+  margin: 0rem 0rem 4rem 0rem;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .modal-pqrs .modal-dialog .modal-content .close-modal {
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.modal-pqrs .modal-dialog .modal-content .close-modal a {
+  cursor: pointer;
+  color: #2F974E;
+  font-size: 2.2rem;
+}
+.modal-pqrs .modal-dialog .modal-content .close-modal a i {
+  color: #2F974E;
+}
+.modal-pqrs .modal-dialog .modal-content .close-modal a:hover i {
+  color: #2F974E;
+}
+.modal-pqrs .modal-dialog .modal-body {
+  padding: 0;
+}
+
+.modal-pqrs .modal-dialog {
+  max-width: 1000px;
+  margin: 2rem auto 2rem auto;
+}
+@media screen and (max-width: 1199px) {
+  .modal-pqrs .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .modal-pqrs .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal-pqrs .modal-dialog {
+    max-width: 90%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+
+.body-modal-pqrs {
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+.body-modal-pqrs .gif-mobile {
+  margin-bottom: 4rem;
+}
+.body-modal-pqrs h3:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.6rem;
+  margin: 0rem 3.5rem 6rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .body-modal-pqrs h3:nth-of-type(1) {
+    font-size: 2.4rem;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+.body-modal-pqrs p:nth-of-type(1) {
+  margin: 0rem 3.5rem 5rem 0rem;
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 1.6rem;
+}
+.body-modal-pqrs p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 991px) {
+  .body-modal-pqrs p:nth-of-type(1) {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+.body-modal-pqrs p:nth-of-type(2) {
+  margin: 0rem 0rem 3rem 0rem;
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
 /* BOTONES */
 .contact-btn-footer-xs {
   position: relative;
@@ -603,9 +884,19 @@ a:hover {
 .btn-cta-main span i {
   color: #FFF;
 }
+@media screen and (max-width: 767px) {
+  .btn-cta-main span i {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 1199px) {
   .btn-cta-main span {
     top: 1.1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-cta-main span {
+    right: 0.7rem;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -616,7 +907,7 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .btn-cta-main {
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     font-size: 1.6rem;
   }
 }
@@ -729,6 +1020,56 @@ a:hover {
   text-decoration: none;
   color: #FFF;
   background: #2F974E;
+}
+
+.btn-modal-cta-pqrs {
+  display: inline-block;
+  color: #FFF;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  font-size: 1.6rem;
+  font-family: "Century-Gothic-Bold";
+  padding: 1.5rem 6rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.btn-modal-cta-pqrs:focus {
+  text-decoration: none;
+  color: #FFF;
+  background: #2F974E;
+}
+.btn-modal-cta-pqrs:hover {
+  text-decoration: none;
+  color: #FFF;
+  background: #2F974E;
+}
+.btn-modal-cta-pqrs span {
+  margin-left: 1rem;
+}
+.btn-modal-cta-pqrs span i {
+  font-size: 1.3rem;
+  color: #FFF;
+}
+@media screen and (max-width: 1199px) {
+  .btn-modal-cta-pqrs span {
+    top: 1.1rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .btn-modal-cta-pqrs {
+    padding: 1rem 3.5rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-modal-cta-pqrs {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .btn-modal-cta-pqrs {
+    width: 100%;
+  }
 }
 
 /* MENU PRINCIPAL */
@@ -1290,7 +1631,7 @@ a:hover {
 .btn_contacto {
   position: fixed;
   right: 0px;
-  bottom: 15%;
+  bottom: 30%;
   background: url("../images/btn_contacto_web.webp");
   background-size: 99px 82px;
   background-position: right center;
@@ -1315,7 +1656,7 @@ a:hover {
   background-repeat: no-repeat;
   background-repeat: repeat-x, no-repeat;
   animation-name: animacion-iconos;
-  animation-duration: 10s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   /* animation-timing-function: steps(2); */
   animation-timing-function: linear;
@@ -1324,7 +1665,7 @@ a:hover {
 }
 @media screen and (max-width: 1589px) {
   .btn_contacto {
-    bottom: 10%;
+    bottom: 20%;
   }
 }
 
@@ -1597,11 +1938,17 @@ span .contacto-agil.icon-Cerrar::before {
   font-family: "Century-Gothic-Bold";
   color: #FFF;
   font-size: 3.6rem;
-  margin: 0rem 0rem 3rem 0rem;
+  margin: 0rem 3rem 3rem 0rem;
 }
 @media screen and (max-width: 1199px) {
   .main-index .content-main h1:nth-of-type(1) {
+    margin: 0rem 3rem 3rem 0rem;
     font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-index .content-main h1:nth-of-type(1) {
+    margin: 0rem 0rem 3rem 0rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1620,6 +1967,13 @@ span .contacto-agil.icon-Cerrar::before {
   color: #2F974E;
   margin-right: 1.1rem;
 }
+.main-index .content-main p:nth-of-type(2) a {
+  color: #FFF;
+}
+.main-index .content-main p:nth-of-type(2) a:hover {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+}
 @media screen and (max-width: 1199px) {
   .main-index .content-main p:nth-of-type(2) {
     font-size: 1.3rem;
@@ -1635,21 +1989,57 @@ span .contacto-agil.icon-Cerrar::before {
   font-family: "Century-Gothic-Regular";
   color: #FFF;
   font-size: 1.6rem;
-  margin: 0rem 0rem 5.5rem 0rem;
+  margin: 0rem 0rem 2rem 0rem;
   display: flex;
 }
 .main-index .content-main p:nth-of-type(3) span i {
   color: #2F974E;
   margin-right: 1.1rem;
 }
+.main-index .content-main p:nth-of-type(3) a {
+  color: #FFF;
+}
+.main-index .content-main p:nth-of-type(3) a:hover {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+}
 @media screen and (max-width: 1199px) {
   .main-index .content-main p:nth-of-type(3) {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-index .content-main p:nth-of-type(3) {
+    font-size: 1.4rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.main-index .content-main p:nth-of-type(4) {
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 5.5rem 0rem;
+  display: flex;
+}
+.main-index .content-main p:nth-of-type(4) span i {
+  color: #2F974E;
+  margin-right: 1.1rem;
+}
+.main-index .content-main p:nth-of-type(4) a {
+  color: #FFF;
+}
+.main-index .content-main p:nth-of-type(4) a:hover {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+}
+@media screen and (max-width: 1199px) {
+  .main-index .content-main p:nth-of-type(4) {
     font-size: 1.3rem;
     margin: 0rem 0rem 3rem 0rem;
   }
 }
 @media screen and (max-width: 767px) {
-  .main-index .content-main p:nth-of-type(3) {
+  .main-index .content-main p:nth-of-type(4) {
     font-size: 1.4rem;
     margin: 0rem 0rem 2.5rem 0rem;
   }
@@ -1658,21 +2048,28 @@ span .contacto-agil.icon-Cerrar::before {
   .main-index {
     padding: 7rem 0rem 25rem 0rem;
     background-size: 1600px auto;
+    height: 730px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main-index {
+    padding: 7rem 0rem 25rem 0rem;
+    background-size: 1600px auto;
     height: 780px;
   }
 }
 @media screen and (max-width: 1199px) {
   .main-index {
-    padding: 7rem 0rem 18rem 0rem;
-    background-size: 1200px auto;
-    height: 590px;
+    padding: 3rem 0rem 18rem 0rem;
+    background-size: 1350px auto;
+    height: 650px;
   }
 }
 @media screen and (max-width: 991px) {
   .main-index {
-    padding: 7rem 0rem 17rem 0rem;
-    background-size: 1000px auto;
-    height: 490px;
+    padding: 5rem 0rem 17rem 0rem;
+    background-size: auto 100%;
+    height: 700px;
     margin: 8.3rem 0rem 0rem 0rem;
   }
 }
@@ -1683,7 +2080,7 @@ span .contacto-agil.icon-Cerrar::before {
     background-position: center bottom;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height: 1170px;
+    height: 600px;
     justify-content: flex-end;
     margin: 8.3rem 0rem 0rem 0rem;
   }
@@ -1692,21 +2089,21 @@ span .contacto-agil.icon-Cerrar::before {
   .main-index {
     padding: 7rem 0rem 15rem 0rem;
     background-size: 575px auto;
-    height: 920px;
+    height: 1050px;
   }
 }
 @media screen and (max-width: 480px) {
   .main-index {
     padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 770px;
+    height: 800px;
   }
 }
 @media screen and (max-width: 380px) {
   .main-index {
     padding: 7rem 0rem 11rem 0rem;
     background-size: 380px auto;
-    height: 590px;
+    height: 730px;
   }
 }
 
@@ -1838,14 +2235,14 @@ span .contacto-agil.icon-Cerrar::before {
 }
 @media screen and (max-width: 1199px) {
   .main-servicios-temporales {
-    padding: 7rem 0rem 18rem 0rem;
+    padding: 2rem 0rem 18rem 0rem;
     background-size: 1270px auto;
     height: 620px;
   }
 }
 @media screen and (max-width: 991px) {
   .main-servicios-temporales {
-    padding: 7rem 0rem 17rem 0rem;
+    padding: 3rem 0rem 17rem 0rem;
     background-size: 1330px auto;
     height: 650px;
     margin: 8.3rem 0rem 0rem 0rem;
@@ -1858,7 +2255,7 @@ span .contacto-agil.icon-Cerrar::before {
     background-position: center bottom;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height: 1220px;
+    height: 550px;
     justify-content: flex-end;
     margin: 8.3rem 0rem 0rem 0rem;
   }
@@ -1874,14 +2271,14 @@ span .contacto-agil.icon-Cerrar::before {
   .main-servicios-temporales {
     padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 800px;
+    height: 900px;
   }
 }
 @media screen and (max-width: 380px) {
   .main-servicios-temporales {
     padding: 7rem 0rem 11rem 0rem;
     background-size: 380px auto;
-    height: 640px;
+    height: 750px;
   }
 }
 
@@ -2037,9 +2434,9 @@ span .contacto-agil.icon-Cerrar::before {
     background-repeat: no-repeat;
     padding: 21rem 0rem 20rem 0rem;
     background-size: 768px auto;
-    height: 1220px;
+    height: 600px;
     justify-content: flex-end;
-    background-position: center top;
+    background-position: center bottom;
     margin: 8.3rem 0rem 0rem 0rem;
   }
 }
@@ -2055,14 +2452,309 @@ span .contacto-agil.icon-Cerrar::before {
   .main-reclutamiento-seleccion {
     padding: 7rem 0rem 13rem 0rem;
     background-size: 480px auto;
-    height: 920px;
+    height: 880px;
   }
 }
 @media screen and (max-width: 380px) {
   .main-reclutamiento-seleccion {
     padding: 7rem 0rem 11rem 0rem;
-    background-size: 380px auto;
+    background-size: 470px auto;
+    height: 870px;
+  }
+}
+
+.main-sobre-nosotros {
+  padding: 15rem 0rem 30rem 0rem;
+  background: url("../images/personas-equipo-de-trabajo-sonriente-nosotros-grupo-alianza.webp");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 930px;
+}
+@media screen and (max-width: 1920px) {
+  .main-sobre-nosotros {
+    background-size: 1920px auto;
+    background-position: center bottom;
+  }
+}
+.main-sobre-nosotros .content-main {
+  padding: 0rem 6rem 0rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .main-sobre-nosotros .content-main {
+    padding: 0rem 3rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-sobre-nosotros .content-main {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+}
+.main-sobre-nosotros .content-main p:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #6CD33C;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-sobre-nosotros .content-main p:nth-of-type(1) {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-sobre-nosotros .content-main p:nth-of-type(1) {
+    color: #FFF;
+  }
+}
+.main-sobre-nosotros .content-main h1:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 3.6rem;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-sobre-nosotros .content-main h1:nth-of-type(1) {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-sobre-nosotros .content-main h1:nth-of-type(1) {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1589px) {
+  .main-sobre-nosotros {
+    padding: 15rem 0rem 25rem 0rem;
+    background-size: 1850px auto;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main-sobre-nosotros {
+    padding: 7rem 0rem 18rem 0rem;
+    background-size: 1600px auto;
     height: 770px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-sobre-nosotros {
+    padding: 7rem 0rem 17rem 0rem;
+    background-size: 1750px auto;
+    height: 850px;
+    margin: 8.3rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-sobre-nosotros {
+    background: url("../images/personas-equipo-de-trabajo-sonriente-xs-nosotros-grupo-alianza.webp");
+    background-repeat: no-repeat;
+    padding: 21rem 0rem 20rem 0rem;
+    background-size: 768px auto;
+    height: 400px;
+    justify-content: flex-end;
+    background-position: center bottom;
+    margin: 8.3rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-sobre-nosotros {
+    padding: 7rem 0rem 15rem 0rem;
+    background-position: center bottom;
+    background-size: 575px auto;
+    height: 980px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-sobre-nosotros {
+    padding: 7rem 0rem 13rem 0rem;
+    background-size: 480px auto;
+    height: 820px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main-sobre-nosotros {
+    padding: 7rem 0rem 11rem 0rem;
+    background-size: 470px auto;
+    height: 800px;
+  }
+}
+
+/* SECTION OPTIMICE RECURSOS HUMANOS */
+.section-optimice-recursos-humanos {
+  padding: 7rem 0rem 0rem 0rem;
+}
+
+.content-optimice-recursos-humanos-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 6rem 0rem;
+  text-align: center;
+}
+.content-optimice-recursos-humanos-01 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0rem 0rem 6rem 0rem;
+  line-height: 1.25;
+}
+.content-optimice-recursos-humanos-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 767px) {
+  .content-optimice-recursos-humanos-01 p:nth-of-type(1) {
+    margin: 0rem 0rem 4.5rem 0rem;
+  }
+}
+
+.content-optimice-recursos-humanos-02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .content-optimice-recursos-humanos-02 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.content-optimice-recursos-humanos-02 img:nth-of-type(1) {
+  height: 110px;
+}
+@media screen and (max-width: 991px) {
+  .content-optimice-recursos-humanos-02 img:nth-of-type(1) {
+    margin-bottom: 3rem;
+  }
+}
+.content-optimice-recursos-humanos-02 h4:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #000;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+@media screen and (max-width: 991px) {
+  .content-optimice-recursos-humanos-02 h4:nth-of-type(1) {
+    margin-left: 0rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+  }
+}
+
+.content-optimice-recursos-humanos-03 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  margin: 6rem 0rem 3rem 0rem;
+  line-height: 1.25;
+}
+.content-optimice-recursos-humanos-03 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 767px) {
+  .content-optimice-recursos-humanos-03 p:nth-of-type(1) {
+    margin: 3rem 0rem 3rem 0rem;
+  }
+}
+
+/* SECTION INDEX PQRS FOOTER */
+.section-pqrs-footer-index {
+  padding: 7rem 0rem 15rem 0rem;
+  background: url("../images/fondo-call-to-action-prqs-home-grupo-alianza.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+}
+@media screen and (max-width: 1920px) {
+  .section-pqrs-footer-index {
+    background-size: 1920px auto;
+    background-position: center top;
+  }
+}
+@media screen and (max-width: 1589px) {
+  .section-pqrs-footer-index {
+    padding: 7rem 0rem 15rem 0rem;
+    background-size: 1760px auto;
+    height: 780px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section-pqrs-footer-index {
+    padding: 5rem 0rem 5rem 0rem;
+    background-size: 1200px auto;
+    height: 520px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-pqrs-footer-index {
+    padding: 3rem 0rem 3rem 0rem;
+    background-size: 1000px auto;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-pqrs-footer-index {
+    background: linear-gradient(270deg, #0F0F0F 0%, #171717 49.48%, #000000 100%);
+    height: 100%;
+    padding: 10rem 0rem 10rem 0rem;
+    background-size: 1000px auto;
+  }
+}
+
+.content-pqrs-footer-index h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 3.2rem;
+  margin: 0rem 0rem 4rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .content-pqrs-footer-index h2:nth-of-type(1) {
+    font-size: 2.2rem;
+    margin: 0rem 0rem 2rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-pqrs-footer-index h2:nth-of-type(1) {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0rem 0rem 7rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-pqrs-footer-index {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.content-pqrs-footer-index p:nth-of-type(1) {
+  margin: 0rem 0rem 3rem 0rem;
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 2rem;
+}
+.content-pqrs-footer-index p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 991px) {
+  .content-pqrs-footer-index p:nth-of-type(1) {
+    font-size: 1.6rem;
+    margin: 0rem 0rem 2rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-pqrs-footer-index p:nth-of-type(1) {
+    font-size: 2rem;
+    margin: 0rem 0rem 6rem 0rem;
   }
 }
 
@@ -2070,53 +2762,13 @@ span .contacto-agil.icon-Cerrar::before {
 .section-index-web-01 {
   padding: 7rem 0rem 0rem 0rem;
 }
+@media screen and (max-width: 991px) {
+  .section-index-web-01 {
+    padding: 17rem 0rem 8rem 0rem;
+  }
+}
 
 .content-index-web-01-01 h2:nth-of-type(1) {
-  font-family: "Century-Gothic-Bold";
-  color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 3rem 0rem;
-  text-align: center;
-}
-.content-index-web-01-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 27.5%;
-  margin: 0rem 0rem 2.5rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-index-web-01-01 h2:nth-of-type(1) span {
-    width: 20%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-index-web-01-01 h2:nth-of-type(1) span {
-    width: 15%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-index-web-01-01 h2:nth-of-type(1) span {
-    width: 10%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-01-01 h2:nth-of-type(1) span {
-    display: none;
-    margin: 0rem 0rem 0rem 0rem;
-  }
-}
-.content-index-web-01-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-01-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 10rem 0rem;
-  }
-}
-.content-index-web-01-01 h2:nth-of-type(2) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
   font-size: 2.2rem;
@@ -2148,8 +2800,9 @@ span .contacto-agil.icon-Cerrar::before {
   padding: 2rem 1.5rem;
   border-bottom: 0.7rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 27rem;
+  height: 30rem;
   margin: 0rem 0rem 10rem 0rem;
+  border-radius: 0rem;
 }
 .content-index-web-01-02 .card-web h3:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
@@ -2174,26 +2827,75 @@ span .contacto-agil.icon-Cerrar::before {
 }
 .content-index-web-01-02 .card-web p:nth-of-type(2) {
   position: absolute;
-  right: 1.5rem;
+  right: 0;
+  left: 0;
   bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .content-index-web-01-02 .card-web p:nth-of-type(2) {
+    bottom: 0rem;
+  }
 }
 .content-index-web-01-02 .card-web p:nth-of-type(2) a {
   font-family: "Century-Gothic-Bold";
-  color: #2F974E;
+  color: #FFF;
   font-size: 1.6rem;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  padding: 1rem 1.2rem 1rem 6rem;
+  border-radius: 1.2rem;
+}
+.content-index-web-01-02 .card-web p:nth-of-type(2) a:hover {
+  color: #FFF;
+  background: #2F974E;
+}
+.content-index-web-01-02 .card-web p:nth-of-type(2) a span i {
+  margin-left: 4rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+  .content-index-web-01-02 .card-web p:nth-of-type(2) a span i {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-index-web-01-02 .card-web p:nth-of-type(2) a {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+  }
 }
 @media screen and (max-width: 1589px) {
   .content-index-web-01-02 .card-web {
-    height: 29rem;
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .content-index-web-01-02 .card-web {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .content-index-web-01-02 .card-web {
+    height: 33rem;
   }
 }
 @media screen and (max-width: 1199px) {
   .content-index-web-01-02 .card-web {
-    height: 40rem;
+    height: 37rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .content-index-web-01-02 .card-web {
+    height: 25rem;
   }
 }
 @media screen and (max-width: 767px) {
   .content-index-web-01-02 .card-web {
+    border-radius: 0rem 0rem 1.2rem 1.2rem;
     padding: 2.5rem 1.5rem;
   }
 }
@@ -2204,12 +2906,12 @@ span .contacto-agil.icon-Cerrar::before {
 }
 @media screen and (max-width: 480px) {
   .content-index-web-01-02 .card-web {
-    height: 30rem;
+    height: 32rem;
   }
 }
 @media screen and (max-width: 380px) {
   .content-index-web-01-02 .card-web {
-    height: 35rem;
+    height: 36rem;
   }
 }
 
@@ -2217,48 +2919,9 @@ span .contacto-agil.icon-Cerrar::before {
 .content-index-web-02-01 h2:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 8rem 0rem;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 10rem 0rem;
   text-align: center;
-}
-.content-index-web-02-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 22.5%;
-  margin: 0rem 0rem 1rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-index-web-02-01 h2:nth-of-type(1) span {
-    width: 15%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-index-web-02-01 h2:nth-of-type(1) span {
-    width: 7.5%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-index-web-02-01 h2:nth-of-type(1) span {
-    width: 0%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-02-01 h2:nth-of-type(1) span {
-    display: none;
-    margin: 0rem 0rem 0rem 0rem;
-  }
-}
-.content-index-web-02-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-  margin: 0rem 4rem;
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-02-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 10rem 0rem;
-  }
 }
 @media screen and (max-width: 767px) {
   .content-index-web-02-01 {
@@ -2290,6 +2953,9 @@ span .contacto-agil.icon-Cerrar::before {
   color: #000;
   font-size: 1.6rem;
 }
+.content-index-web-02-02 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
 @media screen and (max-width: 767px) {
   .content-index-web-02-02 {
     margin: 0rem 0rem 10rem 0rem;
@@ -2316,16 +2982,16 @@ span .contacto-agil.icon-Cerrar::before {
 }
 @media screen and (max-width: 1589px) {
   .section-index-web-03 {
-    padding: 7rem 0rem 15rem 0rem;
-    background-size: 1600px auto;
+    padding: 7rem 0rem 7rem 0rem;
+    background-size: auto 100%;
     height: 480px;
   }
 }
 @media screen and (max-width: 1199px) {
   .section-index-web-03 {
     padding: 5rem 0rem 5rem 0rem;
-    background-size: 1200px auto;
-    height: 360px;
+    background-size: auto 100%;
+    height: 550px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -2434,53 +3100,8 @@ span .contacto-agil.icon-Cerrar::before {
 .content-index-web-04-01 h2:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 3rem 0rem;
-  text-align: center;
-}
-.content-index-web-04-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 27.5%;
-  margin: 0rem 0rem 2.5rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-index-web-04-01 h2:nth-of-type(1) span {
-    width: 20%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-index-web-04-01 h2:nth-of-type(1) span {
-    width: 15%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-index-web-04-01 h2:nth-of-type(1) span {
-    width: 7.5%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-04-01 h2:nth-of-type(1) span {
-    display: none;
-    margin: 0rem 0rem 0rem 0rem;
-  }
-}
-.content-index-web-04-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-}
-@media screen and (max-width: 767px) {
-  .content-index-web-04-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 5rem 0rem;
-  }
-}
-.content-index-web-04-01 h2:nth-of-type(2) {
-  font-family: "Century-Gothic-Bold";
-  color: #2F974E;
   font-size: 2.2rem;
-  margin: 0rem 0rem 5rem 0rem;
+  margin: 0rem 0rem 10rem 0rem;
   text-align: center;
 }
 @media screen and (max-width: 767px) {
@@ -2489,7 +3110,7 @@ span .contacto-agil.icon-Cerrar::before {
   }
 }
 
-/* SECTION INDEX WEB 04 */
+/* SECTION INDEX WEB 05 */
 .section-index-web-05 {
   padding: 4rem 0rem 0rem 0rem;
   margin: 0rem 0rem 10rem 0rem;
@@ -2561,66 +3182,14 @@ span .contacto-agil.icon-Cerrar::before {
 /* SECTION SERVICIOS TEMPORALES WEB 01 */
 .section-servicios-temporales-web-01 {
   padding: 7rem 0rem 0rem 0rem;
-  background: none;
-}
-@media screen and (max-width: 1920px) {
-  .section-servicios-temporales-web-01 {
-    background: url("../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
-  }
-}
-@media screen and (max-width: 767px) {
-  .section-servicios-temporales-web-01 {
-    background: none;
-  }
 }
 
 .content-servicios-temporales-web-01-01 h2:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 3rem 0rem;
-  text-align: center;
-}
-.content-servicios-temporales-web-01-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 22.5%;
+  font-size: 2.2rem;
   margin: 0rem 0rem 2.5rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-servicios-temporales-web-01-01 h2:nth-of-type(1) span {
-    width: 15%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-servicios-temporales-web-01-01 h2:nth-of-type(1) span {
-    width: 7.5%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-servicios-temporales-web-01-01 h2:nth-of-type(1) span {
-    width: 0%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-servicios-temporales-web-01-01 h2:nth-of-type(1) span {
-    display: none;
-    margin: 0rem 0rem 0rem 0rem;
-  }
-}
-.content-servicios-temporales-web-01-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-}
-@media screen and (max-width: 767px) {
-  .content-servicios-temporales-web-01-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 10rem 0rem;
-  }
+  text-align: center;
 }
 .content-servicios-temporales-web-01-01 p:nth-of-type(1) {
   font-family: "Century-Gothic-Regular";
@@ -2642,22 +3211,20 @@ span .contacto-agil.icon-Cerrar::before {
 .content-servicios-temporales-web-01-01 p:nth-of-type(2) span {
   font-family: "Century-Gothic-Bold";
 }
-.content-servicios-temporales-web-01-01 h2:nth-of-type(2) {
-  font-family: "Century-Gothic-Bold";
-  color: #2F974E;
-  font-size: 2.2rem;
-  margin: 0rem 0rem 2.5rem 0rem;
-  text-align: center;
-}
 @media screen and (max-width: 767px) {
   .content-servicios-temporales-web-01-01 {
-    margin: 0rem 0rem 8rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
 }
 
 /* SECTION SERVICIOS TEMPORALES WEB 02 */
 .section-servicios-temporales-web-02 {
-  margin: 0rem 0rem 9rem 0rem;
+  margin: 7rem 0rem 9rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-servicios-temporales-web-02 {
+    margin: 7rem 0rem 9rem 0rem;
+  }
 }
 
 .content-servicios-temporales-web-02-01 h3:nth-of-type(1) {
@@ -2983,51 +3550,6 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 3rem 0rem;
-  text-align: center;
-}
-.content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 15%;
-  margin: 0rem 0rem 2.5rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) span {
-    width: 5%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) span {
-    width: 0%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) span {
-    width: 0%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) span {
-    display: none;
-    margin: 0rem 0rem 0rem 0rem;
-  }
-}
-.content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-}
-@media screen and (max-width: 767px) {
-  .content-reclutamiento-seleccion-01-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 10rem 0rem;
-  }
-}
-.content-reclutamiento-seleccion-01-01 h2:nth-of-type(2) {
-  font-family: "Century-Gothic-Bold";
-  color: #2F974E;
   font-size: 2.2rem;
   margin: 0rem 0rem 7rem 0rem;
   text-align: center;
@@ -3097,6 +3619,9 @@ span .contacto-agil.icon-Cerrar::before {
   color: #000;
   font-size: 1.6rem;
   margin: 0rem 0rem 2rem 0rem;
+}
+.content-reclutamiento-seleccion-02-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
 }
 .content-reclutamiento-seleccion-02-01 p:nth-of-type(2) {
   font-family: "Century-Gothic-Regular";
@@ -3214,6 +3739,9 @@ span .contacto-agil.icon-Cerrar::before {
   font-size: 1.6rem;
   margin: 0rem 0rem 2rem 0rem;
 }
+.content-reclutamiento-seleccion-03-02 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
 .content-reclutamiento-seleccion-03-02 p:nth-of-type(2) {
   font-family: "Century-Gothic-Regular";
   color: #000;
@@ -3309,6 +3837,9 @@ span .contacto-agil.icon-Cerrar::before {
   color: #000;
   font-size: 1.6rem;
   margin: 0rem 0rem 2rem 0rem;
+}
+.content-reclutamiento-seleccion-04-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
 }
 .content-reclutamiento-seleccion-04-01 p:nth-of-type(2) {
   font-family: "Century-Gothic-Regular";
@@ -3414,6 +3945,9 @@ span .contacto-agil.icon-Cerrar::before {
   color: #000;
   font-size: 1.6rem;
   margin: 0rem 0rem 2rem 0rem;
+}
+.content-reclutamiento-seleccion-05-02 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
 }
 .content-reclutamiento-seleccion-05-02 p:nth-of-type(2) {
   font-family: "Century-Gothic-Regular";
@@ -3548,20 +4082,20 @@ span .contacto-agil.icon-Cerrar::before {
 }
 
 /* SECTION RECLUTAMIENTO SELECCION 07 */
-.section-servicios-temporales-web-07 {
+.section-reclutamiento-seleccion-web-07 {
   padding: 0rem 0rem 0rem 0rem;
   background: none;
 }
-@media screen and (max-width: 1920px) {
-  .section-servicios-temporales-web-07 {
+@media screen and (max-width: 1450px) {
+  .section-reclutamiento-seleccion-web-07 {
     background: url("../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
   }
 }
-@media screen and (max-width: 767px) {
-  .section-servicios-temporales-web-07 {
+@media screen and (max-width: 991px) {
+  .section-reclutamiento-seleccion-web-07 {
     background: none;
   }
 }
@@ -3569,57 +4103,9 @@ span .contacto-agil.icon-Cerrar::before {
 .content-servicios-temporales-web-07-01 h2:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
   color: #2F974E;
-  font-size: 3.2rem;
-  margin: 0rem 0rem 3rem 0rem;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 2.5rem 0rem;
   text-align: center;
-}
-.content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-  display: inline-block;
-  border-bottom: 1px solid #6CD33C;
-  width: 35%;
-  margin: 0rem 0rem 1.2rem 0rem;
-}
-@media screen and (max-width: 1589px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    width: 30%;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    width: 27.5%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    width: 22.5%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    margin: 0rem 0rem 0.8rem 0rem;
-    width: 20%;
-  }
-}
-@media screen and (max-width: 575px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    width: 15%;
-  }
-}
-@media screen and (max-width: 380px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) span {
-    width: 10%;
-  }
-}
-.content-servicios-temporales-web-07-01 h2:nth-of-type(1) .tx {
-  display: inline-block;
-  width: auto;
-  border-bottom: none;
-}
-@media screen and (max-width: 767px) {
-  .content-servicios-temporales-web-07-01 h2:nth-of-type(1) {
-    font-size: 2.2rem;
-    margin: 0rem 0rem 2.5rem 0rem;
-  }
 }
 .content-servicios-temporales-web-07-01 p:nth-of-type(1) {
   font-family: "Century-Gothic-Regular";
@@ -3640,13 +4126,6 @@ span .contacto-agil.icon-Cerrar::before {
 }
 .content-servicios-temporales-web-07-01 p:nth-of-type(2) span {
   font-family: "Century-Gothic-Bold";
-}
-.content-servicios-temporales-web-07-01 h2:nth-of-type(2) {
-  font-family: "Century-Gothic-Bold";
-  color: #2F974E;
-  font-size: 2.2rem;
-  margin: 0rem 0rem 2.5rem 0rem;
-  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .content-servicios-temporales-web-07-01 {
@@ -3706,7 +4185,7 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-xs-08-01 {
   background: #FFF;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem 0.5rem 2.5rem;
 }
 .content-reclutamiento-seleccion-xs-08-01 h3:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
@@ -3775,7 +4254,7 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-xs-08-02 {
   background: #FFF;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem 0.5rem 2.5rem;
 }
 .content-reclutamiento-seleccion-xs-08-02 h3:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
@@ -3890,7 +4369,7 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-xs-08-03 {
   background: #FFF;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem 0.5rem 2.5rem;
 }
 .content-reclutamiento-seleccion-xs-08-03 h3:nth-of-type(1) {
   font-family: "Century-Gothic-Bold";
@@ -3968,6 +4447,42 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-xs-08-03 p:nth-of-type(4) .tx-bold,
 .content-reclutamiento-seleccion-xs-08-03 p:nth-of-type(5) .tx-bold {
   font-family: "Century-Gothic-Bold";
+}
+
+.btn-cta-cotizar-mobile {
+  text-align: center;
+  background: #FFF;
+  border-radius: 0rem 0rem 1.2rem 1.2rem;
+}
+.btn-cta-cotizar-mobile a {
+  display: inline-block;
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.6rem;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  padding: 1rem 1.2rem 1rem 6rem;
+  border-radius: 1.2rem;
+  width: 100%;
+}
+.btn-cta-cotizar-mobile a:hover {
+  color: #FFF;
+  background: #2F974E;
+}
+.btn-cta-cotizar-mobile a span i {
+  margin-left: 4rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+  .btn-cta-cotizar-mobile a span i {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-cta-cotizar-mobile a {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    display: inline-block;
+  }
 }
 
 .content-reclutamiento-seleccion-web-08-01 h2:nth-of-type(1) {
@@ -4062,6 +4577,40 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-web-08-02 p:nth-of-type(4) span a:focus {
   border: none;
   outline: none;
+}
+.content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) {
+  text-align: center;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+}
+.content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) a {
+  display: inline-block;
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.6rem;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1.2rem;
+}
+.content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) a:hover {
+  color: #FFF;
+  background: #2F974E;
+}
+.content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) a span i {
+  margin-left: 0rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-02 p:nth-of-type(5) a {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+  }
 }
 
 .content-reclutamiento-seleccion-web-08-03 {
@@ -4188,6 +4737,40 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-web-08-03 p:nth-of-type(9) .tx-bold {
   font-family: "Century-Gothic-Bold";
 }
+.content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) {
+  text-align: center;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+}
+.content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) a {
+  display: inline-block;
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.6rem;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1.2rem;
+}
+.content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) a:hover {
+  color: #FFF;
+  background: #2F974E;
+}
+.content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) a span i {
+  margin-left: 0rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-03 p:nth-of-type(10) a {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}
 
 .content-reclutamiento-seleccion-web-08-04 {
   padding: 3rem 3.5rem 4.5rem 3.5rem;
@@ -4280,6 +4863,40 @@ span .contacto-agil.icon-Cerrar::before {
 .content-reclutamiento-seleccion-web-08-04 p:nth-of-type(4) .tx-bold,
 .content-reclutamiento-seleccion-web-08-04 p:nth-of-type(5) .tx-bold {
   font-family: "Century-Gothic-Bold";
+}
+.content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) {
+  text-align: center;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+}
+.content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) a {
+  display: inline-block;
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.6rem;
+  background: linear-gradient(76.71deg, #2F974E -2.92%, #6CD33C 112.47%);
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1.2rem;
+}
+.content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) a:hover {
+  color: #FFF;
+  background: #2F974E;
+}
+.content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) a span i {
+  margin-left: 0rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+  .content-reclutamiento-seleccion-web-08-04 p:nth-of-type(6) a {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+  }
 }
 
 .popover {
@@ -4681,6 +5298,298 @@ span .contacto-agil.icon-Cerrar::before {
   font-size: 4.2rem;
 }
 
+/* SECTION NOSOTROS 01 */
+.section-sobre-nosotros-01 {
+  padding: 3rem 0rem 7rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-01 .content-sobre-nosotros-01-01 {
+    margin: 0rem 0rem 5rem 0rem;
+  }
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.2rem;
+  margin: 6rem 0rem 5rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-01 .content-sobre-nosotros-01-01 h2:nth-of-type(1) {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 img:nth-of-type(1) {
+  margin-bottom: 5rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(2) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 1rem 0rem;
+  display: flex;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(2) span i {
+  color: #2F974E;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(2) a {
+  color: #000;
+  font-size: 2rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(2) a:hover {
+  color: #2F974E;
+  font-family: "Century-Gothic-Bold";
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(3) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2.5rem 0rem;
+  display: flex;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(3) span i {
+  color: #2F974E;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(3) a {
+  color: #000;
+  font-size: 2rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(3) a:hover {
+  color: #2F974E;
+  font-family: "Century-Gothic-Bold";
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(4) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.section-sobre-nosotros-01 .content-sobre-nosotros-01-01 p:nth-of-type(4) span {
+  font-family: "Century-Gothic-Bold";
+}
+
+/* SECTION NOSOTROS 02 */
+.section-sobre-nosotros-02 {
+  padding: 5rem 0rem 5.5rem 0rem;
+  margin: 0rem 0rem 13rem 0rem;
+  background: linear-gradient(-90deg, #B70026 0%, #B70026 49.9%, #FFF 50%, #FFF 100%);
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-02 {
+    background: #bdbdbd;
+    padding: 6rem 0rem 4rem 0rem;
+    margin: 0rem 0rem 5rem 0rem;
+  }
+}
+
+.content-sobre-nosotros-02-01 {
+  padding: 0rem 5.5rem 0rem 5rem;
+}
+.content-sobre-nosotros-02-01 h3:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 2.8rem;
+}
+
+.content-sobre-nosotros-02-02 {
+  padding: 0rem 0rem 0rem 10rem;
+}
+.content-sobre-nosotros-02-02 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 3.2rem;
+  margin: 0rem 0rem 5rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-sobre-nosotros-02-02 h2:nth-of-type(1) {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+.content-sobre-nosotros-02-02 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 2rem;
+  text-align: left;
+  margin: 0rem 0rem 0rem 0rem;
+  line-height: 1.25;
+}
+.content-sobre-nosotros-02-02 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+
+.content-sobre-nosotros-xs-02-01 {
+  padding: 0rem 0rem 0rem 0.5rem;
+  text-align: right;
+}
+.content-sobre-nosotros-xs-02-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #000;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 6rem 0rem;
+  text-align: center;
+}
+.content-sobre-nosotros-xs-02-01 h2:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+.content-sobre-nosotros-xs-02-01 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 4rem 0rem;
+  text-align: left;
+}
+.content-sobre-nosotros-xs-02-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+
+/* SECTION NOSOTROS 03 */
+.section-sobre-nosotros-03 {
+  padding: 3rem 0rem 7rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-03 {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-03 .content-sobre-nosotros-03-01 {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.2rem;
+  margin: 6rem 0rem 5rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-sobre-nosotros-03 .content-sobre-nosotros-03-01 h2:nth-of-type(1) {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 img:nth-of-type(1) {
+  margin-bottom: 5rem;
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(2) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(2) span {
+  font-family: "Century-Gothic-Bold";
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(3) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 0rem 0rem;
+}
+.section-sobre-nosotros-03 .content-sobre-nosotros-03-01 p:nth-of-type(3) span {
+  font-family: "Century-Gothic-Bold";
+}
+
+/* SECTION NOSOTROS 04 */
+.section-sobre-nosotros-04 {
+  background: none;
+}
+@media screen and (max-width: 1920px) {
+  .section-sobre-nosotros-04 {
+    background: url("../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin: 10rem 0rem 15rem 0rem;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1589px) {
+  .section-sobre-nosotros-04 {
+    height: 245px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .section-sobre-nosotros-04 {
+    height: 215px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section-sobre-nosotros-04 {
+    height: 185px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-sobre-nosotros-04 {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-sobre-nosotros-04 {
+    background: none;
+    height: auto;
+  }
+}
+
+.content-sobre-nosotros-04-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 10rem 0rem;
+  text-align: center;
+  border-top: 1px solid #6CD33C;
+  padding: 4.5rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-sobre-nosotros-04-01 h2:nth-of-type(1) {
+    margin: 0rem 0rem 5rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-sobre-nosotros-04-01 {
+    margin: 0rem 0rem 8rem 0rem;
+  }
+}
+
+.tx-body-slider-sobre-nosotros {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 6rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .tx-body-slider-sobre-nosotros {
+    text-align: left;
+  }
+}
+.tx-body-slider-sobre-nosotros span {
+  font-family: "Century-Gothic-Bold";
+}
+
 /*FOOTER WEB*/
 footer {
   background: #000;
@@ -4699,6 +5608,29 @@ footer {
   footer {
     padding: 9.5rem 0rem 10rem 0rem;
     background: #000;
+  }
+}
+
+footer.actualizacion-pqrs {
+  position: relative;
+  bottom: 0rem;
+  margin-top: -20rem;
+}
+@media screen and (max-width: 1589px) {
+  footer.actualizacion-pqrs {
+    bottom: 0rem;
+    margin-top: -20rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  footer.actualizacion-pqrs {
+    margin-top: 0rem;
+    bottom: 0rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  footer.actualizacion-pqrs {
+    position: static;
   }
 }
 
@@ -4728,18 +5660,18 @@ footer.footer-servicios-temporales {
 footer.footer-mensaje-enviado {
   position: relative;
   bottom: 0rem;
-  margin-top: -18rem;
+  margin-top: -18.5rem;
   z-index: 1;
 }
 @media screen and (max-width: 1589px) {
   footer.footer-mensaje-enviado {
     bottom: 0rem;
-    margin-top: -18rem;
+    margin-top: -19rem;
   }
 }
 @media screen and (max-width: 1300px) {
   footer.footer-mensaje-enviado {
-    margin-top: -21rem;
+    margin-top: -21.5rem;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -4750,16 +5682,15 @@ footer.footer-mensaje-enviado {
 }
 
 .margen-footer-img {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  margin: 6rem 1rem 0rem 1rem;
-  height: 100%;
+  margin: 0rem 1rem 0rem 1rem;
 }
 @media screen and (max-width: 1920px) {
   .margen-footer-img {
-    align-items: flex-end;
+    align-items: flex-start;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -4773,26 +5704,37 @@ footer.footer-mensaje-enviado {
   .margen-footer-img {
     justify-content: flex-start;
     height: auto;
+    margin: 0rem 1rem 4rem 1rem;
   }
 }
-@media screen and (max-width: 767px) {
-  .margen-footer-img {
-    margin: 0rem 1rem 8rem 1rem;
+.margen-footer-img .content-align {
+  width: 260px;
+}
+@media screen and (max-width: 1400px) {
+  .margen-footer-img .content-align {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .margen-footer-img .content-align {
+    width: auto;
   }
 }
 
 .logo-footer {
-  width: 245px;
+  width: 211px;
+  margin-left: 2rem;
 }
 @media screen and (max-width: 575px) {
   .logo-footer {
+    margin-left: 0rem;
     width: 100%;
   }
 }
 
 .btn-icono-linked-in {
   text-align: right;
-  margin: 4rem 0rem 0rem 0rem;
+  margin: 1.5rem 0rem 1rem 0rem;
 }
 .btn-icono-linked-in a {
   color: #FFF;
@@ -4805,6 +5747,11 @@ footer.footer-mensaje-enviado {
   .btn-icono-linked-in a {
     margin: 4rem 0rem 0rem 0rem;
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-icono-linked-in {
+    margin: 2.5rem 0rem 0rem 0rem;
   }
 }
 
@@ -4825,6 +5772,13 @@ footer.footer-mensaje-enviado {
   color: #FFF;
   font-size: 1.3rem;
   margin: 0rem 0rem 1rem 0rem;
+}
+
+.tx-head-footer.margen {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.3rem;
+  margin: 4.5rem 0rem 1rem 0rem;
 }
 
 .tx-body-footer {
@@ -4921,8 +5875,8 @@ footer.footer-mensaje-enviado {
 .content-footer-03 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0rem 0rem 0rem 0rem;
+  justify-content: center;
+  padding: 3.5rem 0rem 0rem 0rem;
 }
 .content-footer-03 p {
   color: #FFF;
@@ -5034,9 +5988,14 @@ footer.footer-mensaje-enviado {
     margin: 3.5rem 0rem 0rem 0rem;
   }
 }
+@media screen and (max-width: 991px) {
+  .content-mensaje-enviado-01 {
+    margin: 9rem 0rem 0rem 0rem;
+  }
+}
 @media screen and (max-width: 575px) {
   .content-mensaje-enviado-01 {
-    margin: 4.5rem 0rem 0rem 0rem;
+    margin: 9rem 0rem 0rem 0rem;
   }
 }
 .content-mensaje-enviado-01 h1:nth-of-type(1) {

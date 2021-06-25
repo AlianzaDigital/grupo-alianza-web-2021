@@ -70,9 +70,15 @@
     top: 1.6rem;
     i{
       color: $blanco;
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-08;
+      }
     }
     @media screen and (max-width: $window-size-02) {
       top: 1.1rem;
+    }
+    @media screen and (max-width: $window-size-04) {
+      right: .7rem;
     }
   }
   @media screen and (max-width: $window-size-02) {
@@ -80,7 +86,7 @@
     font-size: $tx-size-08;
   }
   @media screen and (max-width: $window-size-04) {
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     font-size: $tx-size-07;
   }
   @media screen and (max-width: $window-size-05) {
@@ -184,5 +190,52 @@
     text-decoration: none;
     color:$blanco;
     background: $color01;
+  }
+}
+
+.btn-modal-cta-pqrs{
+  // position: relative;
+  display:inline-block;
+  color:$blanco;
+  background: $gradient04;
+  font-size: $tx-size-07;
+  font-family: $Century-Bold;
+  padding: 1.5rem 6rem;
+  border-radius: .5rem;
+  text-align: center;
+  &:focus{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$blanco;
+    background: $color01;
+  }
+  span{
+    // margin-right: 2rem;
+    // position: absolute;
+    // right: 1.2rem;
+    // top: 1.6rem;
+    margin-left: 1rem;
+    i{
+      font-size: $tx-size-08;
+      color: $blanco;
+    }
+    @media screen and (max-width: $window-size-02) {
+      top: 1.1rem;
+    }
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 1rem 3.5rem;
+    font-size: $tx-size-07;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 1rem 2rem;
+    font-size: $tx-size-07;
+  }
+  @media screen and (max-width: $window-size-05) {
+    width: 100%;
   }
 }

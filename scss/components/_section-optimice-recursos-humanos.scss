@@ -1,0 +1,151 @@
+/* SECTION OPTIMICE RECURSOS HUMANOS */
+.section-optimice-recursos-humanos{
+  padding: 7rem 0rem 0rem 0rem
+}
+
+.content-optimice-recursos-humanos-01{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 6rem 0rem;
+    text-align: center;
+  }
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin:0rem 0rem 6rem 0rem;
+    line-height: 1.25;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 4.5rem 0rem;
+    }
+  }
+}
+
+.content-optimice-recursos-humanos-02{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  @media screen and (max-width: $window-size-03) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img:nth-of-type(1){
+    height: 110px;
+    @media screen and (max-width: $window-size-03) {
+      margin-bottom: 3rem;
+    }
+  }
+  h4:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$negro;
+    font-size: $tx-size-06;
+    margin-left: 3rem;
+    @media screen and (max-width: $window-size-03) {
+      margin-left: 0rem;
+      text-align: center;
+      margin-bottom: 5rem;
+      font-size: $tx-size-07 + .2;
+    }
+  }
+}
+
+.content-optimice-recursos-humanos-03{
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin:6rem 0rem 3rem 0rem;
+    line-height: 1.25;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-04) {
+      margin:3rem 0rem 3rem 0rem;
+    }
+  }
+}
+
+/* SECTION INDEX PQRS FOOTER */
+.section-pqrs-footer-index{
+  padding: 7rem 0rem 15rem 0rem;
+  background: url('../images/fondo-call-to-action-prqs-home-grupo-alianza.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px auto;
+    background-position: center top;
+  }
+  @media screen and (max-width: $window-size-01) {
+    padding: 7rem 0rem 15rem 0rem;
+    background-size: 1760px auto;
+    height: 780px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 5rem 0rem 5rem 0rem;
+    background-size: 1200px auto;
+    height: 520px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 3rem 0rem 3rem 0rem;
+    background-size: 1000px auto;
+    height: 400px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background: $gradient01;
+    height: 100%;
+    padding: 10rem 0rem 10rem 0rem;
+    background-size: 1000px auto;
+  }
+}
+
+.content-pqrs-footer-index{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-02;
+    margin:0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-05;
+      margin:0rem 0rem 2rem 0rem;
+    }
+    @media screen and (max-width: $window-size-04) {
+      text-align: center;
+      font-size: $tx-size-05;
+      margin:0rem 0rem 7rem 0rem;
+    }
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0rem 0rem 0rem 0rem;
+  }
+  p:nth-of-type(1){
+    margin:0rem 0rem 3rem 0rem;
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-06;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+    }
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 6rem 0rem;
+    }
+  }
+}

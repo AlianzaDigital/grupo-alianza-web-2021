@@ -52,6 +52,9 @@
     color:$negro;
     font-size: $tx-size-07;
     margin:0rem 0rem 2rem 0rem;
+    span{
+      font-family: $Century-Bold;
+    }
   }
   p:nth-of-type(2){
     font-family: $Century-Regular;

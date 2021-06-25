@@ -1,0 +1,270 @@
+/* SECTION NOSOTROS 01 */
+.section-sobre-nosotros-01{
+  padding: 3rem 0rem 7rem 0rem;
+  .content-sobre-nosotros-01-01{
+    @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 5rem 0rem;
+    }
+    h2:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$color01;
+      font-size: $tx-size-02;
+      margin:6rem 0rem 5rem 0rem;
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-05;
+        text-align: center;
+      }
+    }
+    img:nth-of-type(1){
+      margin-bottom:5rem;
+    }
+    p:nth-of-type(1){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+    p:nth-of-type(2){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 1rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1rem;
+        font-size: $tx-size-08;
+      }
+      a{
+        color: $negro;
+        font-size: $tx-size-06;
+        &:hover{
+          color: $color01;
+          font-family: $Century-Bold; 
+        }
+      }
+    }
+    p:nth-of-type(3){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2.5rem 0rem;
+      display: flex;
+      span i{
+        color: $color01;
+        margin-right: 1rem;
+        font-size: $tx-size-08;
+      }
+      a{
+        color: $negro;
+        font-size: $tx-size-06;
+        &:hover{
+          color: $color01;
+          font-family: $Century-Bold; 
+        }
+      }
+    }
+    p:nth-of-type(4){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+  }
+}
+
+/* SECTION NOSOTROS 02 */
+.section-sobre-nosotros-02{
+  padding: 5rem 0rem 5.5rem 0rem;
+  margin:0rem 0rem 13rem 0rem;
+  background: $gradient08;
+  @media screen and (max-width: $window-size-04) {
+    background: $gris04;
+    padding: 6rem 0rem 4rem 0rem;
+    margin:0rem 0rem 5rem 0rem;
+  }
+}
+
+.content-sobre-nosotros-02-01{
+  padding:0rem 5.5rem 0rem 5rem;
+  h3:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-03;
+    // text-align: justify;
+  }
+}
+
+.content-sobre-nosotros-02-02{
+  padding:0rem 0rem 0rem 10rem;
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-02;
+    margin:0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-05;
+      text-align: center;
+    }
+  }
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$blanco;
+    font-size: $tx-size-06;
+    text-align: left;
+    margin:0rem 0rem 0rem 0rem;
+    line-height: 1.25;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+}
+
+.content-sobre-nosotros-xs-02-01{
+  padding:0rem 0rem 0rem .5rem;
+  text-align: right;
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$negro;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 6rem 0rem;
+    text-align: center;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+  p:nth-of-type(1){
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-06;
+    margin:0rem 0rem 4rem 0rem;
+    text-align: left;
+    span{
+      font-family: $Century-Bold;
+    }
+  }
+}
+
+
+/* SECTION NOSOTROS 03 */
+.section-sobre-nosotros-03{
+  padding: 3rem 0rem 7rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding:0rem 0rem 0rem 0rem;
+  }
+  .content-sobre-nosotros-03-01{
+    @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 0rem 0rem;
+    }
+    h2:nth-of-type(1){
+      font-family: $Century-Bold;
+      color:$color01;
+      font-size: $tx-size-02;
+      margin:6rem 0rem 5rem 0rem;
+      @media screen and (max-width: $window-size-04) {
+        font-size: $tx-size-05;
+        text-align: center;
+      }
+    }
+    img:nth-of-type(1){
+      margin-bottom:5rem;
+    }
+    p:nth-of-type(1){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+    p:nth-of-type(2){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 2rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+    p:nth-of-type(3){
+      font-family: $Century-Regular;
+      color:$negro;
+      font-size: $tx-size-06;
+      margin:0rem 0rem 0rem 0rem;
+      span{
+        font-family: $Century-Bold;
+      }
+    }
+  }
+}
+
+/* SECTION NOSOTROS 04 */
+.section-sobre-nosotros-04{
+  background: none;
+  @media screen and (max-width: 1920px) {
+    background: url('../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin: 10rem 0rem 15rem 0rem;
+    height: 300px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    // background-size: 1600px auto;
+    height: 245px;
+  }
+  @media screen and (max-width: 1400px) {
+    // background-size: 1400px auto;
+    height: 215px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    // background-size: 1200px auto;
+    height: 185px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    // background-size: 100px auto;
+    height: 150px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    background: none;
+    height: auto;
+  }
+}
+
+.content-sobre-nosotros-04-01{
+  h2:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 10rem 0rem;
+    text-align: center;
+    border-top: 1px solid $color02;
+    padding: 4.5rem 0rem 0rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 5rem 0rem;
+    }
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0rem 0rem 8rem 0rem;
+  }
+}
+.tx-body-slider-sobre-nosotros{
+  font-family: $Century-Regular;
+  color:$negro;
+  font-size: $tx-size-06;
+  margin:0rem 0rem 6rem 0rem;
+  text-align: center;
+  @media screen and (max-width: $window-size-04) {
+    text-align: left;
+  }
+  span{
+    font-family: $Century-Bold;
+  }
+}

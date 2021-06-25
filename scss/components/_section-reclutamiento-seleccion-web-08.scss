@@ -49,7 +49,7 @@
 .content-reclutamiento-seleccion-xs-08-01{
   background: $blanco;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem .5rem 2.5rem;
   h3:nth-of-type(1){
     font-family: $Century-Bold;
     color:$blanco;
@@ -103,7 +103,7 @@
 .content-reclutamiento-seleccion-xs-08-02{
   background: $blanco;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem .5rem 2.5rem;
   h3:nth-of-type(1){
     font-family: $Century-Bold;
     color:$blanco;
@@ -165,7 +165,7 @@
 .content-reclutamiento-seleccion-xs-08-03{
   background: $blanco;
   box-shadow: -2px 4px 22px rgba(47, 151, 78, 0.21);
-  padding: 4rem 2.5rem 3rem 2.5rem;
+  padding: 4rem 2.5rem .5rem 2.5rem;
   h3:nth-of-type(1){
     font-family: $Century-Bold;
     color:$blanco;
@@ -216,6 +216,39 @@
     }
     .tx-bold{
       font-family: $Century-Bold;
+    }
+  }
+}
+
+.btn-cta-cotizar-mobile{
+  text-align: center;
+  background: $blanco;
+  border-radius: 0rem 0rem 1.2rem 1.2rem;
+  a{
+    display: inline-block;
+    font-family: $Century-Bold;
+    color:$blanco;
+    font-size: $tx-size-07;
+    background: $gradient04;
+    padding: 1rem 1.2rem 1rem 6rem;
+    border-radius: 1.2rem;
+    width: 100%;
+    &:hover{
+      color: $blanco;
+      background: $color01;
+    }
+    span i{
+      margin-left: 4rem;
+      font-size: $tx-size-08;
+      @media screen and (max-width: $window-size-04) {
+        margin-left: 1rem;
+      }
+    }
+    @media screen and (max-width: $window-size-04) {
+      padding: 1rem 0rem 1rem 0rem;
+      width: 100%;
+      // text-transform: uppercase;
+      display: inline-block;
     }
   }
 }
@@ -298,6 +331,36 @@
       }
     }
   }
+  p:nth-of-type(5){
+    text-align: center;
+    margin:.5rem 0rem 0rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      margin:.5rem 0rem 0rem 0rem;
+    }
+    a{
+      display: inline-block;
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      background: $gradient04;
+      padding: 1rem 1rem 1rem 1rem;
+      border-radius: 1.2rem;
+      &:hover{
+        color: $blanco;
+        background: $color01;
+      }
+      span i{
+        margin-left: 0rem;
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        padding: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+    }
+  }
 }
 
 .content-reclutamiento-seleccion-web-08-03{
@@ -368,6 +431,36 @@
       font-family: $Century-Bold;
     }
   }
+  p:nth-of-type(10){
+    text-align: center;
+    margin:.5rem 0rem 0rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      margin:.5rem 0rem 0rem 0rem;
+    }
+    a{
+      display: inline-block;
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      background: $gradient04;
+      padding: 1rem 1rem 1rem 1rem;
+      border-radius: 1.2rem;
+      &:hover{
+        color: $blanco;
+        background: $color01;
+      }
+      span i{
+        margin-left: 0rem;
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        padding: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+    }
+  }
 }
 
 .content-reclutamiento-seleccion-web-08-04{
@@ -432,6 +525,36 @@
     }
     .tx-bold{
       font-family: $Century-Bold;
+    }
+  }
+  p:nth-of-type(6){
+    text-align: center;
+    margin:.5rem 0rem 0rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      margin:.5rem 0rem 0rem 0rem;
+    }
+    a{
+      display: inline-block;
+      font-family: $Century-Bold;
+      color:$blanco;
+      font-size: $tx-size-07;
+      background: $gradient04;
+      padding: 1rem 1rem 1rem 1rem;
+      border-radius: 1.2rem;
+      &:hover{
+        color: $blanco;
+        background: $color01;
+      }
+      span i{
+        margin-left: 0rem;
+        font-size: $tx-size-08;
+      }
+      @media screen and (max-width: $window-size-04) {
+        padding: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        text-transform: uppercase;
+        display: inline-block;
+      }
     }
   }
 }

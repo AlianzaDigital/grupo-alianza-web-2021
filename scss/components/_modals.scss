@@ -253,3 +253,227 @@
     }
   }
 }
+
+/* MODAL POLITICA CALIDAD*/
+.politica-calidad{
+  .modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    height: 90vh;
+    margin:0 auto;
+    @media screen and (max-width: $window-size-04) {
+      max-width: 90%;
+      margin:2rem auto 2rem auto;
+    }
+    .modal-content{
+      border: none;
+      border-radius: 1.2rem;
+      background: $blanco;
+      padding: 2.5rem 1.5rem 6rem 4rem;
+      @media screen and (max-width: $window-size-04) {
+        padding: 1.5rem 1rem 4.5rem 2rem;
+        border-radius: 0rem;
+      }
+      .close-modal{
+        margin:0rem 0rem 4rem 0rem;
+        text-align: right;
+        @media screen and (max-width: $window-size-04) {
+          margin:0rem 0rem 1.5rem 0rem;
+        }
+        a{
+          cursor: pointer;
+          color: $color01;
+          font-size: $tx-size-05;
+          i{
+            color: $color01;
+          }
+          &:hover{
+            i{
+              color: $color01;
+            }
+          }
+        }
+      }
+    }
+    .modal-body{
+      padding: 0;
+    }
+  }
+}
+
+.politica-calidad .modal-dialog{
+  max-width: 650px;
+  @media screen and (max-width: $window-size-02) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: $window-size-03) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: $window-size-04) {
+    max-width: 90%;
+    margin:2rem auto 2rem auto;
+  }
+}
+
+.body-politica-calidad {
+  height: 450px;
+  // border-top: 1px solid #EAEAEA;
+  // border-left: 1px solid #EAEAEA;
+  // border-bottom: 1px solid #EAEAEA;
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+@media screen and (max-width: $window-size-05) {
+  .body-politica-calidad {
+    height: 65vh;
+  }
+}
+
+.content-modal-politica-calidad{
+  // height: 520px;
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+  h3:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-01;
+    margin: 0rem 2.5rem 6rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-04;
+      margin: 0rem 1rem 3rem 0rem;
+    }
+  }
+  p:nth-of-type(1){
+    margin: 0rem 2.5rem 0rem 0rem;
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-08;
+      margin: 0rem 1rem 0rem 0rem;
+    }
+  }
+}
+// @media screen and (max-width: $window-size-05) {
+//   .content-modal-politica-calidad{
+//     height: 65vh;
+//   }
+// }
+
+/* MODAL PQRS*/
+.modal-pqrs{
+  .modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    // height: 90vh;
+    margin:0 auto;
+    @media screen and (max-width: $window-size-04) {
+      max-width: 90%;
+      // margin:2rem auto 2rem auto;
+    }
+    .modal-content{
+      border: none;
+      border-radius: 1.2rem;
+      background: $blanco;
+      padding: 2.5rem 1.5rem 6rem 6rem;
+      @media screen and (max-width: $window-size-04) {
+        padding: 1.5rem 2rem 2rem 2rem;
+        border-radius: 0rem;
+      }
+      .close-modal{
+        margin:0rem 0rem 4rem 0rem;
+        text-align: right;
+        @media screen and (max-width: $window-size-04) {
+          margin:0rem 0rem 1.5rem 0rem;
+        }
+        a{
+          cursor: pointer;
+          color: $color01;
+          font-size: $tx-size-05;
+          i{
+            color: $color01;
+          }
+          &:hover{
+            i{
+              color: $color01;
+            }
+          }
+        }
+      }
+    }
+    .modal-body{
+      padding: 0;
+    }
+  }
+}
+
+.modal-pqrs .modal-dialog{
+  max-width: 1000px;
+  margin:2rem auto 2rem auto;
+  @media screen and (max-width: $window-size-02) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: $window-size-03) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: $window-size-04) {
+    max-width: 90%;
+    margin:2rem auto 2rem auto;
+  }
+}
+
+.body-modal-pqrs {
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+  .gif-mobile{
+    margin-bottom:4rem;
+  }
+  h3:nth-of-type(1){
+    font-family: $Century-Bold;
+    color:$color01;
+    font-size: $tx-size-01;
+    margin: 0rem 3.5rem 6rem 0rem;
+    text-align: center;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-04;
+      margin: 0rem 0rem 3rem 0rem;
+    }
+  }
+  p:nth-of-type(1){
+    margin: 0rem 3.5rem 5rem 0rem;
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    span{
+      font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-03) {
+      text-align: center;
+      font-size: $tx-size-08;
+      margin: 0rem 0rem 3rem 0rem;
+    }
+  }
+  p:nth-of-type(2){
+    margin: 0rem 0rem 3rem 0rem;
+    font-family: $Century-Regular;
+    color:$negro;
+    font-size: $tx-size-07;
+    text-align: center;
+  }
+}
+// @media screen and (max-width: $window-size-05) {
+//   .body-politica-calidad {
+//     height: 65vh;
+//   }
+// }
+

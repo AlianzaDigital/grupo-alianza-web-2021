@@ -21,6 +21,23 @@ footer{
   }
 }
 
+footer.actualizacion-pqrs{
+  position: relative;
+  bottom:0rem;
+  margin-top: -20rem;
+  @media screen and (max-width: $window-size-01) {
+    bottom:0rem;
+    margin-top: -20rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin-top: 0rem;
+    bottom:0rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    position: static;
+  }
+}
+
 footer.footer-servicios-temporales{
   position: relative;
   bottom:0rem;
@@ -41,14 +58,14 @@ footer.footer-servicios-temporales{
 footer.footer-mensaje-enviado{
   position: relative;
   bottom:0rem;
-  margin-top: -18rem;
+  margin-top: -18.5rem;
   z-index: 1;
   @media screen and (max-width: $window-size-01) {
     bottom:0rem;
-    margin-top: -18rem;
+    margin-top: -19rem;
   }
   @media screen and (max-width: 1300px) {
-    margin-top: -21rem;
+    margin-top: -21.5rem;
   }
   @media screen and (max-width: $window-size-02) {
     margin-top: 0rem;
@@ -57,16 +74,19 @@ footer.footer-mensaje-enviado{
 }
 
 .margen-footer-img{
+  position: relative;
+
   display: flex;
   flex-direction: column;
   // justify-content: center;
   justify-content: flex-start;
-  align-items: center;
-  margin: 6rem 1rem 0rem 1rem;
-  height: 100%;
+  // align-items: center;
+  margin: 0rem 1rem 0rem 1rem;
+  // height: 100%;
   // text-align: right;
   @media screen and (max-width: 1920px) {
-    align-items: flex-end;
+    // align-items: flex-end;
+    align-items: flex-start;
   }
   @media screen and (max-width: $window-size-02) {
     margin: 0rem 1rem 0rem 1rem;
@@ -76,23 +96,33 @@ footer.footer-mensaje-enviado{
   @media screen and (max-width: $window-size-04) {
     justify-content: flex-start;
     height: auto;
+    margin: 0rem 1rem 4rem 1rem;
   }
-  @media screen and (max-width: $window-size-04) {
-    margin: 0rem 1rem 8rem 1rem;
+  .content-align{
+    width: 260px;
+    @media screen and (max-width: 1400px) {
+      width: auto;
+    }
+    @media screen and (max-width: $window-size-02) {
+      width: auto;
+    }
   }
 }
 .logo-footer{
-  width: 245px;
+  width: 211px;
+  margin-left: 2rem;
   // @media screen and (max-width: $window-size-04) {
   //   margin: 0rem 0rem 15rem 0rem;
   // }
   @media screen and (max-width: $window-size-05) {
+    margin-left: 0rem;
     width: 100%;
   }
 }
 .btn-icono-linked-in{
   text-align: right;
-  margin: 4rem 0rem 0rem 0rem;
+  // margin: 4rem 0rem 0rem 0rem;
+  margin: 1.5rem 0rem 1rem 0rem;
   a{
     color: $blanco;
     font-size: $tx-size-04 + .1;
@@ -104,6 +134,9 @@ footer.footer-mensaje-enviado{
       margin: 4rem 0rem 0rem 0rem;
       font-size: $tx-size-03 + .2;
     }
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin: 2.5rem 0rem 0rem 0rem;
   }
 }
 
@@ -126,6 +159,13 @@ footer.footer-mensaje-enviado{
   font-size: $tx-size-08;
   margin:0rem 0rem 1rem 0rem;
 }
+.tx-head-footer.margen{
+  font-family: $Century-Bold;
+  color:$blanco;
+  font-size: $tx-size-08;
+  margin:4.5rem 0rem 1rem 0rem;
+}
+
 .tx-body-footer{
   display: flex;
   a{
@@ -217,9 +257,10 @@ footer.footer-mensaje-enviado{
 .content-footer-03{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  // justify-content: space-between;
+  justify-content: center;
   // padding: 2.5rem 0rem 0rem 0rem;
-  padding: 0rem 0rem 0rem 0rem;
+  padding: 3.5rem 0rem 0rem 0rem;
   p{
     color: $blanco;
       font-size: $tx-size-09;

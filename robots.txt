@@ -3,6 +3,8 @@ User-agent: *
 Allow: /site/index.html
 Allow: /site/servicios-temporales.html
 Allow: /site/reclutamiento-seleccion-personal.html
+Allow: /site/sobre-nosotros.html
+Allow: /site/peticiones-sugerencias.html
 
 Disallow: /site/error-404.html
 Disallow: /site/formulario-accion.html
