@@ -375,22 +375,6 @@ $("#contactFormEmpresa").validator().on("submit", function (event) {
 
   //Validacion de que los campos estan completos
   if ((valido_form)&&(valido_select_01)&&(valido_description)&&(valido_check) === 1) {
-    $("#form-submit").prop("disabled", true);
-
-    $("#seccion-formulario").addClass("animacion-form");
-    if($("#seccion-formulario").hasClass("animacion-form")) {
-      setTimeout( function(){ 
-        $("#seccion-formulario").addClass("d-none");
-        $(window).scrollTop(0);
-        $("#procesando-datos").removeClass("d-none");
-        $("#procesando-datos").addClass("d-block suavizar-opacidad");
-      }, 700);
-    }
-    else{
-      $("#seccion-formulario").removeClass("animacion-form");
-      $("#seccion-formulario").removeClass("d-none");
-    }
-
     submitFormEmpresa();
     submitMSG_empresa(true, "");
   }else {
@@ -422,10 +406,10 @@ function submitFormEmpresa(){
 
       success: function(text){
           if (text == "success"){
-              formSuccess_empresa();
-              
+            formSuccess_empresa();
+            $('#modalPQRSenviada').modal('show')
           } else {
-              submitMSG_empresa(false,text);
+            submitMSG_empresa(false,text);
           }
       }
   });
@@ -829,22 +813,6 @@ $("#contactFormEmpleado").validator().on("submit", function (event) {
 
   //Validacion de que los campos estan completos
   if ((valido_form)&&(valido_select_01)&&(valido_description)&&(valido_check) === 1) {
-    $("#form-submit").prop("disabled", true);
-
-    $("#seccion-formulario").addClass("animacion-form");
-    if($("#seccion-formulario").hasClass("animacion-form")) {
-      setTimeout( function(){ 
-        $("#seccion-formulario").addClass("d-none");
-        $(window).scrollTop(0);
-        $("#procesando-datos").removeClass("d-none");
-        $("#procesando-datos").addClass("d-block suavizar-opacidad");
-      }, 700);
-    }
-    else{
-      $("#seccion-formulario").removeClass("animacion-form");
-      $("#seccion-formulario").removeClass("d-none");
-    }
-
     submitFormEmpleado();
     submitMSG_empleado(true, "");
   }else {
@@ -878,10 +846,10 @@ function submitFormEmpleado(){
 
       success: function(text){
           if (text == "success"){
-              formSuccess_empleado();
-              
+            formSuccess_empleado();
+            $('#modalPQRSenviada').modal('show')
           } else {
-              submitMSG_empleado(false,text);
+            submitMSG_empleado(false,text);
           }
       }
   });

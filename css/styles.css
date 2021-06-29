@@ -812,6 +812,118 @@ a:hover {
   text-align: center;
 }
 
+/* MODAL PQRS ENVIADA*/
+.pqrs-enviada .modal-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  height: 90vh;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .pqrs-enviada .modal-dialog {
+    max-width: 90%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+.pqrs-enviada .modal-dialog .modal-content {
+  border: none;
+  border-radius: 0rem;
+  background: #FFF;
+  padding: 2.5rem 1.5rem 6rem 4rem;
+}
+@media screen and (max-width: 767px) {
+  .pqrs-enviada .modal-dialog .modal-content {
+    padding: 1.5rem 1rem 4.5rem 2rem;
+    border-radius: 0rem;
+  }
+}
+.pqrs-enviada .modal-dialog .modal-content .close-modal {
+  margin: 0rem 0rem 4rem 0rem;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .pqrs-enviada .modal-dialog .modal-content .close-modal {
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.pqrs-enviada .modal-dialog .modal-content .close-modal a {
+  cursor: pointer;
+  color: #2F974E;
+  font-size: 2.2rem;
+}
+.pqrs-enviada .modal-dialog .modal-content .close-modal a i {
+  color: #2F974E;
+}
+.pqrs-enviada .modal-dialog .modal-content .close-modal a:hover i {
+  color: #2F974E;
+}
+.pqrs-enviada .modal-dialog .modal-body {
+  padding: 0;
+}
+
+.pqrs-enviada .modal-dialog {
+  max-width: 650px;
+}
+@media screen and (max-width: 1199px) {
+  .pqrs-enviada .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pqrs-enviada .modal-dialog {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pqrs-enviada .modal-dialog {
+    max-width: 90%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+
+.body-pqrs-enviada {
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+
+.content-modal-pqrs-enviada {
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+.content-modal-pqrs-enviada h3:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.6rem;
+  margin: 0rem 2.5rem 5rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .content-modal-pqrs-enviada h3:nth-of-type(1) {
+    font-size: 2.4rem;
+    margin: 0rem 1rem 3rem 0rem;
+  }
+}
+.content-modal-pqrs-enviada p:nth-of-type(1) {
+  margin: 0rem 2.5rem 0rem 0rem;
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.content-modal-pqrs-enviada p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 767px) {
+  .content-modal-pqrs-enviada p:nth-of-type(1) {
+    font-size: 1.3rem;
+    margin: 0rem 1rem 0rem 0rem;
+  }
+}
+
 /* BOTONES */
 .contact-btn-footer-xs {
   position: relative;
