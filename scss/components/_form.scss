@@ -92,6 +92,7 @@ label{
   border-radius: .5rem;
   border: .1rem solid $gris05;
   color: $negro;
+  background: $blanco;
   font-family: $Century-Regular;
   font-size: $tx-size-07;
   height: 4rem;
@@ -106,6 +107,28 @@ label{
   }
 }
 
+textarea.form-control{
+  border-radius: .5rem;
+  border: .1rem solid $gris05;
+  color: $negro;
+  background: $blanco;
+  font-family: $Century-Regular;
+  font-size: $tx-size-07;
+  padding: .5rem 2rem;
+  outline: none;
+  &:focus{
+    border: .1rem solid $color02;
+    box-shadow: none;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-07;
+  }
+}
+
+.form-control.select:read-only {
+  background-color: $blanco;
+}
+
 .form-control.error{
   border-radius: .5rem;
   border: .1rem solid $color03;
@@ -116,7 +139,28 @@ label{
   }
 }
 
+textarea.form-control.error{
+  border-radius: .5rem;
+  border: .1rem solid $color03;
+  color: $color03;
+  &:focus{
+    border: .1rem solid $color03;
+    box-shadow: none;
+  }
+}
+
+
 .form-control.correcto{
+  border-radius: .5rem;
+  border: .1rem solid $color02;
+  color: $negro;
+  &:focus{
+    border: .1rem solid $color02;
+    box-shadow: none;
+  }
+}
+
+textarea.form-control.correcto{
   border-radius: .5rem;
   border: .1rem solid $color02;
   color: $negro;
@@ -190,6 +234,7 @@ label{
 }
 
 .tx-msg-form{
+  // position: absolute;
   color: $color03;
   font-family: $Century-Regular;
   font-size: $tx-size-09;
@@ -199,6 +244,7 @@ label{
   }
 }
 .tx-msg-form.center{
+  // position: static;
   text-align: center;
 }
 
@@ -206,10 +252,13 @@ label{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  #checkbox-web{
+  #checkbox-web-empresa{
     margin: .25rem 0rem 0rem 0rem;
   }
-  p:nth-of-type(1){
+  #checkbox-web-empleado{
+    margin: .25rem 0rem 0rem 0rem;
+  }
+  .tx-terminos{
     color: $negro;
     font-family: $Century-Regular;
     font-size: $tx-size-07;
@@ -231,6 +280,7 @@ label{
 }
 
 .list-unstyled{
+  position: absolute;
   color: $color03;
   font-family: $Century-Regular;
   font-size: $tx-size-09;

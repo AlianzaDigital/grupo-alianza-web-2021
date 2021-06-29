@@ -129,6 +129,53 @@
   }
 }
 
+.btn-pqrs-collapse{
+  position: relative;
+  color:$negro;
+  font-size: $tx-size-04;
+  font-family: $Century-Bold;
+  border: none;
+  background-color: $blanco;
+  width: 100%;
+  padding: 2rem 3rem 2rem 4.5rem;
+  border-radius: .5rem;
+  text-align: left;
+  margin:0rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    padding: 1.5rem 1rem 1.5rem 3rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 1.5rem 4rem 1.5rem 1rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-06;
+    padding: 1.5rem 2rem 1.5rem 2.5rem;
+  }
+  span i{
+    position: absolute;
+    right: 3rem;
+    top: 2.5rem;
+    @media screen and (max-width: $window-size-02) {
+      top: 2rem;
+      right: 1.5rem;
+    }
+  }
+  span .icon-Flecha-abajo::before{
+    font-size: $tx-size-05;
+    color: $color01;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-07;
+    }
+  }
+  span .icon-Flecha-arriba::before{
+    font-size: $tx-size-04;
+    color: $color01;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-06;
+    }
+  }
+}
+
 .btn-volver-web{
   margin:3rem 0rem 0rem 0rem;
   a{
@@ -176,7 +223,7 @@
   outline: none;
   font-size: $tx-size-06;
   font-family: $Century-Bold;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 1.5rem;
   border-radius: .5rem;
   text-align: center;
   width: 100%;

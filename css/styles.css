@@ -958,6 +958,65 @@ a:hover {
   color: #2F974E;
 }
 
+.btn-pqrs-collapse {
+  position: relative;
+  color: #000;
+  font-size: 2.4rem;
+  font-family: "Century-Gothic-Bold";
+  border: none;
+  background-color: #FFF;
+  width: 100%;
+  padding: 2rem 3rem 2rem 4.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  margin: 0rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 1199px) {
+  .btn-pqrs-collapse {
+    padding: 1.5rem 1rem 1.5rem 3rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .btn-pqrs-collapse {
+    padding: 1.5rem 4rem 1.5rem 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-pqrs-collapse {
+    font-size: 2rem;
+    padding: 1.5rem 2rem 1.5rem 2.5rem;
+  }
+}
+.btn-pqrs-collapse span i {
+  position: absolute;
+  right: 3rem;
+  top: 2.5rem;
+}
+@media screen and (max-width: 1199px) {
+  .btn-pqrs-collapse span i {
+    top: 2rem;
+    right: 1.5rem;
+  }
+}
+.btn-pqrs-collapse span .icon-Flecha-abajo::before {
+  font-size: 2.2rem;
+  color: #2F974E;
+}
+@media screen and (max-width: 767px) {
+  .btn-pqrs-collapse span .icon-Flecha-abajo::before {
+    font-size: 1.6rem;
+  }
+}
+.btn-pqrs-collapse span .icon-Flecha-arriba::before {
+  font-size: 2.4rem;
+  color: #2F974E;
+}
+@media screen and (max-width: 767px) {
+  .btn-pqrs-collapse span .icon-Flecha-arriba::before {
+    font-size: 2rem;
+  }
+}
+
 .btn-volver-web {
   margin: 3rem 0rem 0rem 0rem;
 }
@@ -1005,7 +1064,7 @@ a:hover {
   outline: none;
   font-size: 2rem;
   font-family: "Century-Gothic-Bold";
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 1.5rem;
   border-radius: 0.5rem;
   text-align: center;
   width: 100%;
@@ -2460,6 +2519,181 @@ span .contacto-agil.icon-Cerrar::before {
     padding: 7rem 0rem 11rem 0rem;
     background-size: 470px auto;
     height: 870px;
+  }
+}
+
+.main-peticiones-sugerencias {
+  padding: 7rem 0rem 30rem 0rem;
+  background: url("../images/personas-anotando-sonriente-pqrs-grupo-alianza.webp");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 930px;
+}
+@media screen and (max-width: 1920px) {
+  .main-peticiones-sugerencias {
+    background-size: 1920px auto;
+    background-position: center bottom;
+  }
+}
+.main-peticiones-sugerencias .content-main {
+  padding: 0rem 3rem 0rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .main-peticiones-sugerencias .content-main {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(1) {
+    font-size: 1.3rem;
+  }
+}
+.main-peticiones-sugerencias .content-main h1:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #FFF;
+  font-size: 3.6rem;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias .content-main h1:nth-of-type(1) {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-peticiones-sugerencias .content-main h1:nth-of-type(1) {
+    font-size: 2.4rem;
+  }
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(2) {
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 2rem 0rem;
+  display: flex;
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(2) span i {
+  color: #2F974E;
+  margin-right: 1.1rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(2) {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(2) {
+    font-size: 1.4rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(3) {
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 2rem 0rem;
+  display: flex;
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(3) span i {
+  color: #2F974E;
+  margin-right: 1.1rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(3) {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(3) {
+    font-size: 1.4rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(4) {
+  font-family: "Century-Gothic-Regular";
+  color: #FFF;
+  font-size: 1.6rem;
+  margin: 0rem 0rem 5.5rem 0rem;
+  display: flex;
+}
+.main-peticiones-sugerencias .content-main p:nth-of-type(4) span i {
+  color: #2F974E;
+  margin-right: 1.1rem;
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(4) {
+    font-size: 1.3rem;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-peticiones-sugerencias .content-main p:nth-of-type(4) {
+    font-size: 1.4rem;
+    margin: 0rem 0rem 2.5rem 0rem;
+  }
+}
+@media screen and (max-width: 1589px) {
+  .main-peticiones-sugerencias {
+    padding: 7rem 0rem 25rem 0rem;
+    background-size: 1600px auto;
+    height: 780px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main-peticiones-sugerencias {
+    padding: 2rem 0rem 18rem 0rem;
+    background-size: 1270px auto;
+    height: 620px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-peticiones-sugerencias {
+    padding: 3rem 0rem 17rem 0rem;
+    background-size: 1330px auto;
+    height: 650px;
+    margin: 8.3rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-peticiones-sugerencias {
+    background: url("../images/personas-anotando-sonriente-xs-pqrs-grupo-alianza.webp");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 21rem 0rem 20rem 0rem;
+    background-size: 768px auto;
+    height: 470px;
+    justify-content: flex-end;
+    margin: 8.3rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-peticiones-sugerencias {
+    padding: 7rem 0rem 15rem 0rem;
+    background-size: 575px auto;
+    height: 1050px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-peticiones-sugerencias {
+    padding: 7rem 0rem 13rem 0rem;
+    background-size: 480px auto;
+    height: 890px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main-peticiones-sugerencias {
+    padding: 7rem 0rem 11rem 0rem;
+    background-size: 380px auto;
+    height: 690px;
   }
 }
 
@@ -5298,6 +5532,275 @@ span .contacto-agil.icon-Cerrar::before {
   font-size: 4.2rem;
 }
 
+/* PQRS NODO */
+/* SECTION NOSOTROS 01 */
+.section-peticiones-sugerencias-01 {
+  padding: 8rem 0rem 13rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .section-peticiones-sugerencias-01 {
+    padding: 0rem 0rem 7rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 3.2rem;
+  margin: 6rem 0rem 5rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 h2:nth-of-type(1) {
+    font-size: 2.2rem;
+  }
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 767px) {
+  .section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(1) {
+    text-align: left;
+  }
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(2) {
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 1rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(2) span i {
+  color: #2F974E;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(2) a {
+  color: #000;
+  font-size: 2rem;
+  font-family: "Century-Gothic-Bold";
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(2) a:hover {
+  color: #2F974E;
+  font-family: "Century-Gothic-Bold";
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(3) {
+  font-family: "Century-Gothic-Bold";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(3) span i {
+  color: #2F974E;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(3) a {
+  color: #000;
+  font-size: 2rem;
+  font-family: "Century-Gothic-Bold";
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(3) a:hover {
+  color: #2F974E;
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(4) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(4) {
+    text-align: left;
+  }
+}
+.section-peticiones-sugerencias-01 .content-peticiones-sugerencias-01-01 p:nth-of-type(4) span {
+  font-family: "Century-Gothic-Bold";
+}
+
+/* SECTION NOSOTROS 02 */
+.section-peticiones-sugerencias-02 {
+  padding: 0rem 0rem 5rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .section-peticiones-sugerencias-02 {
+    padding: 0rem 0rem 10rem 0rem;
+  }
+}
+
+.item-peticiones-sugerencias {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0rem 0rem 3rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .item-peticiones-sugerencias {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #6CD33C;
+    padding: 6rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.item-peticiones-sugerencias img:nth-of-type(1) {
+  margin: 0rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .item-peticiones-sugerencias img:nth-of-type(1) {
+    margin: 0rem 0rem 4rem 0rem;
+    width: 10rem;
+  }
+}
+.item-peticiones-sugerencias .tx {
+  margin: 0rem 0rem 0rem 5rem;
+}
+@media screen and (max-width: 991px) {
+  .item-peticiones-sugerencias .tx {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.item-peticiones-sugerencias .tx h3:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #000;
+  font-size: 2.8rem;
+  margin: 0rem 0rem 2.5rem 0rem;
+}
+@media screen and (max-width: 991px) {
+  .item-peticiones-sugerencias .tx h3:nth-of-type(1) {
+    text-align: center;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+.item-peticiones-sugerencias .tx p:nth-of-type(1) {
+  font-family: "Century-Gothic-Regular";
+  color: #000;
+  font-size: 2rem;
+}
+.item-peticiones-sugerencias .tx p:nth-of-type(1) span {
+  font-family: "Century-Gothic-Bold";
+}
+@media screen and (max-width: 991px) {
+  .item-peticiones-sugerencias .tx p:nth-of-type(1) {
+    text-align: center;
+  }
+}
+
+/* SECTION NOSOTROS 03 */
+.section-peticiones-sugerencias-03 {
+  background: none;
+  padding: 18rem 0rem 10rem 0rem;
+}
+@media screen and (max-width: 1920px) {
+  .section-peticiones-sugerencias-03 {
+    background: url("../images/senaladores-secciones-grupo-alianza-gestion-de-talento-humano.webp");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+  }
+}
+@media screen and (max-width: 1589px) {
+  .section-peticiones-sugerencias-03 {
+    padding: 15rem 0rem 10rem 0rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .section-peticiones-sugerencias-03 {
+    padding: 13rem 0rem 10rem 0rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section-peticiones-sugerencias-03 {
+    padding: 11rem 0rem 10rem 0rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-peticiones-sugerencias-03 {
+    padding: 0rem 0rem 10rem 0rem;
+    background: none;
+  }
+}
+
+.content-peticiones-sugerencias-03-01 h2:nth-of-type(1) {
+  font-family: "Century-Gothic-Bold";
+  color: #2F974E;
+  font-size: 2.2rem;
+  margin: 0rem 0rem 10rem 0rem;
+  text-align: center;
+  padding: 0rem 0rem 0rem 0rem;
+}
+@media screen and (max-width: 767px) {
+  .content-peticiones-sugerencias-03-01 h2:nth-of-type(1) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-peticiones-sugerencias-03-01 {
+    margin: 0rem 0rem 6rem 0rem;
+  }
+}
+
+#accordionPQRS {
+  margin: 10rem auto 0rem auto;
+  width: 90%;
+}
+@media screen and (max-width: 1199px) {
+  #accordionPQRS {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #accordionPQRS {
+    width: 100%;
+  }
+}
+
+#accordionPQRS .card {
+  border: none;
+  background: none;
+  margin: 1.5rem 0rem 0rem 0rem;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 767px) {
+  #accordionPQRS .card {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+}
+
+#accordionPQRS .card-header {
+  margin: 0rem 0rem 0.1rem 0rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+
+.content-form-pqrs .card-body {
+  padding: 5.5rem 8rem 6.5rem 8rem;
+  background: #F5F5F5;
+}
+@media screen and (max-width: 767px) {
+  .content-form-pqrs .card-body {
+    padding: 7rem 1.5rem 5.5rem 1.5rem;
+  }
+}
+
 /* SECTION NOSOTROS 01 */
 .section-sobre-nosotros-01 {
   padding: 3rem 0rem 7rem 0rem;
@@ -5710,9 +6213,9 @@ footer.footer-mensaje-enviado {
 .margen-footer-img .content-align {
   width: 260px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1320px) {
   .margen-footer-img .content-align {
-    width: auto;
+    width: 231px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -6204,6 +6707,7 @@ label span {
   border-radius: 0.5rem;
   border: 0.1rem solid #D0D2D3;
   color: #000;
+  background: #FFF;
   font-family: "Century-Gothic-Regular";
   font-size: 1.6rem;
   height: 4rem;
@@ -6220,6 +6724,30 @@ label span {
   }
 }
 
+textarea.form-control {
+  border-radius: 0.5rem;
+  border: 0.1rem solid #D0D2D3;
+  color: #000;
+  background: #FFF;
+  font-family: "Century-Gothic-Regular";
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  outline: none;
+}
+textarea.form-control:focus {
+  border: 0.1rem solid #6CD33C;
+  box-shadow: none;
+}
+@media screen and (max-width: 767px) {
+  textarea.form-control {
+    font-size: 1.6rem;
+  }
+}
+
+.form-control.select:read-only {
+  background-color: #FFF;
+}
+
 .form-control.error {
   border-radius: 0.5rem;
   border: 0.1rem solid #A94442;
@@ -6230,12 +6758,32 @@ label span {
   box-shadow: none;
 }
 
+textarea.form-control.error {
+  border-radius: 0.5rem;
+  border: 0.1rem solid #A94442;
+  color: #A94442;
+}
+textarea.form-control.error:focus {
+  border: 0.1rem solid #A94442;
+  box-shadow: none;
+}
+
 .form-control.correcto {
   border-radius: 0.5rem;
   border: 0.1rem solid #6CD33C;
   color: #000;
 }
 .form-control.correcto:focus {
+  border: 0.1rem solid #6CD33C;
+  box-shadow: none;
+}
+
+textarea.form-control.correcto {
+  border-radius: 0.5rem;
+  border: 0.1rem solid #6CD33C;
+  color: #000;
+}
+textarea.form-control.correcto:focus {
   border: 0.1rem solid #6CD33C;
   box-shadow: none;
 }
@@ -6323,10 +6871,13 @@ label span {
   flex-direction: row;
   align-items: flex-start;
 }
-.checkbox #checkbox-web {
+.checkbox #checkbox-web-empresa {
   margin: 0.25rem 0rem 0rem 0rem;
 }
-.checkbox p:nth-of-type(1) {
+.checkbox #checkbox-web-empleado {
+  margin: 0.25rem 0rem 0rem 0rem;
+}
+.checkbox .tx-terminos {
   color: #000;
   font-family: "Century-Gothic-Regular";
   font-size: 1.6rem;
@@ -6334,23 +6885,24 @@ label span {
   line-height: 1;
 }
 @media screen and (max-width: 767px) {
-  .checkbox p:nth-of-type(1) {
+  .checkbox .tx-terminos {
     font-size: 1.6rem;
   }
 }
-.checkbox p:nth-of-type(1) span a {
+.checkbox .tx-terminos span a {
   cursor: pointer;
   color: #000;
   font-family: "Century-Gothic-Bold";
   font-size: 1.6rem;
 }
 @media screen and (max-width: 767px) {
-  .checkbox p:nth-of-type(1) span a {
+  .checkbox .tx-terminos span a {
     font-size: 1.6rem;
   }
 }
 
 .list-unstyled {
+  position: absolute;
   color: #A94442;
   font-family: "Century-Gothic-Regular";
   font-size: 1.1rem;

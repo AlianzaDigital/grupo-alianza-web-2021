@@ -114,7 +114,7 @@ $Body .= utf8_decode("NIT: ");
 $Body .= utf8_decode($nit);
 $Body .= "\n";
 
-$Body .= utf8_decode("Nombre y Apellido: ");
+$Body .= utf8_decode("Nombre y Apellidos: ");
 $Body .= utf8_decode($firstName);
 $Body .= "\n";
 

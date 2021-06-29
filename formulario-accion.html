@@ -373,12 +373,12 @@
   
                         <div class="checkbox">
                           <input type="checkbox" id="checkbox-web" required checked> 
-                          <p>Acepto los 
+                          <div class="tx-terminos">Acepto los
                             <span>
                               <a href="#" data-toggle="modal" data-target="#modalPoliticaPrivacidad" title="Ver términos y condiciones">términos y condiciones.
                               </a>
-                            </span>
-                          </p> 
+                          </span>
+                        </div> 
 
                           
                         </div>
@@ -677,7 +677,7 @@
     <script src="js/intlTelInput.js"></script>
     
     <script>
-      var input = document.querySelector("#telephone");
+      let input = document.querySelector("#telephone");
       window.intlTelInput(input, {
         // allowDropdown: false,
         // autoHideDialCode: false,

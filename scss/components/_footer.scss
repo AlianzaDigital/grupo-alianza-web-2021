@@ -100,8 +100,8 @@ footer.footer-mensaje-enviado{
   }
   .content-align{
     width: 260px;
-    @media screen and (max-width: 1400px) {
-      width: auto;
+    @media screen and (max-width: 1320px) {
+      width: 231px;
     }
     @media screen and (max-width: $window-size-02) {
       width: auto;

@@ -268,6 +268,7 @@ $("#click-ancla-main-index").on('click', function() {
 });
 
 // SCRIPTS ACCORDIONS
+// TEMPORAL
 $( '#btn-accordion-01' ).click(function() {
   $('#icon-collapse-02, #icon-collapse-03').removeClass('icon-Flecha-arriba')
   $('#icon-collapse-02, #icon-collapse-03').addClass('icon-Flecha-abajo')
@@ -304,6 +305,33 @@ $( '#btn-accordion-03' ).click(function() {
   } else{
     $('#icon-collapse-03').removeClass('icon-Flecha-abajo')
     $('#icon-collapse-03').addClass('icon-Flecha-arriba')
+  }
+})
+
+// PQRS
+$( '#btn-accordion-01' ).click(function() {
+  $('#icon-collapse-02, #icon-collapse-03').removeClass('icon-Flecha-arriba')
+  $('#icon-collapse-02, #icon-collapse-03').addClass('icon-Flecha-abajo')
+
+  if($("#collapse-pqrs-01").hasClass('show')) {
+    $('#icon-collapse-01').removeClass('icon-Flecha-arriba')
+    $('#icon-collapse-01').addClass('icon-Flecha-abajo')
+  } else{
+    $('#icon-collapse-01').removeClass('icon-Flecha-abajo')
+    $('#icon-collapse-01').addClass('icon-Flecha-arriba')
+  }
+})
+
+$( '#btn-accordion-02' ).click(function() {
+  $('#icon-collapse-01, #icon-collapse-03').removeClass('icon-Flecha-arriba')
+  $('#icon-collapse-01, #icon-collapse-03').addClass('icon-Flecha-abajo')
+
+  if($("#collapse-pqrs-02").hasClass('show')) {
+    $('#icon-collapse-02').removeClass('icon-Flecha-arriba')
+    $('#icon-collapse-02').addClass('icon-Flecha-abajo')
+  } else{
+    $('#icon-collapse-02').removeClass('icon-Flecha-abajo')
+    $('#icon-collapse-02').addClass('icon-Flecha-arriba')
   }
 })
 
