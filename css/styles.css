@@ -6945,6 +6945,35 @@ textarea.form-control.correcto:focus {
   font-weight: bolder;
 }
 
+#accordionPQRS .select.card.card-body {
+  padding: 0;
+  margin: 0;
+  border: 0.1rem solid #6CD33C;
+}
+#accordionPQRS .select.card.card-body ul {
+  background: #FFF;
+  margin: 0;
+  list-style: none;
+}
+#accordionPQRS .select.card.card-body ul li {
+  display: block;
+  color: #000;
+  cursor: pointer;
+  padding: 1.2rem 2rem;
+  font-family: "Century-Gothic-Regular";
+  font-size: 1.6rem;
+}
+#accordionPQRS .select.card.card-body ul li:focus {
+  color: #333333;
+  background: #F9F9F9;
+  font-weight: bolder;
+}
+#accordionPQRS .select.card.card-body ul li:hover {
+  color: #333333;
+  background: #F9F9F9;
+  font-weight: bolder;
+}
+
 .iti__selected-flag {
   padding: 0rem 0.5rem 0rem 1rem;
   outline: none;

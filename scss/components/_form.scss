@@ -216,6 +216,37 @@ textarea.form-control.correcto{
   }
 }
 
+#accordionPQRS .select.card.card-body{
+  padding: 0;
+  margin: 0;
+  // border-radius: .5rem;
+  border: .1rem solid $color02;
+  ul{
+    background: $blanco;
+    margin: 0;
+    list-style: none;
+    li{
+      display: block;
+      color: $negro;
+      cursor: pointer;
+      padding: 1.2rem 2rem;
+      font-family: $Century-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        color: $negro03;
+        background: $gris10;
+        font-weight: bolder;
+      }
+      &:hover{
+        color: $negro03;
+        background: $gris10;
+        font-weight: bolder;
+      }
+      
+    }
+  }
+}
+
 .iti__selected-flag{
   padding: 0rem .5rem 0rem 1rem;
   outline: none;
