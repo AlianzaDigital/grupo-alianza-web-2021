@@ -375,6 +375,8 @@ $("#contactFormEmpresa").validator().on("submit", function (event) {
 
   //Validacion de que los campos estan completos
   if ((valido_form)&&(valido_select_01)&&(valido_description)&&(valido_check) === 1) {
+    $("#form-submit-empresa").prop("disabled", true);
+
     submitFormEmpresa();
     submitMSG_empresa(true, "");
   }else {
@@ -813,6 +815,8 @@ $("#contactFormEmpleado").validator().on("submit", function (event) {
 
   //Validacion de que los campos estan completos
   if ((valido_form)&&(valido_select_01)&&(valido_description)&&(valido_check) === 1) {
+    $("#form-submit-empleado").prop("disabled", true);
+
     submitFormEmpleado();
     submitMSG_empleado(true, "");
   }else {
