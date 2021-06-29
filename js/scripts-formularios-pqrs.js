@@ -527,7 +527,7 @@ $('.event-funciones-empleado').on('click', function(event){
 
 // VALIDATE ALL VARIABLES OF THE FORM
 $('#identificacion-empleado').on('input', function () { 
-  this.value = this.value.replace(/[^0-9-]/g,'');
+  this.value = this.value.replace(/[^0-9]/g,'');
 });
 
 $('#telephone-empleado').on('input', function () { 
