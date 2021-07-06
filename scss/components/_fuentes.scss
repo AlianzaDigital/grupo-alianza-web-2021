@@ -24,16 +24,24 @@
 	font-display: swap;
 }
 
+// @font-face {
+//   font-family: 'ga-icon-font';
+//   src:  url('../fonts/icomoon.eot?1pea9m');
+//   src:  url('../fonts/icomoon.eot?1pea9m#iefix') format('embedded-opentype'),
+//     url('../fonts/icomoon.ttf?1pea9m') format('truetype'),
+//     url('../fonts/icomoon.woff?1pea9m') format('woff'),
+//     url('../fonts/icomoon.svg?1pea9m#icomoon') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
 @font-face {
   font-family: 'ga-icon-font';
-  src:  url('../fonts/icomoon.eot?1pea9m');
-  src:  url('../fonts/icomoon.eot?1pea9m#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?1pea9m') format('truetype'),
-    url('../fonts/icomoon.woff?1pea9m') format('woff'),
-    url('../fonts/icomoon.svg?1pea9m#icomoon') format('svg');
+  src:  url('../fonts/icomoon.ttf?1pea9m');
+  src:  url('../fonts/icomoon.ttf?1pea9m') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 [class^="icon-"], [class*=" icon-"] {

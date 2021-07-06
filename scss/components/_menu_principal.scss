@@ -141,9 +141,9 @@
 }
 
 .logo-ga{
-  width: 240px;
+  width: 240px !important;
   @media screen and (max-width: $window-size-03) {
-    width: 135px;
+    width: 135px !important;
     margin: 0rem 0rem 0rem 4rem;
   }
 }

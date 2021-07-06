@@ -38,9 +38,17 @@
     <meta property="og:description" content="Sobre nosotros grupo alianza." />
     <meta property="og:site_name" content="Sobre nosotros | Grupo Alianza" />
 
+    <!-- Preload fonts -->
+    <link rel="preload" as="font" href="fonts/Century-Gothic-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/Century-Gothic-Bold-Italic.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/Century-Gothic-Italic.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/Century-Gothic-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/icomoon.ttf?1pea9m" type="font/ttf" crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+    
     <link rel="shortcut icon" href="images/favicon-grupo-alianza-96x96.webp" type="image/x-icon">
 
     <title>Sobre nosotros | Grupo Alianza</title>
@@ -821,8 +829,10 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js" ></script>
+    <!-- Lazyload validation -->
+    <script src="js/lazyload.min.js"></script>
 
-    <script>
+    <script async>
       function loadXMLDoc() {
 
         let importIframe =  document.getElementById("iframeTerminos");
@@ -850,7 +860,7 @@
     </script>
 
     <!-- Scripts -->
-    <script src="js/scripts-globales.js" ></script>
+    <script async src="js/scripts-globales.min.js" ></script>
 
   </body>
 </html>

@@ -52,7 +52,7 @@ $(document).ready(function(){
       // placeholderNumberType: "MOBILE",
       // preferredCountries: ['cn', 'jp'],
       // separateDialCode: true,
-      utilsScript: "js/utils.js",
+      utilsScript: "js/utils.min.js",
     })
   })
 
@@ -79,7 +79,7 @@ $(document).ready(function(){
       // placeholderNumberType: "MOBILE",
       // preferredCountries: ['cn', 'jp'],
       // separateDialCode: true,
-      utilsScript: "js/utils.js",
+      utilsScript: "js/utils.min.js",
     })
   })
 })

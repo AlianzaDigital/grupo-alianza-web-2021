@@ -99,9 +99,9 @@ footer.footer-mensaje-enviado{
     margin: 0rem 1rem 4rem 1rem;
   }
   .content-align{
-    width: 260px;
+    width: 260px !important;
     @media screen and (max-width: 1320px) {
-      width: 231px;
+      width: 231px !important;
     }
     @media screen and (max-width: $window-size-02) {
       width: auto;
@@ -109,14 +109,14 @@ footer.footer-mensaje-enviado{
   }
 }
 .logo-footer{
-  width: 211px;
+  width: 211px !important;
   margin-left: 2rem;
   // @media screen and (max-width: $window-size-04) {
   //   margin: 0rem 0rem 15rem 0rem;
   // }
   @media screen and (max-width: $window-size-05) {
     margin-left: 0rem;
-    width: 100%;
+    width: 100% !important;
   }
 }
 .btn-icono-linked-in{
