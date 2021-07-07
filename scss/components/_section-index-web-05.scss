@@ -4,7 +4,8 @@
   margin:0rem 0rem 10rem 0rem;
   background: $gradient05;
   @media screen and (max-width: $window-size-04) {
-    background: $gris04;
+    // background: #BDBDBD;
+    background: rgba(189, 189, 189, 0.3);
     padding: 6rem 0rem 4rem 0rem;
   }
 }

@@ -24,7 +24,7 @@
     font-family: $Century-Regular;
     color:$negro;
     font-size: $tx-size-07;
-    margin:0rem 0rem 10rem 0rem;
+    margin:3rem 0rem 10rem 0rem;
     text-align: center;
     span{
       font-family: $Century-Bold;
@@ -34,10 +34,13 @@
     font-family: $Century-Regular;
     color:$negro;
     font-size: $tx-size-07;
-    margin:0rem 0rem 10rem 0rem;
+    margin:3rem 0rem 10rem 0rem;
     text-align: center;
     span{
       font-family: $Century-Bold;
+    }
+    @media screen and (max-width: $window-size-04) {
+      text-align: left;
     }
   }
   @media screen and (max-width: $window-size-04) {

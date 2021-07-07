@@ -318,7 +318,7 @@
 }
 
 .body-politica-calidad {
-  height: 450px;
+  // height: 450px;
   // border-top: 1px solid #EAEAEA;
   // border-left: 1px solid #EAEAEA;
   // border-bottom: 1px solid #EAEAEA;
@@ -326,11 +326,11 @@
   margin: 0px 0px 10px 0px;
   overflow-x: hidden;
 }
-@media screen and (max-width: $window-size-05) {
-  .body-politica-calidad {
-    height: 65vh;
-  }
-}
+// @media screen and (max-width: $window-size-05) {
+//   .body-politica-calidad {
+//     height: 65vh;
+//   }
+// }
 
 .content-modal-politica-calidad{
   // height: 520px;

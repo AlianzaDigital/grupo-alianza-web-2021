@@ -262,9 +262,73 @@ $("#btn_nav_fixed_xs, .icon-close-agil-xs").on('click', function() {
 
 // Anclas ID suavizadas
 $("#click-ancla-main-index").on('click', function() {
-  $('html, body').stop().animate({
-    scrollTop: $($(this).attr('href')).offset().top
-  }, 400, 'linear');
+  let offsetTop = $('#bg-main-nav').height()
+  if ($(window).width() < 992){
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top - offsetTop 
+    }, 400, 'linear');
+  }
+  else {
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top
+    }, 400, 'linear');
+  }
+});
+
+$("#click-ancla-main-pqrs-01").on('click', function() {
+  let offsetTop = $('#bg-main-nav').height()
+  if ($(window).width() < 992){
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top - offsetTop 
+    }, 400, 'linear');
+  }
+  else {
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top
+    }, 400, 'linear');
+  }
+})
+;
+$("#click-ancla-main-pqrs-02").on('click', function() {
+  let offsetTop = $('#bg-main-nav').height()
+  if ($(window).width() < 992){
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top - offsetTop 
+    }, 400, 'linear');
+  }
+  else {
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top
+    }, 400, 'linear');
+  }
+});
+
+$("#click-ancla-main-nosotros-01").on('click', function() {
+  let offsetTop = $('#bg-main-nav').height()
+  if ($(window).width() < 992){
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top - offsetTop 
+    }, 400, 'linear');
+  }
+  else {
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top
+    }, 400, 'linear');
+  }
+})
+;
+$("#click-ancla-main-nosotros-02").on('click', function() {
+  let offsetTop = $('#bg-main-nav').height()
+  if ($(window).width() < 992){
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top - offsetTop 
+    }, 400, 'linear');
+  }
+  else {
+    $('html, body').stop().animate({
+      scrollTop: $($(this).attr('href')).offset().top
+    }, 400, 'linear');
+  }
 });
 
 // SCRIPTS ACCORDIONS

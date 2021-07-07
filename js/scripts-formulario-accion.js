@@ -381,7 +381,7 @@ $("#contactForm").validator().on("submit", function (event) {
     submitMSG(true, "");
   }else {
     event.preventDefault();
-    submitMSG(false, "Completa los campos que faltan");
+    submitMSG(false, "Complete los campos que faltan");
   }
 });
 

@@ -97,7 +97,7 @@
 .section-peticiones-sugerencias-02{
   padding: 0rem 0rem 5rem 0rem;
   @media screen and (max-width: $window-size-03) {
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
 }
 .item-peticiones-sugerencias{
@@ -174,7 +174,7 @@
     // background-size: 1200px auto;
   }
   @media screen and (max-width: $window-size-03) {
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 10rem 0rem 10rem 0rem;
     background: none;
   }
 }

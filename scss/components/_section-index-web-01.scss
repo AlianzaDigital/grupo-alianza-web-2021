@@ -2,7 +2,7 @@
 .section-index-web-01{
   padding: 7rem 0rem 0rem 0rem;
   @media screen and (max-width: $window-size-03) {
-    padding:17rem 0rem 8rem 0rem;
+    padding:2rem 0rem 8rem 0rem;
   }
 }
 .content-index-web-01-01{
@@ -19,10 +19,10 @@
 }
 .content-index-web-01-02{
   img{
-    height: 31.5rem;
+    height: 31.5rem !important;
     // width: auto;
     @media screen and (max-width: $window-size-02) {
-      height: 25rem;
+      height: 25rem !important;
     }
     @media screen and (max-width: $window-size-03) {
       height: auto;
@@ -114,6 +114,7 @@
       height: 25rem;
     }
     @media screen and (max-width: $window-size-04) {
+      margin:0rem 0rem 0rem 0rem;
       border-radius: 0rem 0rem 1.2rem 1.2rem;
       padding: 2.5rem 1.5rem;
     }

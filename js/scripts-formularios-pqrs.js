@@ -298,7 +298,7 @@ $("#tipo-pqrs-empresa").click(function(){
 // });
 
 
-//FORMULARIO DE CONTACTO - contactForm_psa
+//FORMULARIO DE CONTACTO - Empresa
 $("#contactFormEmpresa").validator().on("submit", function (event) {
   let valido_form = 0;
   let valido_select_01 = 0;
@@ -381,7 +381,7 @@ $("#contactFormEmpresa").validator().on("submit", function (event) {
     submitMSG_empresa(true, "");
   }else {
     event.preventDefault();
-    submitMSG_empresa(false, "Completa los campos que faltan");
+    submitMSG_empresa(false, "Complete los campos que faltan");
   }
 });
 
@@ -735,7 +735,7 @@ $("#tipo-pqrs-empleado").click(function(){
 // });
 
 
-//FORMULARIO DE CONTACTO - contactForm_psa
+//FORMULARIO DE CONTACTO - Empleado
 $("#contactFormEmpleado").validator().on("submit", function (event) {
   let valido_form = 0;
   let valido_select_01 = 0;
@@ -821,7 +821,7 @@ $("#contactFormEmpleado").validator().on("submit", function (event) {
     submitMSG_empleado(true, "");
   }else {
     event.preventDefault();
-    submitMSG_empleado(false, "Completa los campos que faltan");
+    submitMSG_empleado(false, "Complete los campos que faltan");
   }
 });
 
