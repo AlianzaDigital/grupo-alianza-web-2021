@@ -29,6 +29,10 @@
 // });
 // INTEL INPUT TRANSITION COLLAPSE PQRS
 $(document).ready(function(){
+  $('#modalPQRSenviada').on('hide.bs.modal', function () {
+    window.location.reload();
+  })
+
   $('#collapse-pqrs-01').on('show.bs.collapse', function () {
     let inputEmpresa = document.querySelector("#telephone-empresa");
     window.intlTelInput(inputEmpresa, {
