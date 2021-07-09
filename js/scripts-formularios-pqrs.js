@@ -30,8 +30,8 @@
 // INTEL INPUT TRANSITION COLLAPSE PQRS
 $(document).ready(function(){
   $('#collapse-pqrs-01').on('show.bs.collapse', function () {
-    let input = document.querySelector("#telephone-empresa");
-    window.intlTelInput(input, {
+    let inputEmpresa = document.querySelector("#telephone-empresa");
+    window.intlTelInput(inputEmpresa, {
       // allowDropdown: false,
       // autoHideDialCode: false,
       // autoPlaceholder: "off",
@@ -57,8 +57,8 @@ $(document).ready(function(){
   })
 
   $('#collapse-pqrs-02').on('show.bs.collapse', function () {
-    let input = document.querySelector("#telephone-empleado");
-    window.intlTelInput(input, {
+    let inputEmpleado = document.querySelector("#telephone-empleado");
+    window.intlTelInput(inputEmpleado, {
       // allowDropdown: false,
       // autoHideDialCode: false,
       // autoPlaceholder: "off",
@@ -419,7 +419,7 @@ function submitFormEmpresa(){
 
 function formSuccess_empresa(){
   $("#contactFormEmpresa")[0].reset();
-  submitMSG_empresa(true, "Gracias por dejar sus datos, pronto estaremos en contacto.")
+  submitMSG_empresa(true, "")
 }
 
 function submitMSG_empresa(valid, msg){
@@ -861,7 +861,7 @@ function submitFormEmpleado(){
 
 function formSuccess_empleado(){
   $("#contactFormEmpleado")[0].reset();
-  submitMSG_empleado(true, "Gracias por dejar sus datos, pronto estaremos en contacto.")
+  submitMSG_empleado(true, "")
 }
 
 function submitMSG_empleado(valid, msg){
